@@ -2,6 +2,8 @@
 Private repository for working on the alt news networks underpinning the European Q Anon ecosystem in collaboration between Lighthouse Reports, Bloomberg, Tow, and the NZZ.
 
 # Repo Overview
+Use Rmarkdown files and Jupyter Notebooks and comment or describe what the code is doing. If large files cannot be saved in our common repository, use .gitignore to keep them on your disk and save to the Drive instead.
+
 - Code: this is where our notebooks and markdowns live. Use subfolders for specific investigations. 
 - Data: This is where the input data that is ingested by various notebooks/markdowns live. Use subfolders corresponding to code subfolders
 - Results: This is where you can save tables, figures, CSVs etc. Again, please use the same subfolders as you did for Code and Data.
