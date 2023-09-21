@@ -55,11 +55,12 @@ paypal <- read.csv('data/justin_monetization_cashapps_paypal1_230918_2023_09_19.
 
 #bind all separate data frames into a single one
 complete <- bind_rows(iban, amazon) %>%
-  bind_rows(crowibanunding) %>%
+  bind_rows(crowdfunding) %>%
   bind_rows(crypto) %>%
   bind_rows(cashapps) %>%
   bind_rows(paypal)
 
+write.csv(complete, 'results/monetization/complete.csv')
 ### IBAN ###
 #Extract IBANs
 iban <- iban %>%
@@ -191,7 +192,7 @@ top_banks <- iban_data %>%
   count() %>%
   arrange(desc(n))
 
-write.csv(top_bic_accounts, 'results/monetization/iban_top_banks.csv')
+write.csv(top_banks, 'results/monetization/iban_top_banks.csv')
 
 #Which bank countries are most popular in which detected language?
 country_country <- iban %>%
@@ -331,14 +332,15 @@ crypto_posts_day <- crypto %>%
   group_by(date) %>%
   count()
 ggplot(crypto_posts_day, aes(x = date, y = n))+
-  geom_point()
+  geom_point()+
+  ggtitle('Crypto posts per day')
 ggsave('results/monetization/crypto_posts_day.png', plot = last_plot())
 
 #over time and country
 crypto_posts_day_country <- crypto %>%
   group_by(date, detected_language) %>%
   count() %>%
-  filter(detected_language %in% c('de', 'en', 'fr', 'es', 'nl'))
+  filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
 ggplot(crypto_posts_day_country, aes(x = date, y = n, color = detected_language))+
   geom_point()
 ggsave('results/monetization/crypto_posts_day_lang')
@@ -404,7 +406,7 @@ crypto_coin_dollar <- crypto_top_wallets %>%
   group_by(coin) %>%
   summarise(dollar_sum = sum(dollar_numeric, na.rm = TRUE),
             dollar_mean = mean(dollar_numeric, na.rm = TRUE))
-write.csv(cruypto_coin_dollar, 'results/monetization/crypto_coin_dollar')
+write.csv(crypto_coin_dollar, 'results/monetization/crypto_coin_dollar.csv')
 
 ### CROWDFUNDING ###
 #over time
