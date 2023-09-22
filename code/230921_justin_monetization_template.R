@@ -343,7 +343,7 @@ crypto_posts_day_country <- crypto %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
 ggplot(crypto_posts_day_country, aes(x = date, y = n, color = detected_language))+
   geom_point()
-ggsave('results/monetization/crypto_posts_day_lang')
+ggsave('results/monetization/crypto_posts_day_lang.png', plot = last_plot())
 
 #top channels
 crypto_top_channels <- crypto %>%
@@ -475,12 +475,12 @@ complete_type <- complete %>%
 ggplot(complete_type, aes(x = month, y = n, color = type))+
   geom_point()+
   ggtitle('Number of Monetization posts by type')
-ggsave('complete_post_number_type.png', plot = last_plot())
+ggsave('results/monetization/complete_post_number_type.png', plot = last_plot())
 
 ggplot(complete_type, aes(x = month, y = percentage, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type')
-ggsave('complete_post_share_type.png', plot = last_plot())
+ggsave('results/monetization/complete_post_share_type.png', plot = last_plot())
 
 #number and share of monetization types by month and language
 complete_type_lang <- complete %>%
@@ -495,9 +495,9 @@ ggplot(complete_type_lang, aes(x = month, y = n, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type') +
   facet_grid(detected_language ~ .)
-ggsave('complete_post_number_type_lang.png', plot = last_plot())
+ggsave('results/monetization/complete_post_number_type_lang.png', plot = last_plot())
 ggplot(complete_type_lang, aes(x = month, y = percentage, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type') +
   facet_grid(detected_language ~ .)
-ggsave('complete_post_share_type_lang.png', plot = last_plot())
+ggsave('results/monetization/complete_post_share_type_lang.png', plot = last_plot())
