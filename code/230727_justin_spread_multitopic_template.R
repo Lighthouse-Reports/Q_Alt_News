@@ -17,6 +17,8 @@ library(ggplot2)
 library(urltools)
 library(stringi)
 library(tidyr)
+library(readxl)
+library(lubridate)
 
 ### load data ###
 posts <- read.csv('data/230718_justin_template_multitopic_2023_07_26.csv') #check the location of the posts dataset
@@ -35,23 +37,23 @@ posts <- posts %>%
                 fifteen_minutes = ifelse(fifteen_minutes == 1, 'fifteen_minutes ', '')) %>%
   dplyr::mutate(topic = paste(fifteen_minutes, climate_lockdown, sep = ""))
 
-### random sample to make sure that keywords yielded relevant results ###
-set.seed(123456) #set seed
-
-# take a random sample of size sample_size from each language
-sample_size = 1
-random_sample <- posts %>%
-  dplyr::group_by(topic, detected_language) %>%
-  dplyr::sample_n(sample_size, replace = F) %>%
-  dplyr::select(post_date, content, detected_language, channel)
-
-# translate non english posts in random sample to Enlish
-auth_key_path <- '../auth_key.txt' #CHECK: change filepath to where your authentication key is saved
-my_key <- read_file(auth_key_path) #load Deepl R API authentication token (https://www.deepl.com/docs-api/api-access)
-random_sample$translated_content = ifelse(random_sample$detected_language == 'en', 
-                                          random_sample$content, deeplr::toEnglish2(random_sample$content, auth_key = my_key))
-#save random sample
-write.csv(random_sample, 'results/random_sample.csv')
+# ### random sample to make sure that keywords yielded relevant results ###
+# set.seed(123456) #set seed
+# 
+# # take a random sample of size sample_size from each language
+# sample_size = 1
+# random_sample <- posts %>%
+#   dplyr::group_by(topic, detected_language) %>%
+#   dplyr::sample_n(sample_size, replace = F) %>%
+#   dplyr::select(post_date, content, detected_language, channel)
+# 
+# # translate non english posts in random sample to Enlish
+# auth_key_path <- '../auth_key.txt' #CHECK: change filepath to where your authentication key is saved
+# my_key <- read_file(auth_key_path) #load Deepl R API authentication token (https://www.deepl.com/docs-api/api-access)
+# random_sample$translated_content = ifelse(random_sample$detected_language == 'en', 
+#                                           random_sample$content, deeplr::toEnglish2(random_sample$content, auth_key = my_key))
+# #save random sample
+# write.csv(random_sample, 'results/spread/random_sample.csv')
 
 ### posts over time by topic ###
 # format dat column
@@ -69,7 +71,7 @@ ggplot(posts_day, aes(x = date, y = n))+
   ylab('# posts')
 
 #save
-ggsave(filename = 'results/posts_day.png')
+ggsave(filename = 'results/spread/posts_day.png')
 
 #count daily posts by topic
 posts_day_topic <- posts %>%
@@ -83,8 +85,8 @@ ggplot(posts_day_topic, aes(x = date, y = n, color = topic)) +
   ylab('Posts per day')
 
 #save image and dataframe
-ggsave('results/posts_day_topic.png')
-write.csv(posts_day, 'results/posts_day_topic.csv')
+ggsave('results/spread/posts_day_topic.png')
+write.csv(posts_day, 'results/spread/posts_day_topic.csv')
 
 ### posts by language ###
 posts_lang <- posts %>%
@@ -99,7 +101,7 @@ ggplot(posts_lang, aes(x = reorder(detected_language, -n), y = n, fill = topic))
   xlab('language')
 
 #save plot
-ggsave('results/posts_lang_topic.png')
+ggsave('results/spread/posts_lang_topic.png')
 
 ### posts over language and time ###
 #count posts by language and day
@@ -114,7 +116,7 @@ ggplot(posts_day_lang, aes(x = date, y = n, color = topic)) +
   ggtitle('Posts by language and day')
 
 #save posts by language and day
-ggsave('results/posts_lang_day_topic.png')
+ggsave('results/spread/posts_lang_day_topic.png')
 
 ### most prolific posters by topic ###
 #count posts by channel and keep top 10 channels
@@ -129,7 +131,7 @@ top_channels <- posts %>%
   
 
 #save top channels
-write.csv(top_channels, 'results/top_channels.csv')
+write.csv(top_channels, 'results/spread/top_channels.csv')
   
 ### most prolific posters by language by topic###
 #count most prolific posters by language and keep top 5 for each language
@@ -142,7 +144,7 @@ top_channels_lang <- posts %>%
   left_join(all_channels, by = c('channel' = 'id'))
 
 #save top channels by language
-write.csv(top_channels_lang, 'results/top_channels_lang.csv')
+write.csv(top_channels_lang, 'results/spread/top_channels_lang.csv')
 
 ### most forwarded channels by topic###
 top_reposted_channels <- posts %>%
@@ -151,7 +153,7 @@ top_reposted_channels <- posts %>%
   dplyr::filter(!is.na(forwarded_from)) %>%
   tidyr::pivot_wider(names_from = 'topic', values_from = 'n') %>%
   dplyr::left_join(all_channels, by = c('forwarded_from' = 'id'))
-write.csv(top_reposted_channels, 'results/top_reposted_channels.csv')
+write.csv(top_reposted_channels, 'results/spread/top_reposted_channels.csv')
 
 ### Shared URL and domain analysis ###
 # extract urls and domains
@@ -172,7 +174,7 @@ top_urls <- url_df %>%
   tidyr::pivot_wider(names_from = 'topic', values_from = 'n') 
 
 #save dataframe
-write.csv(top_urls, 'results/top_urls.csv')
+write.csv(top_urls, 'results/spread/top_urls.csv')
 
 # count forwarded domains by language
 top_domains <- url_df %>%
@@ -183,4 +185,37 @@ top_domains <- url_df %>%
   
 
 #save dataframe
-write.csv(top_domains, 'results/top_domains.csv')
+write.csv(top_domains, 'results/spread/top_domains.csv')
+
+###mainstream vs alt news over time and by language###
+media_classification <- read_xlsx('data/media_classification.xlsx')
+
+legacy_domains <- media_classification %>%
+  filter(type=='legacy') %>%
+  select(domain)
+alt_news_domains <- media_classification %>%
+  filter(type=='alt') %>%
+  select(domain)
+
+url_df <- url_df %>%
+  dplyr::mutate(alt = ifelse(grepl(paste(alt_news_domains$domain, collapse = '|'), link_url), 1, 0),
+                legacy = ifelse(grepl(paste(legacy_domains$domain, collapse = '|'), link_url), 1, 0))
+
+media_type_conspiracy <- url_df %>%
+  group_by(topic) %>%
+  summarise(n_alt = sum(alt),
+            n_legacy = sum(legacy))
+write.csv(media_type_conspiracy, 'results/spread/media_type_topic.csv')
+
+media_type_topic_day <- url_df %>%
+  dplyr::mutate(month = floor_date(date, 'month')) %>%
+  dplyr::group_by(month, topic) %>%
+  dplyr::summarise(n_alt = sum(alt),
+            n_legacy = sum(legacy)) %>%
+  pivot_longer(c(n_alt, n_legacy), names_to = 'media_type', values_to = 'count')
+#TODO: save
+
+ggplot(media_type_topic_day, aes(x = month, y = count, shape = media_type))+
+  geom_point(size = 2.5)+
+  facet_grid(topic ~ ., scales = 'free_y')
+ggsave('results/spread/media_type_topic_month.png', plot = last_plot())
