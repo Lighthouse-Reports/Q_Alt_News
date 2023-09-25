@@ -25,6 +25,9 @@ require(data.table)
 require(hash)
 require(scales)
 require(stm)
+require(stringr)
+require(peRspective)
+require(lubridate)
 
 ### load data ###
 posts <- read.csv('data/230718_justin_template_multitopic_2023_07_26.csv') #CHECK: specify dataset location
@@ -90,7 +93,7 @@ for(lang in lang_vector){
 topics <- unique(posts$topic) #unique topics
 
 ### Most frequent nouns ###
-dir.create('results/nouns', showWarnings = F) #set up directory to save results
+dir.create('results/content/nouns', showWarnings = F) #set up directory to save results
 
 for(lang in lang_vector){
   #find most frequently used nouns in posts for each language
@@ -118,7 +121,7 @@ for(lang in lang_vector){
   }
 
   #sace noun frequency files
-  write.csv(noun_freq, paste0('results/nouns/noun_freq_', lang,'.csv'))
+  write.csv(noun_freq, paste0('results/content/nouns/noun_freq_', lang,'.csv'))
   
   noun_freq_long <- noun_freq %>%
     dplyr::arrange(desc(n)) %>%
@@ -137,12 +140,12 @@ for(lang in lang_vector){
   
   print(p)
   #save plot
-  ggsave(filename = paste0('results/nouns/noun_freq_', lang,'.png'), plot = p)
+  ggsave(filename = paste0('results/content/nouns/noun_freq_', lang,'.png'), plot = p)
 }
 #CHECK: you can easily copy and adapt the noun frequency code for other parts of speech, such as dates, adjectives etc.
 
 ### Cooccurrence analysis ###
-dir.create('results/cooccurrence', showWarnings = F) #set up directory to save results
+dir.create('results/content/cooccurrence', showWarnings = F) #set up directory to save results
 
 #find the adjectives and nouns which most frequently cooccur in any of the language specific corpora
 for(lang in lang_vector){
@@ -164,7 +167,7 @@ for(lang in lang_vector){
   }
   
   #save results
-  write.csv(cooccurrence_df, paste('results/cooccurrence/cooccurrence_',lang,'.csv'))
+  write.csv(cooccurrence_df, paste('results/content/cooccurrence/cooccurrence_',lang,'.csv'))
 }
 #CHECK: you could look at cooccurrences between other parts of speech, simply adapt the code
 
@@ -179,8 +182,24 @@ keywords_df <- data.frame(lang = character(),
 keywords_df <- keywords_df %>%
   #CHECK: The below row is just an example; change it and add your own
   dplyr::add_row(lang = 'de', #language corpus to analyze (should be one of the languages from lang_vector)
-                 topic = 'turkey_topic', #name the topic
-                 keywords = paste(c('türk', 'hatay', 'erdbeben'), collapse='|')) #specify keywords relevant to the topic
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist','nwo', 'soros', 'schwab', 'wef', 'weltordnung', 'reset'), collapse='|')) %>% #specify keywords relevant to the topic
+  dplyr::add_row(lang = 'en', #language corpus to analyze (should be one of the languages from lang_vector)
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist','nwo', 'soros', 'schwab', 'wef', 'world order', 'reset'), collapse='|')) %>% #specify keywords relevant to the topic
+  dplyr::add_row(lang = 'fr', #language corpus to analyze (should be one of the languages from lang_vector)
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist', 'nwo', 'mondialist', 'ordre mondial', 'soros', 'réinitialisation', 'reinitialisation', 'reset', 'schwab', 'wef'), collapse='|')) %>% #specify keywords relevant to the topic
+  dplyr::add_row(lang = 'nl', #language corpus to analyze (should be one of the languages from lang_vector)
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist', 'nwo', 'world order','wereldorde', 'soros', 'schwab', 'wef', 'reset'), collapse='|')) %>% #specify keywords relevant to the topic
+  dplyr::add_row(lang = 'it', #language corpus to analyze (should be one of the languages from lang_vector)
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist', 'nwo', 'world order','ordine mondial', 'soros', 'schwab', 'wef', 'reset'), collapse='|')) %>% #specify keywords relevant to the topic
+  dplyr::add_row(lang = 'es', #language corpus to analyze (should be one of the languages from lang_vector)
+                 topic = 'world conspiracy', #name the topic
+                 keywords = paste(c('globalist', 'nwo', 'world order','orden mundial', 'soros', 'schwab', 'wef', 'gran reinicio'), collapse='|')) #specify keywords relevant to the topic
+  
 
 #adds a columns for each topic in the relevant language specific corpus
 for(i in 1:nrow(keywords_df)){
@@ -194,23 +213,26 @@ for(i in 1:nrow(keywords_df)){
 # keywords over time and top channels using keywords
 for(i in 1:nrow(keywords_df)){
   row <- keywords_df[i,]
-  dir.create(paste0('results/', row$topic, '_', row$lang)) #set up directory to save results for each topic
+  dir.create(paste0('results/content/', row$topic, '_', row$lang)) #set up directory to save results for each topic
   
   # number of weekly posts for a specific topic
   topic_posts_week <- posts_lang_dic[[row$lang]] %>%
     dplyr::mutate(week = cut(date, "week")) %>%
-    group_by(week) %>%
-    summarise(count = sum(eval(as.symbol(row$topic)), na.rm = T), 
-              share = mean(eval(as.symbol(row$topic)), na.rm = T))
+    group_by(topic, week) %>%
+    summarise(count_topic = sum(eval(as.symbol(row$topic)), na.rm = T), 
+              share = mean(eval(as.symbol(row$topic)), na.rm = T),
+              count_total = n())
   
   #plot weekly posts for a specific topic
-  p <- ggplot(topic_posts_week, aes(x = as.Date(week), y = count)) +
-    geom_line( color = "blue")+
-    ggtitle(paste0(row$topic, ': posts per week', lang))+
-    xlab('week')
+  p <- ggplot(topic_posts_week, aes(x = as.Date(week), y = count_topic)) +
+    geom_point()+
+    geom_line(aes(x = as.Date(week), y = count_total))+
+    ggtitle(paste0(row$topic, ': posts per week ', row$lang))+
+    xlab('week')+
+    facet_grid(topic ~ .)
   
   #save plot
-  ggsave(filename = paste0('results/', row$topic, '/posts_per_week.png'))
+  ggsave(filename = paste0('results/content/', row$topic,'_', row$lang, '/posts_per_week.png'))
   
   # find channels who post on a given topic and how often they post
   temp <- posts_lang_dic[[row$lang]] %>%
@@ -222,12 +244,28 @@ for(i in 1:nrow(keywords_df)){
     dplyr::arrange(desc(count))
   
   #save top poster dataframe
-  write.csv(temp, paste0('results/', row$topic, '/top_channels.csv'))
+  write.csv(temp, paste0('results/content/', row$topic,'_', row$lang, '/top_channels.csv'))
 }
 
 ###named entity recognition###
-#TODO
+posts_NER <- posts %>%
+  dplyr::mutate(ents = stringr::str_extract_all(named_entities, "\\{(.*?)\\}")) %>%
+  unnest(cols = ents) %>%
+  as.data.frame() %>%
+  mutate(NER_text = stringr::str_extract(ents, "(?<=u'text': u').*?(?=',)"),
+         NER_type = stringr::str_extract(ents, "(?<=u'type': u').*?(?='\\})"))
 
+top_PERS_ner <- posts_NER %>%
+  dplyr::filter(NER_type == 'PERSON') %>%
+  dplyr::group_by(topic, detected_language, NER_text) %>%
+  dplyr::count() %>%
+  dplyr::arrange(desc(n))
+
+top_ORG_ner <- posts_NER %>%
+  dplyr::filter(NER_type == 'ORG') %>%
+  dplyr::group_by(topic, detected_language, NER_text) %>%
+  dplyr::count() %>%
+  dplyr::arrange(desc(n))
 
 ### topic modelling ###
 # set up dfms by language
@@ -252,7 +290,7 @@ for(lang in lang_vector){
 set.seed(12345)
 # lda analysis
 k_num = 4 #CHECK: number of topics; experiment with various numbers
-dir.create('results/lda', showWarnings = F) #set up directory to save results
+dir.create('results/content/lda', showWarnings = F) #set up directory to save results
 for(lang in lang_vector){
   #run lda algo
   lda_model <- seededlda::textmodel_lda(dfm_dic[[lang]], k = k_num)
@@ -260,7 +298,7 @@ for(lang in lang_vector){
   #identify 20 top terms for each topic identified
   lda_terms <- terms(lda_model, 20)
   #save terms
-  write.csv(lda_terms, paste0('results/lda/terms_', lang, '.csv'))
+  write.csv(lda_terms, paste0('results/content/lda/terms_', lang, '.csv'))
   
   #assign each post a dominant topic
   topics_df <- topics(lda_model) %>%
@@ -279,14 +317,15 @@ for(lang in lang_vector){
   # plot topic occurences over time
   p <- ggplot(posts_topic_date, aes(x = as.Date(week), y = n, color = lda))+
     geom_point()+
-    ggtitle(paste0('Weekly posts by Topic: ', lang))
+    ggtitle(paste0('Weekly posts by LDA Topic: ', lang))
   #save plot
-  ggsave(filename = paste0('results/lda/topics_week', lang, '.png'))
+  ggsave(filename = paste0('results/content/lda/topics_week', lang, '.png'))
   
 }
 #CHECK: additional topic modelling approaches can easily be implemented on the basis of the same DFMs
 
 # stm analysis
+dir.create('results/content/stm', showWarnings = F) #set up directory to save results
 for(lang in lang_vector){
   stm_dfm <- quanteda::convert(dfm_dic[[lang]], to = 'stm', docid_field = 'docid_', omit_empty = F)
   temp <- stm_dfm
@@ -297,11 +336,101 @@ for(lang in lang_vector){
                    max.em.its = 350, init.type = "Spectral",
                    seed = 8458359)
   stm_terms <- as.data.frame(t(labelTopics(stm.model, n = 20)$prob))
+  write.csv(stm_terms, paste0('results/content/stm/stm_terms_', lang, '.csv'))
   
   theta <- make.dt(stm.model, meta = as.numeric(names(stm_dfm$documents)))
   theta$stm <- colnames(select(theta, starts_with('Topic')))[apply(select(theta, starts_with('Topic')),1,which.max)]
   
   posts_lang_dic[[lang]] <- left_join(posts_lang_dic[[lang]], select(theta, meta, stm), by = c('post_id' = 'meta'))
   
-  #TODO: extract results from model
+  posts_topic_date <- posts_lang_dic[[lang]] %>%
+    dplyr::mutate(week = cut(date, "week")) %>%
+    group_by(week, stm) %>%
+    count()
+  p <- ggplot(posts_topic_date, aes(x = as.Date(week), y = n, color = stm))+
+    geom_point()+
+    ggtitle(paste0('Weekly posts by STM Topic: ', lang))
+  #save plot
+  ggsave(filename = paste0('results/content/stm/topics_week_', lang, '.png'))
 }
+
+
+### TOXICITY ###
+# posts$TOXICITY <- NA
+# posts$INSULT <- NA
+# posts$THREAT <- NA
+# for (i in 5409:nrow(posts)){
+#   row <- posts[i,]
+#   if(!row$detected_language %in% lang_vector){
+#     next
+#   }
+#   perspective_score <- as.data.frame(prsp_score(
+#     row$content, 
+#     languages = lang,
+#     score_model = c('TOXICITY', 'INSULT', 'THREAT')
+#   ))
+#   posts[i,]$TOXICITY <- perspective_score$TOXICITY
+#   posts[i,]$INSULT <- perspective_score$INSULT
+#   posts[i,]$THREAT <- perspective_score$THREAT
+# }
+#  
+# posts_toxicity <- posts
+# write.csv(posts_toxicity, 'results/content/posts_toxicity.csv')
+posts_toxicity <- read.csv('results/content/posts_toxicity.csv')
+
+#toxicity over time
+month_tox_topic <- posts_toxicity %>%
+  mutate(month = lubridate::floor_date(as.Date(date), 'month')) %>%
+  group_by(month, topic, detected_language) %>%
+  summarise(mean_tox = mean(TOXICITY, na.rm = T),
+            mean_insult = mean(INSULT, na.rm = T),
+            mean_threat = mean(THREAT, na.rm = T),
+            count = n()) %>%
+  filter(topic != 'fifteen_minutes climate_lockdown ', detected_language != 'es', count > 10)
+
+ggplot(month_tox_topic, aes(x = month, y = mean_tox, color = topic)) +
+  geom_point()+
+  geom_smooth(method = 'lm', se = T, aes(group = topic))+
+  facet_wrap(.~ detected_language)+
+  ggtitle('Toxicity by month, topic, and language')
+ggsave('results/content/toxicity/month_tox_topic.png', plot = last_plot())
+
+ggplot(month_tox_topic, aes(x = month, y = mean_insult, color = topic)) +
+  geom_point()+
+  geom_smooth(method = 'lm', se = T, aes(group = topic))+
+  facet_wrap(.~ detected_language)+
+  ggtitle('Insult by month, topic, and language')
+ggsave('results/content/toxicity/month_insult_topic.png', plot = last_plot())
+
+ggplot(month_tox_topic, aes(x = month, y = mean_threat, color = topic)) +
+  geom_point()+
+  geom_smooth(method = 'lm', se = T, aes(group = topic))+
+  facet_wrap(.~ detected_language)+
+  ggtitle('Threat by month, topic, and language')
+ggsave('results/content/toxicity/month_threat_topic.png', plot = last_plot())
+
+#toxicity by language
+lang_tox_topic <- posts_toxicity %>%
+  group_by(detected_language, topic) %>%
+  summarise(mean_tox = mean(TOXICITY, na.rm = T),
+            mean_insult = mean(INSULT, na.rm = T),
+            mean_threat = mean(THREAT, na.rm = T)) %>%
+  pivot_longer(cols = starts_with('mean'), names_to = 'type', values_to = 'value') %>%
+  filter(detected_language != 'es', topic != 'fifteen_minutes climate_lockdown ')
+
+ggplot(lang_tox_topic, aes(x = detected_language, y = value, fill = topic))+
+  geom_bar(stat = 'identity', position = 'dodge')+
+  facet_wrap(. ~ type)+
+  ggtitle('Toxicity, Threat, and Insult topic, and language')
+ggsave('results/content/toxicity/lang_tox_topic.png', plot = last_plot())
+
+#toxicity by channel
+tox_channel <- posts_toxicity %>%
+  group_by(channel_url, topic) %>%
+  summarise(mean_tox = mean(TOXICITY, na.rm = T),
+            mean_insult = mean(INSULT, na.rm = T),
+            mean_threat = mean(THREAT, na.rm = T),
+            count = n()) %>%
+  filter(count > 3)%>%
+  filter(topic != 'fifteen_minutes climate_lockdown ')
+write.csv(tox_channel, 'results/content/toxicity/top_channels.csv')
