@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.RDataTmp
+*/td_numeric*
+*/.DS_Store
+.vscode
+results/content/*
+results/spread/*
+results/monetization/*
+data/*
+

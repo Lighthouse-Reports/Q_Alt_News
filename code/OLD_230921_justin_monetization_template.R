@@ -53,6 +53,22 @@ paypal <- read.csv('data/justin_monetization_cashapps_paypal1_230918_2023_09_19.
   dplyr::mutate(type = 'paypal',
                 date = as.Date(post_date, '%d/%m/%y'))
 
+climate_posts <- read.csv('data/231015_raw_data_with_topics.csv') #check the location of the posts dataset
+climate_post_ids <- unique(climate_posts$post_id)
+iban <- iban %>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+amazon <- amazon %>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+crowdfunding <- crowdfunding%>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+crypto <- crypto %>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+cashapps <- cashapps %>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+paypal <- paypal%>%
+  mutate(is_climate_post = ifelse(post_id %in% climate_post_ids, 1, 0))
+
+
 #bind all separate data frames into a single one
 complete <- bind_rows(iban, amazon) %>%
   bind_rows(crowdfunding) %>%
@@ -99,9 +115,9 @@ iban <- iban %>%
 #extract bank country in which IBAN is registered
 iban$bank_country <- stringr::str_extract(iban$iban, "^.{2}")
 
-#most used IBANs
+#most used IBANs by climate posts
 top_ibans_posts <- iban %>%
-  group_by(iban) %>%
+  group_by(iban, is_climate_post) %>%
   count() %>%
   left_join(iban_data, by = 'iban') %>%
   arrange(desc(n))
@@ -109,9 +125,9 @@ write.csv(top_ibans_posts, 'results/monetization/iban_top_posts.csv')
 
 #ibans shared by the largest number of channels
 top_iban_channels <- iban %>%
-  group_by(iban, channel_url) %>%
+  group_by(iban, channel_url, is_climate_post) %>%
   count() %>%
-  group_by(iban) %>%
+  group_by(iban, is_climate_post) %>%
   count() %>%
   left_join(iban_data, by = 'iban') %>%
   arrange(desc(n))
@@ -119,23 +135,23 @@ write.csv(top_iban_channels, 'results/monetization/iban_top_channels.csv')
 
 #top channels
 top_channels <- iban %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(top_channels, 'results/monetization/iban_top_posters.csv')
 
 #channels posting the largest number of ibans
 top_channels_n_ibans <- iban %>%
-  group_by(iban, channel_url) %>%
+  group_by(iban, channel_url, is_climate_post) %>%
   count() %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(top_channels_n_ibans, 'results/monetization/iban_highest_number_of_ibans_channel')
 
 #post language by country
 top_lang <- iban %>%
-  group_by(detected_language) %>%
+  group_by(detected_language, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(top_lang, 'results/monetization/iban_top_lang.csv')
@@ -144,7 +160,7 @@ write.csv(top_lang, 'results/monetization/iban_top_lang.csv')
 shp_eu <- get_eurostat_geospatial(resolution = 10, 
                                   nuts_level = 0, 
                                   year = 2021)
-#Bank countries with the largest number of posts
+#Bank countries with the largest number of posts: Climate
 top_bank_country_posts <- iban %>%
   group_by(bank_country) %>%
   count() %>%
@@ -163,6 +179,27 @@ ggplot(top_bank_country_posts, aes(fill = n))+
   theme_void() +
   ggtitle('Bank country by number of posts')
 ggsave('results/monetization/iban_top_bank_countries_posts.png', plot = last_plot())
+
+#Bank countries with the largest number of posts
+top_bank_country_posts_climate <- iban %>%
+  filter(is_climate_post == 1) %>%
+  group_by(bank_country) %>%
+  count() %>%
+  arrange(desc(n))%>%
+  right_join(shp_eu, by = c('bank_country' = 'CNTR_CODE'))%>%
+  mutate(n = ifelse(is.na(n), 0, n))%>% 
+  st_as_sf()
+
+my_breaks_country_posts = c(1, 4, 7, 10)
+#Display countries by number of posts
+ggplot(top_bank_country_posts_climate, aes(fill = n))+
+  geom_sf()+
+  scale_fill_gradient(name = 'count', breaks = my_breaks_country_posts, labels = my_breaks_country_posts)+
+  scale_x_continuous(limits = c(-10, 35)) +
+  scale_y_continuous(limits = c(35, 65)) +
+  theme_void() +
+  ggtitle('Bank country by number of climate related posts')
+ggsave('results/monetization/climate_iban_top_bank_countries_posts.png', plot = last_plot())
 
 #Bank country by number of accounts
 top_bank_country_accounts <- iban %>%
@@ -185,6 +222,28 @@ ggplot(top_bank_country_posts, aes(fill = n))+
 
 ggsave('results/monetization/iban_top_bank_countries_accounts.png', plot = last_plot())
 
+#Bank country by number of accounts: Climate
+top_bank_country_accounts_climate <- iban %>%
+  filter(is_climate_post == 1) %>%
+  group_by(iban, bank_country) %>%
+  count() %>%
+  group_by(bank_country) %>%
+  count() %>%
+  arrange(desc(n))%>%
+  right_join(shp_eu, by = c('bank_country' = 'CNTR_CODE'))%>%
+  mutate(n = ifelse(is.na(n), 0, n))%>% 
+  st_as_sf()
+my_breaks_country_accounts = c(1, 4, 7, 10)
+ggplot(top_bank_country_accounts_climate, aes(fill = n))+
+  geom_sf()+
+  scale_fill_gradient(name = 'count',  breaks = my_breaks_country_accounts, labels = my_breaks_country_accounts)+
+  scale_x_continuous(limits = c(-10, 35)) +
+  scale_y_continuous(limits = c(35, 65)) +
+  theme_void()+
+  ggtitle('Bank country by number of accounts')
+
+ggsave('results/monetization/climate_iban_top_bank_countries_accounts.png', plot = last_plot())
+
 #Most used banks
 top_banks <- iban_data %>%
   na.omit() %>%
@@ -196,7 +255,7 @@ write.csv(top_banks, 'results/monetization/iban_top_banks.csv')
 
 #Which bank countries are most popular in which detected language?
 country_country <- iban %>%
-  group_by(detected_language, bank_country) %>%
+  group_by(detected_language, is_climate_post, bank_country) %>%
   count() %>%
   arrange(desc(n)) %>%
   mutate(detected_language = toupper(detected_language))
@@ -204,10 +263,10 @@ write.csv(country_country, 'results/monetization/iban_country_country_connection
 
 #IBAN use over time
 posts_day <- iban %>%
-  group_by(date) %>%
+  group_by(date, is_climate_post) %>%
   count()
 
-ggplot(posts_day, aes(x = date, y = n))+
+ggplot(posts_day, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
   ggtitle('Number of IBAN posts per day')
 
@@ -216,39 +275,41 @@ ggsave('results/monetization/iban_day.png', plot = last_plot())
 #Number of IBAN posts by month and country
 posts_day_country <- iban %>%
   mutate(month = floor_date(date, unit = 'month')) %>%
-  group_by(month, bank_country) %>%
+  group_by(month, bank_country, is_climate_post) %>%
   count()
 
-ggplot(posts_day_country, aes(x = month, y = n, color = bank_country))+
+ggplot(posts_day_country, aes(x = month, y = n, color = is_climate_post))+
   geom_point()+
+  facet_wrap(bank_country ~.)+
   ggtitle('Number of IBAN posts by country and month')
 
-ggsave('results/monetization/iban_day_lang.png', plot = last_plot())
+ggsave('results/monetization/iban_day_lang.png', plot = last_plot(), h = 5, w = 12)
 
 ###Paypal###
 
 #over time
 paypal_posts_day <- paypal %>%
-  group_by(date) %>%
+  group_by(date, is_climate_post) %>%
   count()
-ggplot(paypal_posts_day, aes(x = date, y = n))+
+ggplot(paypal_posts_day, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
   ggtitle('Number of Paypal posts per day')
 ggsave('results/monetization/paypal_day.png', plot = last_plot())
 
 #over time and country
 paypal_posts_day_country <- paypal %>%
-  group_by(date, detected_language) %>%
+  group_by(date, detected_language, is_climate_post) %>%
   count() %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
-ggplot(paypal_posts_day_country, aes(x = date, y = n, color = detected_language))+
+ggplot(paypal_posts_day_country, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
+  facet_wrap(detected_language ~., ncol = 1)+
   ggtitle('Number of Paypal posts per day and language')
 ggsave('results/monetization/paypal_day_lang.png', plot = last_plot())
 
 #top channels
 paypal_top_channels <- paypal %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(paypal_top_channels, 'results/monetization/paypal_top_channels.csv')
@@ -260,7 +321,7 @@ paypal_url_df <- as.data.frame(unnest(paypal, cols=link_url)) %>% #unnest the da
   dplyr::filter(grepl('paypal', link_url))
 
 paypal_top_urls <- paypal_url_df %>%
-  group_by(link_url) %>%
+  group_by(link_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(paypal_top_urls, 'results/monetization/paypal_top_urls.csv')
@@ -284,26 +345,27 @@ write.csv(paypal_top_pools, 'results/monetization/paypal_top_pools.csv')
 ### Amazon ###
 #over time
 amazon_posts_day <- amazon %>%
-  group_by(date) %>%
+  group_by(date, is_climate_post) %>%
   count()
-ggplot(amazon_posts_day, aes(x = date, y = n))+
+ggplot(amazon_posts_day, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
   ggtitle('Amazon posts per day')
 ggsave('results/monetization/amazon_day.png', plot = last_plot())
 
 #over time and country
 amazon_posts_day_country <- amazon %>%
-  group_by(date, detected_language) %>%
+  group_by(date, detected_language, is_climate_post) %>%
   count() %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
-ggplot(amazon_posts_day_country, aes(x = date, y = n, color = detected_language))+
+ggplot(amazon_posts_day_country, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
+  facet_wrap(detected_language ~., ncol = 1)+
   ggtitle('Amazon posts by day and language')
 ggsave('results/monetization/amazon_day_lang.png', plot = last_plot())
 
 #top channels
 amazon_top_channels <- amazon %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(amazon_top_channels, 'results/monetization/amazon_top_channels.csv')
@@ -315,7 +377,7 @@ amazon_url_df <- as.data.frame(unnest(amazon, cols=link_url)) %>% #unnest the da
   dplyr::filter(grepl('amazon', link_url))
 
 amazon_top_urls <- amazon_url_df %>%
-  group_by(link_url) %>%
+  group_by(link_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(amazon_top_urls, 'results/monetization/amazon_top_urls.csv')
@@ -329,25 +391,26 @@ write.csv(amazon_top_urls, 'results/monetization/amazon_top_urls.csv')
 ### CRYPTO ###
 #over time
 crypto_posts_day <- crypto %>%
-  group_by(date) %>%
+  group_by(date, is_climate_post) %>%
   count()
-ggplot(crypto_posts_day, aes(x = date, y = n))+
+ggplot(crypto_posts_day, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
   ggtitle('Crypto posts per day')
 ggsave('results/monetization/crypto_posts_day.png', plot = last_plot())
 
 #over time and country
 crypto_posts_day_country <- crypto %>%
-  group_by(date, detected_language) %>%
+  group_by(date, detected_language, is_climate_post) %>%
   count() %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
-ggplot(crypto_posts_day_country, aes(x = date, y = n, color = detected_language))+
-  geom_point()
+ggplot(crypto_posts_day_country, aes(x = date, y = n, color = is_climate_post))+
+  geom_point()+
+  facet_wrap(detected_language ~., ncol = 1)
 ggsave('results/monetization/crypto_posts_day_lang.png', plot = last_plot())
 
 #top channels
 crypto_top_channels <- crypto %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(crypto_top_channels, 'results/monetization/crypto_top_channels.csv')
@@ -411,26 +474,28 @@ write.csv(crypto_coin_dollar, 'results/monetization/crypto_coin_dollar.csv')
 ### CROWDFUNDING ###
 #over time
 crowdfunding_posts_day <- crowdfunding %>%
-  group_by(date) %>%
+  group_by(date, is_climate_post) %>%
   count()
-ggplot(crowdfunding_posts_day, aes(x = date, y = n))+
+
+ggplot(crowdfunding_posts_day, aes(x = date, y = n, color = is_climate_post))+
   geom_point()+
   ggtitle('Crowdfunding posts per day')
 ggsave('results/monetization/crowdfunding_posts_day.png', plot = last_plot())
 
 #over time and country
 crowdfunding_posts_day_country <- crowdfunding %>%
-  group_by(date, detected_language) %>%
+  group_by(date, detected_language, is_climate_post) %>%
   count() %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'it', 'nl'))
 ggplot(crowdfunding_posts_day_country, aes(x = date, y = n, color = detected_language))+
   geom_point()+
+  facet_wrap(detected_language ~., ncol = 1)+
   ggtitle('crowdfunding posts per day and language')
 ggsave('results/monetization/crowdfunding_posts_day_lang.png', plot = last_plot())
 
 #top channels
 crowdfunding_top_channels <- crowdfunding %>%
-  group_by(channel_url) %>%
+  group_by(channel_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(crowdfunding_top_channels, 'results/monetization/crowdfunding_top_channels.csv')
@@ -450,14 +515,14 @@ kickstarter <- crowdfunding_url_df %>%
 
 #most frequent patreon links
 patreon_top <-patreon %>%
-  group_by(link_url) %>%
+  group_by(link_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 write.csv(patreon_top, 'results/monetization/patreon_top.csv')
 
 #most frequent kickstarter links
 kickstarter_top <- kickstarter %>%
-  group_by(link_url) %>%
+  group_by(link_url, is_climate_post) %>%
   count() %>%
   arrange(desc(n))
 
@@ -477,13 +542,26 @@ ggplot(complete_type, aes(x = month, y = n, color = type))+
   ggtitle('Number of Monetization posts by type')
 ggsave('results/monetization/complete_post_number_type.png', plot = last_plot())
 
-ggplot(complete_type, aes(x = month, y = percentage, color = type))+
+complete_type_climate <- complete %>%
+  filter(is_climate_post == 1) %>%
+  mutate(month = floor_date(date, 'month'))%>%
+  group_by(type, month) %>%
+  count() %>%
+  group_by(month) %>%
+  mutate(percentage = n/sum(n, na.rm = T)*100)
+ggplot(complete_type_climate, aes(x = month, y = n, color = type))+
+  geom_point()+
+  ggtitle('Number of Monetization posts by type')
+ggsave('results/monetization/climate_complete_post_number_type.png', plot = last_plot())
+
+ggplot(complete_type_climate, aes(x = month, y = percentage, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type')
-ggsave('results/monetization/complete_post_share_type.png', plot = last_plot())
+ggsave('results/monetization/climate_complete_post_share_type.png', plot = last_plot())
 
 #number and share of monetization types by month and language
-complete_type_lang <- complete %>%
+complete_type_lang_climate <- complete %>%
+  filter(is_climate_post == 1) %>%
   mutate(month = floor_date(date, 'month'))%>%
   group_by(type, month, detected_language) %>%
   count() %>%
@@ -491,13 +569,13 @@ complete_type_lang <- complete %>%
   mutate(percentage = n/sum(n, na.rm = T)*100) %>%
   filter(detected_language %in% c('de', 'en', 'fr', 'nl', 'it'), month > as.Date('2020-01-01'))
 
-ggplot(complete_type_lang, aes(x = month, y = n, color = type))+
+ggplot(complete_type_lang_climate, aes(x = month, y = n, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type') +
   facet_grid(detected_language ~ .)
-ggsave('results/monetization/complete_post_number_type_lang.png', plot = last_plot())
-ggplot(complete_type_lang, aes(x = month, y = percentage, color = type))+
+ggsave('results/monetization/climate_complete_post_number_type_lang.png', plot = last_plot())
+ggplot(complete_type_lang_climate, aes(x = month, y = percentage, color = type))+
   geom_point()+
   ggtitle('Share of Monetization posts by type') +
   facet_grid(detected_language ~ .)
-ggsave('results/monetization/complete_post_share_type_lang.png', plot = last_plot())
+ggsave('results/monetization/climate_complete_post_share_type_lang.png', plot = last_plot())
