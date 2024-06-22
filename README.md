@@ -8,8 +8,4 @@ This repository contains the code for a data analysis of Telegram posts drawn fr
 - [Monetization Analysis](230921_justin_monetization_template.R) This script analyzes attempts by QAnon channels to monetize their content: it includes frequency breakdowns by time, language and channels as well as a scraper to extract additional information on the IBAN's contained in the data.
 
 # File naming conventions: 
-date_name_topic, e.g., 220523_justin_network_uk_climate
-When you generate outputs, e.g., intermediary results, please set up the scripts so that file names are generated following this convention.
-
-# Featured Notebooks
-[Edit this to point people to the most important notebooks you have pushed to the repo]
+date_name_topic, e.g., 220523_justin_network_uk_climate.
