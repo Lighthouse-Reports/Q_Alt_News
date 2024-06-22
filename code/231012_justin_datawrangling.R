@@ -11,14 +11,14 @@ library(purrr)
 setwd("/Users/justin-casimirbraun/GitHub/Q_Alt_News")
 
 #all files pulled from the Redash
-raw_files <- list.files(path = 'data/Raw ElasticSearch/', pattern = '231014_justin.*')
+raw_files <- list.files(path = 'data/climate_raw/', pattern = '231014_justin.*')
 
 posts <- data.frame()
 
 #import all files, set up topic column and merge into single df
 for(f in raw_files){
   print(f)
-  cur_df <- read.csv(paste0('data/Raw ElasticSearch/', f))
+  cur_df <- read.csv(paste0('data/climate_raw/', f))
   if(grepl('15M', f)){
     cur_df$topic <- 'fifteen_minutes'
   }
@@ -61,12 +61,19 @@ posts_merged <- dplyr::left_join(posts, channels, by = 'id')%>%
   dplyr::filter(source != 'linked_channel')
 
 #terms identified as being associated with FPs for the insect topic
-no_insect_keywords <- c('zangrillo', 'grill', 'cricket', 'grasshopper', 'zombi', 'insecticide', 'drone', 'drohne')
+yes_insect_keywords <- c(' food', ' meal', 'snack', ' diet', ' eat', ' nutrition',
+                         ' comida',  ' bocadillo', ' dieta', ' nutrición',
+                         ' cibo', ' pasto', ' spuntino', ' mangiare', ' nutrizione',
+                         ' nourriture', ' repas', ' collation', ' manger',
+                         ' Mahlzeit', ' Diät', ' essen', ' Ernährung',
+                         ' voedsel', ' maaltijd', ' dieet', ' voeding')
+no_insect_keywords <- c('parasit')
 
 #remove FPs fromt the insect subset
 insect_posts <- posts_merged %>%
   filter(topic == 'insect') %>%
-  filter(!grepl(paste(no_insect_keywords, collapse = '|'), content, ignore.case = TRUE))%>%
+  filter(grepl(paste(yes_insect_keywords, collapse = '|'), content, ignore.case = TRUE)) %>%
+  filter(!grepl(paste(no_insect_keywords, collapse = '|'), content, ignore.case = TRUE)) %>%
   filter(channel_url != 'https://t.me/s/GrasshopperChannel')
 
 #remove FPs and remerge with insect df
@@ -98,14 +105,15 @@ random_sample$translated_content = ifelse(random_sample$detected_language == 'en
 write.csv(random_sample, 'results/random_sample.csv')
 
 #Check that old posts are contained in current sample
-old_posts <- read.csv('data/230718_justin_template_multitopic_2023_07_26.csv') #check the location of the posts dataset
-new_post_ids <- posts_merged_clean$post_id
-
-old_posts$id_matches <- ifelse(old_posts$post_id %in% new_post_ids, 1, 0)
-
-table(old_posts$id_matches)
-table(old_posts[old_posts$fifteen_minutes == 1,]$id_matches)
-table(old_posts[old_posts$fifteen_minutes == 0,]$id_matches)
+# old_posts <- read.csv('data/230718_justin_template_multitopic_2023_07_26.csv') #check the location of the posts dataset
+# new_post_ids <- posts_merged_clean$post_id
+# 
+# old_posts$id_matches <- ifelse(old_posts$post_id %in% new_post_ids, 1, 0)
+# 
+# table(old_posts$id_matches)
+# table(old_posts[old_posts$fifteen_minutes == 1,]$id_matches)
+# table(old_posts[old_posts$fifteen_minutes == 0,]$id_matches)
 
 #save data
 write.csv(posts_merged_clean, 'data/231015_raw_data_with_topics.csv')
+

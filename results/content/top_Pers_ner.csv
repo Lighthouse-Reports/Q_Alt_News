@@ -1,0 +1,3526 @@
+"","topic","detected_language","NER_text","n"
+"1","insect","en",NA,121
+"2","insect","en","Oxygen",99
+"3","insect","en","Tarantulin",97
+"4","ulez","en",NA,79
+"5","insect","en","Moisturizing Skin\n*",48
+"6","insect","en","Reactive Oxygen",48
+"7","insect","en","Removing Make-Up",48
+"8","ulez","en","Ulez",48
+"9","fifteen_minutes","en","Christine Anderson",47
+"10","insect","en","Acheta",40
+"11","ulez","en","Sadiq Khan",38
+"12","fifteen_minutes","en","David Fleming",34
+"13","insect","en","Bill Gates",33
+"14","ulez","en","Robin Monotti",33
+"15","ulez","nl","Smart City",33
+"16","fifteen_minutes","en","Agenda 21",32
+"17","fifteen_minutes","en","Antifa",32
+"18","insect","en","Trump",30
+"19","ulez","en","Boris Johnson",30
+"20","insect","en","Schwab",29
+"21","insect","en","Fauci",28
+"22","climate_lockdown","en","Covid",27
+"23","fifteen_minutes","en","Debbie Hicks",27
+"24","insect","en","Mislav Kolaku\u0161i\u0107",26
+"25","insect","en","Covid",25
+"26","insect","nl","Chitine",25
+"27","insect","en","Lara Logan",24
+"28","ulez","en","Clinton",24
+"29","climate_lockdown","en","Marc Morano",23
+"30","fifteen_minutes","en","Chris Sky",23
+"31","insect","en","Angelina Jolie",23
+"32","ulez","en","Bastien Girod",23
+"33","climate_lockdown","en","LOCKDOWNS",22
+"34","insect","en","Aussie",22
+"35","insect","en","Biden",21
+"36","climate_lockdown","en","Katie Hopkins",20
+"37","insect","en","\U0001f1f8",20
+"38","ulez","en","Agenda 2030",20
+"39","insect","en","Kim Kardashian",18
+"40","insect","en","Eva Vlaardingerbroek",17
+"41","fifteen_minutes","en","Covid",16
+"42","fifteen_minutes","en","Edmonton",16
+"43","fifteen_minutes","en","Larry Fink",16
+"44","insect","en","BANNED HEMP",16
+"45","insect","en","Superfood",16
+"46","insect","nl","U",16
+"47","ulez","en","Aman Jabbi",16
+"48","ulez","en","Bill Gates",16
+"49","ulez","en","Khan",16
+"50","climate_lockdown","en","Yellow Boards",15
+"51","fifteen_minutes","en","Yellow Boards",15
+"52","fifteen_minutes","en","\U0001d679\U0001d698\U0001d692\U0001d697",15
+"53","fifteen_minutes","en",NA,15
+"54","fifteen_minutes","en","Carlos Moreno",14
+"55","fifteen_minutes","en","Paul Burgess",14
+"56","fifteen_minutes","en","Tad Hargrave",14
+"57","insect","en","David Icke",14
+"58","insect","en","Nicole Kidman",14
+"59","ulez","en","Vaccine",14
+"60","insect","en","Hillary Clinton",13
+"61","insect","en","Jolie",13
+"62","insect","en","Kherson",13
+"63","insect","en","Robert Downey Jr.",13
+"64","insect","nl","):\n\n",13
+"65","insect","nl","Bacteri\xebn",13
+"66","insect","nl","Bill Gates",13
+"67","ulez","en","Eric Levy",13
+"68","ulez","en","Maria Zeee",13
+"69","ulez","nl","\u26d4\u26d4",13
+"70","fifteen_minutes","en","Mike",12
+"71","fifteen_minutes","en","Niko",12
+"72","fifteen_minutes","en","\U0001f396",12
+"73","insect","en","Barron Wisconsin",12
+"74","insect","en","\U0001f3fd",12
+"75","insect","nl","Droge voormengsels",12
+"76","insect","nl","Meergranenbrood\n",12
+"77","insect","nl","Vietnam",12
+"78","ulez","en","\U0001f1e7 Londoners",12
+"79","climate_lockdown","en","Karl Lauterbach",11
+"80","climate_lockdown","nl","#FVD",11
+"81","climate_lockdown","nl","Covid",11
+"82","climate_lockdown","nl","Green Pass",11
+"83","fifteen_minutes","en","Manchester",11
+"84","fifteen_minutes","en","Sandi Adams",11
+"85","insect","en","Tucker Carlson",11
+"86","insect","nl","Klaus Schwab",11
+"87","insect","nl","koekjes\n",11
+"88","ulez","en","Karl Marx",11
+"89","climate_lockdown","en","Bracknell",10
+"90","climate_lockdown","en",NA,10
+"91","fifteen_minutes","en","Ben Walker",10
+"92","fifteen_minutes","en","Bracknell",10
+"93","fifteen_minutes","en","Dan Astin-Gregory",10
+"94","fifteen_minutes","en","George Della",10
+"95","fifteen_minutes","en","James Harvey",10
+"96","insect","en","Cringey Diet Truth",10
+"97","insect","en","Steeke",10
+"98","insect","nl","Mensen zullen",10
+"99","insect","nl","Waarom",10
+"100","ulez","en","Alex Newman",10
+"101","ulez","en","Documentaries",10
+"102","ulez","en","Trump",10
+"103","ulez","nl","Kijk",10
+"104","climate_lockdown","en","Biden",9
+"105","climate_lockdown","en","Christine Anderson",9
+"106","fifteen_minutes","en","David",9
+"107","fifteen_minutes","en","Jonathan Tilt",9
+"108","insect","en","@GitmoTV",9
+"109","insect","en","Breitbart",9
+"110","insect","en","Francis",9
+"111","insect","en","Kelen",9
+"112","insect","en","Olson",9
+"113","insect","nl","God",9
+"114","insect","nl","Kijk",9
+"115","ulez","en","Alex Antic",9
+"116","ulez","en","Biden",9
+"117","ulez","en","Glasgow",9
+"118","ulez","en","Kollona Amn",9
+"119","ulez","en","Max Egan",9
+"120","ulez","en","Newcastle",9
+"121","ulez","en","Pfizer",9
+"122","ulez","en","Sean Finch",9
+"123","ulez","en","\U0001d652\U0001d65d\U0001d656\U0001d669\U0001d65a\U0001d66b\U0001d65a\U0001d667 \U0001d654\U0001d664\U0001d66a \U0001d63e\U0001d656\U0001d663 \U0001d64f\U0001d664 \U0001d63f\U0001d65e\U0001d668\U0001d667\U0001d66a\U0001d665\U0001d669 \U0001d64f\U0001d65d\U0001d65a\U0001d65e\U0001d667 \U0001d64b\U0001d661\U0001d656\U0001d663\U0001d668",9
+"124","ulez","en","eSmart",9
+"125","ulez","nl","Tutte",9
+"126","ulez","nl",NA,9
+"127","climate_lockdown","en","Bill Gates",8
+"128","climate_lockdown","en","Worldwide Lockdowns",8
+"129","fifteen_minutes","en","Jordan Peterson",8
+"130","fifteen_minutes","en","MEP Anderson",8
+"131","fifteen_minutes","en","Robin Monotti",8
+"132","fifteen_minutes","nl","Christine Anderson",8
+"133","insect","en","Governments",8
+"134","insect","en","Parks",8
+"135","insect","en","Soros",8
+"136","insect","nl","DNA",8
+"137","ulez","en","Aman",8
+"138","ulez","en","Builds",8
+"139","ulez","en","Covid",8
+"140","ulez","en","David Martin",8
+"141","ulez","en","Jeffrey Epstein",8
+"142","ulez","en","Mr Khan",8
+"143","ulez","en","Ron DeSantis",8
+"144","ulez","en","Schwab",8
+"145","ulez","en","W. Scott McCollough",8
+"146","climate_lockdown","en","Malcolm Roberts",7
+"147","climate_lockdown","en","Manufactured Drought",7
+"148","climate_lockdown","en","Mariana Mazzucato",7
+"149","climate_lockdown","nl","Corona",7
+"150","fifteen_minutes","en","Agenda 2030",7
+"151","fifteen_minutes","en","Alan Miller",7
+"152","fifteen_minutes","en","Alexander Gusev",7
+"153","fifteen_minutes","en","Biden",7
+"154","fifteen_minutes","en","Bill Gates",7
+"155","fifteen_minutes","en","Christine Anderson MEP",7
+"156","fifteen_minutes","en","Clare Craig",7
+"157","fifteen_minutes","en","Hurricane Ian",7
+"158","fifteen_minutes","en","Robert Malone",7
+"159","fifteen_minutes","en","Ryan Cole",7
+"160","fifteen_minutes","en","\U0001f602",7
+"161","insect","en","Backchannels",7
+"162","insect","en","Bee Happy",7
+"163","insect","en","EN[O]UGH",7
+"164","insect","en","INFORMATION WARFARE",7
+"165","insect","en","Logan",7
+"166","insect","en","Putin",7
+"167","insect","en","Yuval Harari",7
+"168","insect","en","\U0001f377",7
+"169","insect","en","https://qalerts.app/?n=4332",7
+"170","insect","nl","locusta migratoria",7
+"171","ulez","en","Adolf Hitler",7
+"172","ulez","en","COVID",7
+"173","ulez","en","Cooper",7
+"174","ulez","en","Covid Doc",7
+"175","ulez","en","Dennis Meadows",7
+"176","ulez","en","G[raphene Oxide Connection to Elon Musk\u2019s",7
+"177","ulez","en","Jerm Warfare",7
+"178","ulez","en","Katie Hopkins",7
+"179","ulez","en","Lobbyists Doc",7
+"180","ulez","en","MSM",7
+"181","ulez","en","Neom",7
+"182","ulez","en","Simon \n\nFollow",7
+"183","ulez","en","\U0001d679\U0001d698\U0001d692\U0001d697",7
+"184","ulez","en","mini doc",7
+"185","ulez","nl","Denk",7
+"186","climate_lockdown","en","Centralised Banking",6
+"187","climate_lockdown","en","Codex Alimentarius,",6
+"188","climate_lockdown","en","Green Taxes",6
+"189","climate_lockdown","en","JFK Awakening",6
+"190","climate_lockdown","en","Laura",6
+"191","climate_lockdown","en","Lockdowns",6
+"192","climate_lockdown","en","Peak Pricing",6
+"193","climate_lockdown","en","\U0001f3fb Digital",6
+"194","climate_lockdown","en","\U0001f3fb Perpetual",6
+"195","climate_lockdown","en","\U0001f3fb Vaccine",6
+"196","climate_lockdown","nl","CO2",6
+"197","fifteen_minutes","en","Chris Whitty",6
+"198","fifteen_minutes","en","Covid Lockdown",6
+"199","fifteen_minutes","en","Eric Levy",6
+"200","fifteen_minutes","en","Francis Hoar",6
+"201","fifteen_minutes","en","George Della Pietra",6
+"202","fifteen_minutes","en","Laura",6
+"203","fifteen_minutes","en","W. Scott McCollough",6
+"204","fifteen_minutes","en","\U0001f60f",6
+"205","fifteen_minutes","en","\U0001f6ce",6
+"206","fifteen_minutes","nl","Nee",6
+"207","insect","en","Angela \u2728\U0001f942\n\nTruth Social",6
+"208","insect","en","Centralised Banking",6
+"209","insect","en","Codex Alimentarius,",6
+"210","insect","en","Glasse",6
+"211","insect","en","Green Taxes",6
+"212","insect","en","Kagan",6
+"213","insect","en","Lucifer",6
+"214","insect","en","Maui",6
+"215","insect","en","Nemo",6
+"216","insect","en","Nimrod",6
+"217","insect","en","Peak Pricing",6
+"218","insect","en","\U0001f1ee\U0001f1f9 + \U0001f1f5",6
+"219","insect","en","\U0001f92a\U0001f609\n",6
+"220","insect","nl","Fact Check",6
+"221","insect","nl","Laten",6
+"222","insect","nl","Nee",6
+"223","insect","nl","Rob Roos",6
+"224","ulez","en","Antic",6
+"225","ulez","en","Becoming Policy Makers",6
+"226","ulez","en","Bezos Hit Top",6
+"227","ulez","en","Boris",6
+"228","ulez","en","Buckeye",6
+"229","ulez","en","Centralised Banking",6
+"230","ulez","en","Codex Alimentarius,",6
+"231","ulez","en","Dom Perrottet",6
+"232","ulez","en","Dominic Perrottet",6
+"233","ulez","en","Elon Musk",6
+"234","ulez","en","Gene",6
+"235","ulez","en","Green Taxes",6
+"236","ulez","en","Lockdown",6
+"237","ulez","en","NEED",6
+"238","ulez","en","Naomi Wolf",6
+"239","ulez","en","Neil Oliver",6
+"240","ulez","en","Peak Pricing",6
+"241","ulez","en","Rothschild",6
+"242","ulez","nl","Smart Cities",6
+"243","ulez","nl","Smart city",6
+"244","ulez","nl","smart city",6
+"245","climate_lockdown","en","A332 Windsor",5
+"246","climate_lockdown","en","AUTRES",5
+"247","climate_lockdown","en","Alex Antic",5
+"248","climate_lockdown","en","Ben Harnwell",5
+"249","climate_lockdown","en","Greta Thunberg",5
+"250","climate_lockdown","en","Howard Palmer",5
+"251","climate_lockdown","en","Max",5
+"252","climate_lockdown","en","PASSEREZ DONC",5
+"253","climate_lockdown","en","R\xc9ALISENT LES",5
+"254","climate_lockdown","en","Rear Lawn",5
+"255","climate_lockdown","en","Stand Together",5
+"256","climate_lockdown","en","UNE APR\xc8S",5
+"257","climate_lockdown","en","Wifi",5
+"258","climate_lockdown","en","\U0001d679\U0001d698\U0001d692\U0001d697",5
+"259","fifteen_minutes","en","A332 Windsor",5
+"260","fifteen_minutes","en","Ben",5
+"261","fifteen_minutes","en","Chris",5
+"262","fifteen_minutes","en","David Icke",5
+"263","fifteen_minutes","en","Hobart",5
+"264","fifteen_minutes","en","Howard Palmer",5
+"265","fifteen_minutes","en","Matt",5
+"266","fifteen_minutes","en","Norman Fenton",5
+"267","fifteen_minutes","en","Putin",5
+"268","fifteen_minutes","en","Rear Lawn",5
+"269","fifteen_minutes","en","Stand Together",5
+"270","fifteen_minutes","en","\U0001f3fb",5
+"271","fifteen_minutes","en","\U0001f6e1",5
+"272","insect","en","Agenda 2030",5
+"273","insect","en","Animal Skins",5
+"274","insect","en","Anthony Fauci",5
+"275","insect","en","Bon App\xe9tit",5
+"276","insect","en","Brexit",5
+"277","insect","en","EMISSIONE DAI",5
+"278","insect","en","Eric Bolling",5
+"279","insect","en","Feelings",5
+"280","insect","en","Graphene",5
+"281","insect","en","Instinct Rose",5
+"282","insect","en","Jim Mellon",5
+"283","insect","en","Karen",5
+"284","insect","en","Learning To Make",5
+"285","insect","en","Mark Rutte",5
+"286","insect","en","Megalopolis",5
+"287","insect","en","QUESTE VERIT\xc0",5
+"288","insect","en","Robert Downey Jr",5
+"289","insect","en","Saint Seraphim",5
+"290","insect","en","Soderlund",5
+"291","insect","en","Tribes Ran",5
+"292","insect","en","\U0001d679\U0001d698\U0001d692\U0001d697",5
+"293","insect","en","\U0001f60f",5
+"294","insect","nl","Denk",5
+"295","insect","nl","Leon",5
+"296","insect","nl","Neem",5
+"297","ulez","en","Carlos Moreno",5
+"298","ulez","en","Coffs",5
+"299","ulez","en","Dave Birch",5
+"300","ulez","en","Debbie Hicks",5
+"301","ulez","en","Graphene Oxide",5
+"302","ulez","en","Henry Lamb",5
+"303","ulez","en","Marc Lore",5
+"304","ulez","en","Surrey",5
+"305","ulez","en","Whitney Webb",5
+"306","ulez","en","\U0001f1e8\U0001f1f3",5
+"307","ulez","en","\U0001f3fd",5
+"308","ulez","en","https://t.me/GBBNews23",5
+"309","ulez","en","lach mich wech",5
+"310","ulez","en","seinen gr\xfcnen Dummies",5
+"311","ulez","nl","=pfbid02rs5vz5hRkvgWJHNRrR3dEef9iHkBMHwiR8Y13v9YLm6u7TANFajX53yU8XBukWdGl&id=100002710104526",5
+"312","ulez","nl","Agenda 2030",5
+"313","ulez","nl","Amsterdam Smart City",5
+"314","ulez","nl","Fontys Hogeschool",5
+"315","ulez","nl","TU Delft",5
+"316","ulez","nl","Waarom",5
+"317","ulez","nl","Wilders",5
+"318","ulez","nl","city\u2019",5
+"319","climate_lockdown","en","Bastyon",4
+"320","climate_lockdown","en","Bin Ladin",4
+"321","climate_lockdown","en","David Icke",4
+"322","climate_lockdown","en","Matt",4
+"323","climate_lockdown","nl","Bill Gates",4
+"324","climate_lockdown","nl","Denk",4
+"325","climate_lockdown","nl","Share",4
+"326","climate_lockdown","nl","Waarom",4
+"327","climate_lockdown","nl","\U0001f446\U0001f446",4
+"328","fifteen_minutes","en","Andrew Bridgen",4
+"329","fifteen_minutes","en","Barry",4
+"330","fifteen_minutes","en","Dan Andrews",4
+"331","fifteen_minutes","en","George",4
+"332","fifteen_minutes","en","Guest Speakers",4
+"333","fifteen_minutes","en","John & Jane",4
+"334","fifteen_minutes","en","Jonathan",4
+"335","fifteen_minutes","en","Karl Marx",4
+"336","fifteen_minutes","en","Katie Hopkins",4
+"337","fifteen_minutes","en","Laurence Fox",4
+"338","fifteen_minutes","en","Mark Devlin",4
+"339","fifteen_minutes","en","Mark Steyn",4
+"340","fifteen_minutes","en","Mike Yeadon",4
+"341","fifteen_minutes","en","Nick Fletcher MP",4
+"342","fifteen_minutes","en","Peter Ford",4
+"343","fifteen_minutes","en","Randy Hillier",4
+"344","fifteen_minutes","en","Richard",4
+"345","fifteen_minutes","en","Robert Stuart",4
+"346","fifteen_minutes","en","Sean Finch",4
+"347","fifteen_minutes","en","Spencer Cox",4
+"348","fifteen_minutes","en","Wes",4
+"349","fifteen_minutes","en","\u2694",4
+"350","fifteen_minutes","en","https://t.me/GBBNews23",4
+"351","fifteen_minutes","en","serfs",4
+"352","fifteen_minutes","nl","15-Minute City",4
+"353","fifteen_minutes","nl",NA,4
+"354","insect","en","Age Farmer",4
+"355","insect","en","Anna Faris",4
+"356","insect","en","Armie Ham",4
+"357","insect","en","Armie Hammer",4
+"358","insect","en","Armie Hammer\u2019s",4
+"359","insect","en","Bev\xf6lkerung",4
+"360","insect","en","Bill Gate\u2019s",4
+"361","insect","en","Bud Eater",4
+"362","insect","en","COVID-1984",4
+"363","insect","en","Cho",4
+"364","insect","en","Cnr Great Eastern Hwy &",4
+"365","insect","en","Dort",4
+"366","insect","en","Drea Humphrey",4
+"367","insect","en","Gazette",4
+"368","insect","en","Iron Man",4
+"369","insect","en","Iron Man s\u2019est",4
+"370","insect","en","Ironman",4
+"371","insect","en","Karl Marx",4
+"372","insect","en","La Quinta Columna",4
+"373","insect","en","Loss",4
+"374","insect","en","M\xfcller",4
+"375","insect","en","Mark Steyn",4
+"376","insect","en","Mechnikov",4
+"377","insect","en","Mordaunt",4
+"378","insect","en","Peter Savelberg",4
+"379","insect","en","Pfizer",4
+"380","insect","en","Reportedly Working",4
+"381","insect","en","Rod Culleton",4
+"382","insect","en","Tituss Burgess",4
+"383","insect","en","Trudeau",4
+"384","insect","en","Vaccine",4
+"385","insect","en","\U0001f449 Lemongrass",4
+"386","insect","en","\U0001f92a\U0001f921\n\nType",4
+"387","insect","en","\U0001f994\U0001f994\U0001f994",4
+"388","insect","en","auf den Berg",4
+"389","insect","en","https://m.bild.de/news/ausland/news-ausland/barilla-beben-essen-wir-bald-nudeln-aus-insekten-81828218.bildMobile.html?cid=social.bildsocial.exactagconverter.acquisition..81828218.free.instagram.InstagramBild&t_ref=https%3A%2F%2Fl.instagram.com%2F\n\n",4
+"390","insect","en","https://www.nytimes.com/2018/09/07/t-magazine/eating-bugs-food-restaurant.html",4
+"391","insect","nl","CO2",4
+"392","insect","nl","Corona",4
+"393","insect","nl","Degenen",4
+"394","insect","nl","Elze van Hamelen",4
+"395","insect","nl","Eva Vlaardingerbroek",4
+"396","insect","nl","Kowalski",4
+"397","insect","nl","Mark Rutte",4
+"398","insect","nl","Mislav Kolaku\u0161i\u0107",4
+"399","insect","nl","Schudt",4
+"400","insect","nl","hebt",4
+"401","ulez","en","Agenda 2030-2050",4
+"402","ulez","en","Aman Jabbi - The Final Lockdown - Street",4
+"403","ulez","en","Ameisen Kollonie",4
+"404","ulez","en","Andrew Bridgen",4
+"405","ulez","en","Arch",4
+"406","ulez","en","BRICST Teams",4
+"407","ulez","en","Banken",4
+"408","ulez","en","Ben",4
+"409","ulez","en","Ben Fisher",4
+"410","ulez","en","Cashback Tiers Rewarded",4
+"411","ulez","en","Cencur",4
+"412","ulez","en","Clara",4
+"413","ulez","en","Cloud Computing",4
+"414","ulez","en","Colossal",4
+"415","ulez","en","Covid Scandal - Dr.",4
+"416","ulez","en","Darwin",4
+"417","ulez","en","Ein Gott",4
+"418","ulez","en","Emotionen u \n\n",4
+"419","ulez","en","Energie Krise",4
+"420","ulez","en","Frequenz",4
+"421","ulez","en","Gene Decode",4
+"422","ulez","en","Geordie Rose",4
+"423","ulez","en","Gnade",4
+"424","ulez","en","Greater Manchester",4
+"425","ulez","en","Greater Sydney",4
+"426","ulez","en","JFK Jr",4
+"427","ulez","en","Jed McCAleb",4
+"428","ulez","en","John & Jane",4
+"429","ulez","en","John McAfee](https://t.me/johnmcafeechannel",4
+"430","ulez","en","Jonathan Tilt",4
+"431","ulez","en","Julian Huxley",4
+"432","ulez","en","Kognitive Kriegsf\xfchrung",4
+"433","ulez","en","Larry McDonald",4
+"434","ulez","en","Leeds",4
+"435","ulez","en","Mark Zuckerberg",4
+"436","ulez","en","Metz Way",4
+"437","ulez","en","Musk",4
+"438","ulez","en","Nahrung Krisen Klo",4
+"439","ulez","en","Oel Krise",4
+"440","ulez","en","Opp Warfare",4
+"441","ulez","en","Oxford Fighting Back",4
+"442","ulez","en","Permissionless Crypto Powered",4
+"443","ulez","en","Peter Savelberg",4
+"444","ulez","en","Programm",4
+"445","ulez","en","Project Aurora",4
+"446","ulez","en","Push Agenda",4
+"447","ulez","en","Qld",4
+"448","ulez","en","Ralph Hamers",4
+"449","ulez","en","Reprogramm Human Brain - Soldier",4
+"450","ulez","en","Saidq Khan",4
+"451","ulez","en","Secret Behind](https://t.me/followsthewhiterabbit/1604",4
+"452","ulez","en","Slaughter",4
+"453","ulez","en","Spencer Cox",4
+"454","ulez","en","Stadt Oxford",4
+"455","ulez","en","T[he Danger",4
+"456","ulez","en","Truthbomb](https://t.me",4
+"457","ulez","en","Valid",4
+"458","ulez","en","Virtuell Realit\xe4t",4
+"459","ulez","en","Welt Smart Cities",4
+"460","ulez","en","WiFi Smart City",4
+"461","ulez","en","Zelensky",4
+"462","ulez","en","Zelenskyy",4
+"463","ulez","en","\U0001f441",4
+"464","ulez","en","https://t.me/OfficeOfTheOrangeMan/3",4
+"465","ulez","en","https://t.me/QNewsOfficialTV",4
+"466","ulez","nl","Ach",4
+"467","ulez","nl","Alex Antic",4
+"468","ulez","nl","Bastien Girod",4
+"469","ulez","nl","Capelle",4
+"470","ulez","nl","RFID-chips",4
+"471","ulez","nl","Reset agenda",4
+"472","ulez","nl","Rutte",4
+"473","ulez","nl","Van Dijk",4
+"474","ulez","nl","camera\u2019s",4
+"475","ulez","nl","car-to-car communicatie",4
+"476","ulez","nl","city-functies)[18]",4
+"477","climate_lockdown","en","Age Farmer",3
+"478","climate_lockdown","en","Bankman-Fried",3
+"479","climate_lockdown","en","Banks",3
+"480","climate_lockdown","en","COVID-19",3
+"481","climate_lockdown","en","Covid mRNA",3
+"482","climate_lockdown","en","Glacier",3
+"483","climate_lockdown","en","Henry Parkes",3
+"484","climate_lockdown","en","Ireland \U0001f1ee\U0001f1ea\n\nThe",3
+"485","climate_lockdown","en","James",3
+"486","climate_lockdown","en","Jo Nova",3
+"487","climate_lockdown","en","Klima-Lockdown",3
+"488","climate_lockdown","en","Laura Ingraham",3
+"489","climate_lockdown","en","Lockstep",3
+"490","climate_lockdown","en","Mike",3
+"491","climate_lockdown","en","Moon",3
+"492","climate_lockdown","en","Rowan Dean",3
+"493","climate_lockdown","en","\U0001f602",3
+"494","climate_lockdown","nl","BKR",3
+"495","climate_lockdown","nl","Erwin Kompanje",3
+"496","climate_lockdown","nl","God",3
+"497","climate_lockdown","nl","Great Reset",3
+"498","climate_lockdown","nl","Hugo de Jonge",3
+"499","climate_lockdown","nl","Lockdowns",3
+"500","climate_lockdown","nl","Marc Morano",3
+"501","climate_lockdown","nl","Mark Rutte",3
+"502","climate_lockdown","nl","Oxfordshire County",3
+"503","climate_lockdown","nl","Regulations",3
+"504","climate_lockdown","nl","https://www.journalistenwatch.com/2021/04/20/nie-corona-will/\n\n",3
+"505","fifteen_minutes","en","Activist",3
+"506","fifteen_minutes","en","Alan Graves",3
+"507","fifteen_minutes","en","Anderson",3
+"508","fifteen_minutes","en","Beeb",3
+"509","fifteen_minutes","en","Ben Rubin",3
+"510","fifteen_minutes","en","CONTROLLO TOTALE DELLE PERSONE",3
+"511","fifteen_minutes","en","Carbon Footprint Tracking",3
+"512","fifteen_minutes","en","Christine Lagarde",3
+"513","fifteen_minutes","en","Coinbase",3
+"514","fifteen_minutes","en","Dan",3
+"515","fifteen_minutes","en","Down CANADA",3
+"516","fifteen_minutes","en","Dystopia",3
+"517","fifteen_minutes","en","Edinburgh George Square",3
+"518","fifteen_minutes","en","Girl Exposes",3
+"519","fifteen_minutes","en","Greater Manchester",3
+"520","fifteen_minutes","en","H.P Lovecraft",3
+"521","fifteen_minutes","en","Heard Edinburgh",3
+"522","fifteen_minutes","en","Henry Parkes",3
+"523","fifteen_minutes","en","James",3
+"524","fifteen_minutes","en","James Corbett",3
+"525","fifteen_minutes","en","James D. We",3
+"526","fifteen_minutes","en","James Delingpole\u2019s",3
+"527","fifteen_minutes","en","Jasmin",3
+"528","fifteen_minutes","en","Jo Nova",3
+"529","fifteen_minutes","en","John McIntyre",3
+"530","fifteen_minutes","en","Kilkenny",3
+"531","fifteen_minutes","en","Mark Dolan",3
+"532","fifteen_minutes","en","NET ZERO - This",3
+"533","fifteen_minutes","en","Paul",3
+"534","fifteen_minutes","en","Paul Burgess Oxford",3
+"535","fifteen_minutes","en","Peter",3
+"536","fifteen_minutes","en","Rant Alert",3
+"537","fifteen_minutes","en","Reportin",3
+"538","fifteen_minutes","en","Rishi Sunak",3
+"539","fifteen_minutes","en","Sandi Adams Joins",3
+"540","fifteen_minutes","en","Schwab",3
+"541","fifteen_minutes","en","Todd Callender",3
+"542","fifteen_minutes","en","Volodymyr Zelensky",3
+"543","fifteen_minutes","en","Walgreens",3
+"544","fifteen_minutes","en","\U0001f1e8",3
+"545","fifteen_minutes","en","\U0001f1f8",3
+"546","fifteen_minutes","en","https://rumble.com/v1kww0l-digital-id-nazi-id-for-transhumanism.html",3
+"547","fifteen_minutes","nl","Ach",3
+"548","fifteen_minutes","nl","Australi\xeb \U0001f1e6",3
+"549","fifteen_minutes","nl","Ben",3
+"550","fifteen_minutes","nl","Corona Genocide",3
+"551","fifteen_minutes","nl","Covid",3
+"552","fifteen_minutes","nl","Elon Musk",3
+"553","fifteen_minutes","nl","Fake Willie",3
+"554","fifteen_minutes","nl","Fraude Geld",3
+"555","fifteen_minutes","nl","Lockdown",3
+"556","fifteen_minutes","nl","Nazi",3
+"557","fifteen_minutes","nl","Nazi Rutte",3
+"558","fifteen_minutes","nl","Overschrijdt",3
+"559","fifteen_minutes","nl","Oxfordshire County",3
+"560","fifteen_minutes","nl","Rob                                                            ",3
+"561","fifteen_minutes","nl","Valuta",3
+"562","fifteen_minutes","nl","hebt",3
+"563","insect","en","-eu-food-safety-agency",3
+"564","insect","en","Actualit\xe9 - Du Labyrinthe",3
+"565","insect","en","Alberto Fiore",3
+"566","insect","en","Aldi",3
+"567","insect","en","Alert",3
+"568","insect","en","Allen Harim Foods",3
+"569","insect","en","Annette Kleiser",3
+"570","insect","en","Arnica",3
+"571","insect","en","Aussies",3
+"572","insect","en","Barbara Boxer",3
+"573","insect","en","Beadle S Dakota",3
+"574","insect","en","Black Soldier Flies",3
+"575","insect","en","Catherine Austin",3
+"576","insect","en","Cheetos",3
+"577","insect","en","Christine Lagarde",3
+"578","insect","en","Cmon Aussies",3
+"579","insect","en","Doritos",3
+"580","insect","en","Eat Bugs",3
+"581","insect","en","Flu",3
+"582","insect","en","Jensen Beach FL",3
+"583","insect","en","Joe Biden",3
+"584","insect","en","Keiran Whitaker",3
+"585","insect","en","Klaus Schwab",3
+"586","insect","en","Knox",3
+"587","insect","en","Laura Aboli",3
+"588","insect","en","Lidl",3
+"589","insect","en","Liz",3
+"590","insect","en","Lyon Minnesota",3
+"591","insect","en","MEAT",3
+"592","insect","en","Marjory Wildcraft",3
+"593","insect","en","Max Igan",3
+"594","insect","en","Mazac",3
+"595","insect","en","Mikaela Peterson",3
+"596","insect","en","Mix",3
+"597","insect","en","Monbiot",3
+"598","insect","en","Robert Monroe",3
+"599","insect","en","Sequoia Oklahoma",3
+"600","insect","en","Sikh",3
+"601","insect","en","Space10",3
+"602","insect","en","Stacey Abrams",3
+"603","insect","en","Sulfur",3
+"604","insect","en","Taylor Swift",3
+"605","insect","en","Truss",3
+"606","insect","en","Turkeys",3
+"607","insect","en","Varroa Mite",3
+"608","insect","en","Volodymyr Zelensky",3
+"609","insect","en","\U0001f1ee\U0001f1f9",3
+"610","insect","en","\U0001f396",3
+"611","insect","en","\U0001f3fb\U0001f5e3",3
+"612","insect","en","\U0001f602",3
+"613","insect","en","acheta domesticus",3
+"614","insect","en","entre autre",3
+"615","insect","en","https://www.nytimes.com/2022/01/06/health/covid-vaccine-menstrual-cycles.html",3
+"616","insect","en","mulberry silkworms",3
+"617","insect","en","pea protein",3
+"618","insect","nl","Agenda 2030",3
+"619","insect","nl","Aldi",3
+"620","insect","nl","Allah",3
+"621","insect","nl","Ben",3
+"622","insect","nl","Bescherm",3
+"623","insect","nl","David Sorensen\n\n",3
+"624","insect","nl","Foodvalley",3
+"625","insect","nl","Francesco Lollobrigida",3
+"626","insect","nl","Google",3
+"627","insect","nl","Great Reset",3
+"628","insect","nl","Invoeren",3
+"629","insect","nl","Leuk",3
+"630","insect","nl","MSM\n1675",3
+"631","insect","nl","Niemand",3
+"632","insect","nl","Operation Lockstep",3
+"633","insect","nl","Rutte",3
+"634","insect","nl","SHIFT Invest",3
+"635","insect","nl","\U0001f1f9 \n\n",3
+"636","insect","nl","\u2680Corona",3
+"637","insect","nl","ijzer",3
+"638","insect","nl","sluitingen\nHoreca",3
+"639","insect","nl",NA,3
+"640","ulez","en","Alexander Wienerberger",3
+"641","ulez","en","Anthony Albanese",3
+"642","ulez","en","Arroyo Seco",3
+"643","ulez","en","Aussie",3
+"644","ulez","en","Australian Human",3
+"645","ulez","en","Australian Woman",3
+"646","ulez","en","Bill Clinton\u2019s",3
+"647","ulez","en","Bush",3
+"648","ulez","en","Catherine Austin",3
+"649","ulez","en","Cecilia",3
+"650","ulez","en","Chipotle anno](https://agfundernews.com/",3
+"651","ulez","en","Chris Burns",3
+"652","ulez","en","Criminal Fraud",3
+"653","ulez","en","Dave",3
+"654","ulez","en","David Ward",3
+"655","ulez","en","DeCremer",3
+"656","ulez","en","Derry",3
+"657","ulez","en","Don Tapscott",3
+"658","ulez","en","Ed Gregory",3
+"659","ulez","en","Elizabeth",3
+"660","ulez","en","Ford Pro",3
+"661","ulez","en","Francis Suarez",3
+"662","ulez","en","Gavi",3
+"663","ulez","en","Golem",3
+"664","ulez","en","Gr\xfcnen Regel",3
+"665","ulez","en","Greater London",3
+"666","ulez","en","Harari",3
+"667","ulez","en","Hazel Gillender",3
+"668","ulez","en","Ian Levers",3
+"669","ulez","en","James Blond",3
+"670","ulez","en","Jeremy Lee - How",3
+"671","ulez","en","Joe Allen",3
+"672","ulez","en","Lismore",3
+"673","ulez","en","Manchester",3
+"674","ulez","en","Mark Devlin",3
+"675","ulez","en","Mark Johnson",3
+"676","ulez","en","Marx",3
+"677","ulez","en","Max Igan",3
+"678","ulez","en","Mike Yeadon",3
+"679","ulez","en","Mike\n\n",3
+"680","ulez","en","Newman",3
+"681","ulez","en","Nigel Farage",3
+"682","ulez","en","North London - GRIDLOCK",3
+"683","ulez","en","Paul Burgess",3
+"684","ulez","en","Pedo Epstein",3
+"685","ulez","en","Peter Ford",3
+"686","ulez","en","Putin",3
+"687","ulez","en","Rockefellers",3
+"688","ulez","en","Russian Mil",3
+"689","ulez","en","Scott LoBaido",3
+"690","ulez","en","Secret Societies",3
+"691","ulez","en","Starter Kit",3
+"692","ulez","en","Trafalgar Square",3
+"693","ulez","en","Trafficking",3
+"694","ulez","en","Truthbomb)](https://t.me",3
+"695","ulez","en","Tsay",3
+"696","ulez","en","Walgreens",3
+"697","ulez","en","Zilch",3
+"698","ulez","en","Zip",3
+"699","ulez","en","\U0001f1f8",3
+"700","ulez","en","\U0001f3fb",3
+"701","ulez","en","\U0001f449 @OPFREEDOM \U0001f1fa\U0001f1f2",3
+"702","ulez","en","\U0001f4f8\n\nPower",3
+"703","ulez","en","\U0001f609",3
+"704","ulez","en","\ufe0f Click",3
+"705","ulez","en","article-11864147",3
+"706","ulez","en","https://mummyanglais.wordpress.com/tag/weaponised-frequencies-5g/",3
+"707","ulez","en","https://www.dailymail.co.uk/news/article-10235499/Epstein-Clinton.html",3
+"708","ulez","en","https://www.dailymail.co.uk/news/article-11984919/Frustrated-motorists-STEALING-Ulez-cameras-protest-Sadiq-Khans-expansion-plans.html",3
+"709","ulez","nl","Ben",3
+"710","ulez","nl","Corona",3
+"711","ulez","nl","DIT\u2049\ufe0f\n\n",3
+"712","ulez","nl","DNA",3
+"713","ulez","nl","Great Reset",3
+"714","ulez","nl","Let",3
+"715","ulez","nl","Musk",3
+"716","ulez","nl","NEE",3
+"717","ulez","nl","Persoonsgegevens",3
+"718","ulez","nl","Robert Kennedy",3
+"719","ulez","nl","Smartphone",3
+"720","ulez","nl","Tom",3
+"721","ulez","nl","city\u2019s",3
+"722","ulez","nl","city\u2019s werkelijkheid",3
+"723","ulez","nl","pilletje",3
+"724","ulez","nl","risico\u2019s",3
+"725","ulez","nl","telefoons",3
+"726","climate_lockdown","en","@DigitalNukes \u2622",2
+"727","climate_lockdown","en","Alex Jones\n- Climate Lockdowns",2
+"728","climate_lockdown","en","Anderson",2
+"729","climate_lockdown","en","Breitbart",2
+"730","climate_lockdown","en","COVID",2
+"731","climate_lockdown","en","Chris Bowen",2
+"732","climate_lockdown","en","Climate Lockdown",2
+"733","climate_lockdown","en","Climate Lockdowns",2
+"734","climate_lockdown","en","Dan Andrews",2
+"735","climate_lockdown","en","Der Klimalockdown",2
+"736","climate_lockdown","en","Ellen Brown",2
+"737","climate_lockdown","en","Ezra Levant",2
+"738","climate_lockdown","en","False Flag Incoming",2
+"739","climate_lockdown","en","Freemasons",2
+"740","climate_lockdown","en","Gab",2
+"741","climate_lockdown","en","Ingraham",2
+"742","climate_lockdown","en","J. Michael Evans",2
+"743","climate_lockdown","en","Jack Posobiec\n\nChannel",2
+"744","climate_lockdown","en","Jan Jekielek",2
+"745","climate_lockdown","en","Joe Biden",2
+"746","climate_lockdown","en","Joel Pollak",2
+"747","climate_lockdown","en","John McAfee](https://t.me/johnmcafeechannel",2
+"748","climate_lockdown","en","Katie",2
+"749","climate_lockdown","en","Kill Bill",2
+"750","climate_lockdown","en","Kretschmann",2
+"751","climate_lockdown","en","LOCKDOWNS \u26a1\ufe0f",2
+"752","climate_lockdown","en","Lockdown",2
+"753","climate_lockdown","en","Lois Perry",2
+"754","climate_lockdown","en","Mark Dolan",2
+"755","climate_lockdown","en","Matt Green",2
+"756","climate_lockdown","en","Monica",2
+"757","climate_lockdown","en","Norman Fenton",2
+"758","climate_lockdown","en","Robin",2
+"759","climate_lockdown","en","Robin Monotti - Left Lockdown Sceptics",2
+"760","climate_lockdown","en","TURKEY \U0001f1f9",2
+"761","climate_lockdown","en","Thunberg",2
+"762","climate_lockdown","en","Tim Murdoch",2
+"763","climate_lockdown","en","Trojan",2
+"764","climate_lockdown","en","Vom Corona-Lockdown",2
+"765","climate_lockdown","en","Winfried Kretschmann",2
+"766","climate_lockdown","en","YouTube Mod",2
+"767","climate_lockdown","en","[: Telegr](https://t.me/",2
+"768","climate_lockdown","en","\U0001f1ee\U0001f1f9",2
+"769","climate_lockdown","en","\U0001f3fb\U0001f64f",2
+"770","climate_lockdown","en","\U0001f3fd",2
+"771","climate_lockdown","en","\U0001f6ce",2
+"772","climate_lockdown","en","https://entropystream.live/app/markcollett",2
+"773","climate_lockdown","nl","Ben",2
+"774","climate_lockdown","nl","Christine Anderson",2
+"775","climate_lockdown","nl","Corona Lockdown",2
+"776","climate_lockdown","nl","Ernst Kuipers",2
+"777","climate_lockdown","nl","Failliete Vanguard",2
+"778","climate_lockdown","nl","Fractie-Frentrop",2
+"779","climate_lockdown","nl","Geef",2
+"780","climate_lockdown","nl","Gezondheids Organisatie",2
+"781","climate_lockdown","nl","Herinneren",2
+"782","climate_lockdown","nl","Kathy Hochul",2
+"783","climate_lockdown","nl","Poetin",2
+"784","climate_lockdown","nl","Raisa",2
+"785","climate_lockdown","nl","U",2
+"786","climate_lockdown","nl","Wekenlang",2
+"787","climate_lockdown","nl","\U0001d413\U0001d421\U0001d422\U0001d41e\U0001d42b\U0001d42b\U0001d432 \U0001d401\U0001d41a\U0001d42e\U0001d41d\U0001d41e\U0001d42d\n\nSluit",2
+"788","climate_lockdown","nl","\U0001f1f9 ex-Draghistan",2
+"789","climate_lockdown","nl","it. No Great",2
+"790","climate_lockdown","nl","many people",2
+"791","fifteen_minutes","en","Aldi Shop&Go",2
+"792","fifteen_minutes","en","Andr\xe9 Leu](https://t.me/BetterWayConference/180",2
+"793","fifteen_minutes","en","Andy",2
+"794","fifteen_minutes","en","Apple Pay",2
+"795","fifteen_minutes","en","Arup",2
+"796","fifteen_minutes","en","Ash Wednesday",2
+"797","fifteen_minutes","en","Australia \U0001f91c",2
+"798","fifteen_minutes","en","Bath",2
+"799","fifteen_minutes","en","Ben Fisher",2
+"800","fifteen_minutes","en","Bloomberg Philanthropies",2
+"801","fifteen_minutes","en","Boris Johnson",2
+"802","fifteen_minutes","en","Brexit",2
+"803","fifteen_minutes","en","COVID",2
+"804","fifteen_minutes","en","Christof Plothe",2
+"805","fifteen_minutes","en","Common Law",2
+"806","fifteen_minutes","en","Conspiracy Theories",2
+"807","fifteen_minutes","en","Daisy",2
+"808","fifteen_minutes","en","Dale Vince",2
+"809","fifteen_minutes","en","David Fleming](https://t.me/BetterWayConference/178",2
+"810","fifteen_minutes","en","Democracy",2
+"811","fifteen_minutes","en","Derrick",2
+"812","fifteen_minutes","en","Emma White",2
+"813","fifteen_minutes","en","Flower",2
+"814","fifteen_minutes","en","God",2
+"815","fifteen_minutes","en","Great Reset",2
+"816","fifteen_minutes","en","Ground",2
+"817","fifteen_minutes","en","Guildford",2
+"818","fifteen_minutes","en","Ipswich",2
+"819","fifteen_minutes","en","JFK Awakening",2
+"820","fifteen_minutes","en","Jack",2
+"821","fifteen_minutes","en","Jan Jekielek",2
+"822","fifteen_minutes","en","Jeremy Birnstingl](https://t.me/BetterWayConference/173",2
+"823","fifteen_minutes","en","John McAfee](https://t.me/johnmcafeechannel",2
+"824","fifteen_minutes","en","Join TELEGRAM Channel",2
+"825","fifteen_minutes","en","Judith Curry",2
+"826","fifteen_minutes","en","Lancet Study",2
+"827","fifteen_minutes","en","Laura Aboli",2
+"828","fifteen_minutes","en","Mark Steele",2
+"829","fifteen_minutes","en","Mike Robinson",2
+"830","fifteen_minutes","en","Mike Yeadon\xa0\n\n",2
+"831","fifteen_minutes","en","Mike\n\n",2
+"832","fifteen_minutes","en","Mike\xa0\n\n",2
+"833","fifteen_minutes","en","Nick Fletcher",2
+"834","fifteen_minutes","en","Norman Fenton](https://t.me/BetterWayConference/176",2
+"835","fifteen_minutes","en","North London",2
+"836","fifteen_minutes","en","Peter Evans",2
+"837","fifteen_minutes","en","Rehire Non-Jabbed",2
+"838","fifteen_minutes","en","Richard Vobes",2
+"839","fifteen_minutes","en","Sam Beckett",2
+"840","fifteen_minutes","en","Sandi Adams\n\nExcerpt",2
+"841","fifteen_minutes","en","St Baruchs Chapel",2
+"842","fifteen_minutes","en","Suckdick Khuntz ULEZ Cameras",2
+"843","fifteen_minutes","en","Surrey",2
+"844","fifteen_minutes","en","Tom",2
+"845","fifteen_minutes","en","Trojan",2
+"846","fifteen_minutes","en","Trump",2
+"847","fifteen_minutes","en","Vaccine",2
+"848","fifteen_minutes","en","\U0001d64d\U0001d65e\U0001d668\U0001d65a",2
+"849","fifteen_minutes","en","\U0001f1ee\U0001f1f3",2
+"850","fifteen_minutes","en","\U0001f3fb @RealDustinNemos",2
+"851","fifteen_minutes","en","\U0001f4af\n",2
+"852","fifteen_minutes","en","\U0001f4f8",2
+"853","fifteen_minutes","en","\U0001f621",2
+"854","fifteen_minutes","en","\ufe0f Click",2
+"855","fifteen_minutes","en","dairy herds",2
+"856","fifteen_minutes","en","https://ept.ms/Y0425ChristineAnderson",2
+"857","fifteen_minutes","en","https://www.cnn.com/2023/02/26/world/15-minute-cities-conspiracy-theory-climate-intl/index.html",2
+"858","fifteen_minutes","en","https://www.spiked-online.com/2022/10/25/the-madness-of-the-15-minute-city/?fbclid=IwAR2bA19cPEQf9VpOrhucMOV8V-WFVEqmi_AJrBqw__KyDsh_zbhbUk02miU#laieu8sacd9p6pcqh6q",2
+"859","fifteen_minutes","en","the Manifesto",2
+"860","fifteen_minutes","nl","AI",2
+"861","fifteen_minutes","nl","Advocaat W. Scott",2
+"862","fifteen_minutes","nl","Agenda 21",2
+"863","fifteen_minutes","nl","Buenos Aires",2
+"864","fifteen_minutes","nl","Camera\u2019s",2
+"865","fifteen_minutes","nl","Chris Sky",2
+"866","fifteen_minutes","nl","Christine Margarete Anderson",2
+"867","fifteen_minutes","nl","Cities\u2019",2
+"868","fifteen_minutes","nl","Covid Lockdowns",2
+"869","fifteen_minutes","nl","Denk",2
+"870","fifteen_minutes","nl","Emissions",2
+"871","fifteen_minutes","nl","Geef",2
+"872","fifteen_minutes","nl","Harari",2
+"873","fifteen_minutes","nl","Lockdowns\u2019",2
+"874","fifteen_minutes","nl","Musk",2
+"875","fifteen_minutes","nl","Projectleiders",2
+"876","fifteen_minutes","nl","Romy",2
+"877","fifteen_minutes","nl","Sadiq Khan",2
+"878","fifteen_minutes","nl","The Line",2
+"879","fifteen_minutes","nl","There",2
+"880","fifteen_minutes","nl","Waarom",2
+"881","fifteen_minutes","nl","kroonprins Mohammed",2
+"882","insect","en","Abdul Ghani Baradar",2
+"883","insect","en","Acidum nitricum",2
+"884","insect","en","Alexa Lavoie",2
+"885","insect","en","Alfalfa",2
+"886","insect","en","Ampol",2
+"887","insect","en","Anderson",2
+"888","insect","en","Andrew Bridgen](https://www.youtube.com/watch?v",2
+"889","insect","en","Angelina Jolie\u2019s",2
+"890","insect","en","Aphids",2
+"891","insect","en","Ashraf Ghani",2
+"892","insect","en","Aurum",2
+"893","insect","en","Barbara Baarsma",2
+"894","insect","en","Bayley St \n\nNORSEMAN",2
+"895","insect","en","Beasley",2
+"896","insect","en","Belladonna",2
+"897","insect","en","Big Pharma",2
+"898","insect","en","Bigthink",2
+"899","insect","en","Bill",2
+"900","insect","en","Black Bond PTV",2
+"901","insect","en","Boris Johnson",2
+"902","insect","en","Boycott Anheuser-Busch",2
+"903","insect","en","COVID-19",2
+"904","insect","en","Carbon Rabobank",2
+"905","insect","en","Carlson Built",2
+"906","insect","en","Chris Steinmetz",2
+"907","insect","en","Christof Plothe",2
+"908","insect","en","Christopher Cross",2
+"909","insect","en","Cindy McCain",2
+"910","insect","en","Cisco Brewers",2
+"911","insect","en","Covid Nose",2
+"912","insect","en","Cutwater Spirits",2
+"913","insect","en","Dana Jacobson",2
+"914","insect","en","David Wild",2
+"915","insect","en","Deutsc[he Welle",2
+"916","insect","en","Die Welt",2
+"917","insect","en","Doc Burkhart",2
+"918","insect","en","Donald",2
+"919","insect","en","Dorothea Thul",2
+"920","insect","en","Elysian Brewing",2
+"921","insect","en","Estrella Jalisco",2
+"922","insect","en","Eyre Hwy \n\n",2
+"923","insect","en","Eyre Hwy \n\nBALLADONIA",2
+"924","insect","en","Fingers",2
+"925","insect","en","Flynn",2
+"926","insect","en","Fotis Fotiadis",2
+"927","insect","en","Francesco Lollobrigida",2
+"928","insect","en","Gaia",2
+"929","insect","en","Gaucher",2
+"930","insect","en","George W. Bush\u2019s",2
+"931","insect","en","Glasgow",2
+"932","insect","en","Globalist Elite",2
+"933","insect","en","Goliath",2
+"934","insect","en","Green",2
+"935","insect","en","Herv\xe9 Juvin",2
+"936","insect","en","Human Trafficking",2
+"937","insect","en","J. Michael Evans",2
+"938","insect","en","JFK",2
+"939","insect","en","JFK Awakening",2
+"940","insect","en","Jerry Cans",2
+"941","insect","en","John D. Rockefeller",2
+"942","insect","en","John McAfee](https://t.me/johnmcafeechannel",2
+"943","insect","en","Justin Trudeau",2
+"944","insect","en","Kamala Harris",2
+"945","insect","en","Kashrut",2
+"946","insect","en","Kinda",2
+"947","insect","en","LABEL",2
+"948","insect","en","Lass",2
+"949","insect","en","Lassie",2
+"950","insect","en","Leicester",2
+"951","insect","en","Leute",2
+"952","insect","en","Lidl Ireland \U0001f1ee\U0001f1ea",2
+"953","insect","en","Lien Odysee",2
+"954","insect","en","Magnus S\xf6derlund",2
+"955","insect","en","Malcolm Roberts",2
+"956","insect","en","Marc",2
+"957","insect","en","Marc Siegel",2
+"958","insect","en","Marie Antoinette\u2019s",2
+"959","insect","en","Mark Rutt",2
+"960","insect","en","Massingham St",2
+"961","insect","en","Michael Scharf",2
+"962","insect","en","Mike Harrigan",2
+"963","insect","en","Mix 30",2
+"964","insect","en","Mumma Kiwi",2
+"965","insect","en","Myasnikov",2
+"966","insect","en","Nah",2
+"967","insect","en","Natalie Winters",2
+"968","insect","en","Noah",2
+"969","insect","en","Ourobouros",2
+"970","insect","en","Patrick",2
+"971","insect","en","Paul McCartney",2
+"972","insect","en","Paula Kok - De Boer",2
+"973","insect","en","Penick",2
+"974","insect","en","Penny Mordaunt - Attempts",2
+"975","insect","en","Pharma",2
+"976","insect","en","Pre Launch",2
+"977","insect","en","Puma High Wycombe",2
+"978","insect","en","Qld",2
+"979","insect","en","Resilience",2
+"980","insect","en","Richard Vobes](https://t.me",2
+"981","insect","en","Rick Wiles",2
+"982","insect","en","Rob",2
+"983","insect","en","Robert Heinlein",2
+"984","insect","en","Robins",2
+"985","insect","en","Rod",2
+"986","insect","en","Rothschilds Globalists",2
+"987","insect","en","S\xf6der",2
+"988","insect","en","Sabine",2
+"989","insect","en","Sarah",2
+"990","insect","en","Shane Warne",2
+"991","insect","en","Skin Disease",2
+"992","insect","en","Sonia",2
+"993","insect","en","Stacey Abram\u2019s",2
+"994","insect","en","Stanley Prusiner",2
+"995","insect","en","Steven Whyard",2
+"996","insect","en","Substack",2
+"997","insect","en","TBHQ",2
+"998","insect","en","TIPS\u203c\ufe0f\n\n\u201cDrink",2
+"999","insect","en","Telegram",2
+"1000","insect","en","Thomas\U0001f1f3",2
+"1001","insect","en","Tony Blair",2
+"1002","insect","en","Truth Leaders",2
+"1003","insect","en","Tucker",2
+"1004","insect","en","Twin Worlds\nSmall",2
+"1005","insect","en","United Kelleberin",2
+"1006","insect","en","Virtue Cider",2
+"1007","insect","en","Wee Bonnie",2
+"1008","insect","en","Whale Ark",2
+"1009","insect","en","Worm",2
+"1010","insect","en","Xi Jinping",2
+"1011","insect","en","Zaki Anwari",2
+"1012","insect","en","\U0001f3fb\U0001f480",2
+"1013","insect","en","\U0001f607](https://t.me",2
+"1014","insect","en","\U0001f609\U0001f92b\U0001f601",2
+"1015","insect","en","\U0001f697\U0001f697",2
+"1016","insect","en","\U0001f92e",2
+"1017","insect","en","\u042e\u0442\u0443 \u0438 \u041e\u0440\u0435\u0433\u043e\u043d",2
+"1018","insect","en","\u0432\u0441\u0451 \u043d\u0430 \u0441\u0432\u043e\u0451\u043c \u043f\u0443\u0442\u0438",2
+"1019","insect","en","\ufe0f t.me/ugofuoco/2268",2
+"1020","insect","en","\xc9tats-Unis",2
+"1021","insect","en","bin",2
+"1022","insect","en","familys",2
+"1023","insect","en","https://t.me/GBBNews23",2
+"1024","insect","en","https://truthbook.social/post/175084_quot-things-like-the-world-economic-forum-those-policies-are-dead-on-arrival-in.html",2
+"1025","insect","en","https://www.dailymail.co.uk/sciencetech/article-7350713/amp/Bill-Gates-wants-spray-millions-tonnes-dust-stratosphere-stop-global-warming.html",2
+"1026","insect","en","https://www.google.com/amp/s/www.dailymail.co.uk/news/article-11331411/amp/Aldi-considers-selling-edible-INSECTS-help-families-cost-living-crisis.html",2
+"1027","insect","en","https://www.redvoicemedia.com/2021/10/legislators-demanding-answers-from-fauci-over-cruel-experiments-on-puppies/",2
+"1028","insect","en","kuru",2
+"1029","insect","en","mealy bugs",2
+"1030","insect","nl","Alles",2
+"1031","insect","nl","Babylon\u2026",2
+"1032","insect","nl","Biolabs",2
+"1033","insect","nl","Bouwe van Straten",2
+"1034","insect","nl","Dr.",2
+"1035","insect","nl","Dusss",2
+"1036","insect","nl","Escher Wyss Schwab",2
+"1037","insect","nl","Fact Checks",2
+"1038","insect","nl","Gedeputeerde Gert Harm",2
+"1039","insect","nl","Geef",2
+"1040","insect","nl","Gewoon",2
+"1041","insect","nl","Hitler\u2019s",2
+"1042","insect","nl","Holomodor",2
+"1043","insect","nl","Hydra",2
+"1044","insect","nl","Inderdaad",2
+"1045","insect","nl","Jumbo",2
+"1046","insect","nl","Kahn Mongol",2
+"1047","insect","nl","Kahzar",2
+"1048","insect","nl","Ken",2
+"1049","insect","nl","Langdurig",2
+"1050","insect","nl","Lara Logan",2
+"1051","insect","nl","Lees",2
+"1052","insect","nl","Leon Haan",2
+"1053","insect","nl","Linux",2
+"1054","insect","nl","M&M\u2019s",2
+"1055","insect","nl","Mark",2
+"1056","insect","nl","Minor",2
+"1057","insect","nl","NUL REACTIES",2
+"1058","insect","nl","Nazi",2
+"1059","insect","nl","Nazi\u2019s",2
+"1060","insect","nl","Nephilim",2
+"1061","insect","nl","Northern",2
+"1062","insect","nl","Peter F. Mayer.](https://tkp.at/2023/04/16/co2-emissionen-im-kontoauszug-vorbereitung-auf-freiheitsentzug-durch-co2-konto/",2
+"1063","insect","nl","Peter Savelberg",2
+"1064","insect","nl","Social",2
+"1065","insect","nl","Stadion",2
+"1066","insect","nl","Status",2
+"1067","insect","nl","TU Delft",2
+"1068","insect","nl","Troje",2
+"1069","insect","nl","Trudi Verstegen",2
+"1070","insect","nl","Trypanosoma Cruzi",2
+"1071","insect","nl","Valuta",2
+"1072","insect","nl","Weaver",2
+"1073","insect","nl","Weet",2
+"1074","insect","nl","[chitin](https://nl.wikipedia.org/wiki/Chitine",2
+"1075","insect","nl","\U0001f4a5\n\n",2
+"1076","insect","nl","\U0001f9e7Grain",2
+"1077","insect","nl","avocado\u2019s",2
+"1078","insect","nl","eeuwig leven",2
+"1079","insect","nl","graan\u2026",2
+"1080","insect","nl","https://www.eutimes.net/2021/09/who-releases-plan-for-global-digital-vaccine-passports-funded-by-bill-gates-rockefeller-foundation/\n\nDe Wereldgezondheidsorganisatie",2
+"1081","insect","nl","https://www.frontnieuws.com/eet-meer-insecten-sterk-vergrote-fotos-krekelsnacks-krekelmeel-en-microscopische-fotos-van-hele-krekels-uit-het-lab/\nEet",2
+"1082","insect","nl","https://www.youtube.com/watch?v=_b8uomKFgUI&t=103s\n\n",2
+"1083","insect","nl","human animals",2
+"1084","insect","nl","kijk",2
+"1085","insect","nl","mango\u2019s",2
+"1086","insect","nl","nonbinary semi-trans",2
+"1087","insect","nl","roze koeken",2
+"1088","insect","nl","thema\u2019s",2
+"1089","insect","nl","vanLocusta migratoria",2
+"1090","ulez","en","@OPFREEDOM \U0001f1fa",2
+"1091","ulez","en","Agenda Nwo",2
+"1092","ulez","en","Alex Jones",2
+"1093","ulez","en","Andrei Tarkovsky",2
+"1094","ulez","en","Andy Burnham",2
+"1095","ulez","en","Anne Bowser",2
+"1096","ulez","en","Anunnaki",2
+"1097","ulez","en","Asda",2
+"1098","ulez","en","Atomkrieg Atomkrieg - EndGame",2
+"1099","ulez","en","Attent\xe4ter Gilden",2
+"1100","ulez","en","Autonomous Vehicles",2
+"1101","ulez","en","Autonomous Weeder",2
+"1102","ulez","en","B[oris Johnson](https://www.standard.co.uk",2
+"1103","ulez","en","Babylon Berlin",2
+"1104","ulez","en","Benjamin Creme",2
+"1105","ulez","en","Bildungs Level",2
+"1106","ulez","en","Blogg",2
+"1107","ulez","en","Bloomberg Philanthropies",2
+"1108","ulez","en","Bolshevik Jews\n- China",2
+"1109","ulez","en","Boris Lowkey",2
+"1110","ulez","en","Brad Parscale",2
+"1111","ulez","en","Brauch",2
+"1112","ulez","en","Brave",2
+"1113","ulez","en","Brisbane",2
+"1114","ulez","en","COVID-19",2
+"1115","ulez","en","Caf\xe9 Coco",2
+"1116","ulez","en","Cam Siri Alexa",2
+"1117","ulez","en","Carbon Footprint",2
+"1118","ulez","en","Chinas",2
+"1119","ulez","en","Christopher Wolff",2
+"1120","ulez","en","Christstollen",2
+"1121","ulez","en","Chula Vista",2
+"1122","ulez","en","Citizen",2
+"1123","ulez","en","City Hall",2
+"1124","ulez","en","Clinton Pugh",2
+"1125","ulez","en","Clowd",2
+"1126","ulez","en","Comme",2
+"1127","ulez","en","Corona Eye",2
+"1128","ulez","en","Corona Lockdown Vaccine",2
+"1129","ulez","en","Corona Vaccine Lockdown",2
+"1130","ulez","en","Covid Document](https://t.me/followsthewhiterabbit/2593",2
+"1131","ulez","en","Covid Financial Relief",2
+"1132","ulez","en","Covid Quarantine Camps",2
+"1133","ulez","en","Covid Virus",2
+"1134","ulez","en","Covid-19 V](https://t.me/followsthewhiterabbit/8269",2
+"1135","ulez","en","Cyber Stalker",2
+"1136","ulez","en","Cyrpto Psyop",2
+"1137","ulez","en","Dan Astin - Gregory",2
+"1138","ulez","en","Daniel Bulford",2
+"1139","ulez","en","Dave Lee",2
+"1140","ulez","en","Dave Oneegs",2
+"1141","ulez","en","David Birch",2
+"1142","ulez","en","David Clewes",2
+"1143","ulez","en","David Icke",2
+"1144","ulez","en","Derry/Londonderry \U0001f1ee\U0001f1ea",2
+"1145","ulez","en","Digitales Gulag\u2757",2
+"1146","ulez","en","Disney Netflix",2
+"1147","ulez","en","Dmitry Chernyshenko",2
+"1148","ulez","en","Drama Emotion",2
+"1149","ulez","en","Elizabeth Bailey",2
+"1150","ulez","en","Elizabeth Line",2
+"1151","ulez","en","Elizabeth Newbury",2
+"1152","ulez","en","Eric Brame",2
+"1153","ulez","en","Florence Pugh",2
+"1154","ulez","en","Flower",2
+"1155","ulez","en","Freemasons",2
+"1156","ulez","en","Gatteca Screening",2
+"1157","ulez","en","George Soros",2
+"1158","ulez","en","Gloucester",2
+"1159","ulez","en","Gr\xfcndung an Bord",2
+"1160","ulez","en","Green Agenda",2
+"1161","ulez","en","Greta Again - Zeitgeist",2
+"1162","ulez","en","Grow Babies\n\nREAD",2
+"1163","ulez","en","Gulak Fantasy Land - Total Controll",2
+"1164","ulez","en","Harry Hatzikalimnios",2
+"1165","ulez","en","Hass Liebe",2
+"1166","ulez","en","Henry Kissinger",2
+"1167","ulez","en","Hillingdon",2
+"1168","ulez","en","Hilton BA1 5BJ\n\n",2
+"1169","ulez","en","Hr Doc",2
+"1170","ulez","en","Hunter Biden",2
+"1171","ulez","en","James Rink",2
+"1172","ulez","en","Jamie \n",2
+"1173","ulez","en","Jeffrey Jaxen:](https://thehighwire.com/",2
+"1174","ulez","en","Johnson",2
+"1175","ulez","en","Join TELEGRAM Channel",2
+"1176","ulez","en","Jump Cannon",2
+"1177","ulez","en","KIaus Schwab",2
+"1178","ulez","en","Kabbala",2
+"1179","ulez","en","Kamal Chunchie Way",2
+"1180","ulez","en","Kate Mason",2
+"1181","ulez","en","Keith Thompson",2
+"1182","ulez","en","Kim Goguen @kimgoguen",2
+"1183","ulez","en","Known Traveler Digi](https://t.me/Revelations_and_Rabbit_Holes/583",2
+"1184","ulez","en","Konstante Kritik",2
+"1185","ulez","en","Kuscheltiere",2
+"1186","ulez","en","LOCKDOWNS \u26a1\ufe0f",2
+"1187","ulez","en","Learn Hilfe",2
+"1188","ulez","en","Learn Mo[re",2
+"1189","ulez","en","Learning",2
+"1190","ulez","en","Leigh Dundas",2
+"1191","ulez","en","Local Governments - Read",2
+"1192","ulez","en","Lockstep",2
+"1193","ulez","en","Long Wave Infrared",2
+"1194","ulez","en","MARIA ZEEE",2
+"1195","ulez","en","MAXWELL",2
+"1196","ulez","en","MailOnline",2
+"1197","ulez","en","Maitreya",2
+"1198","ulez","en","Malcolm Roberts",2
+"1199","ulez","en","Mark Steele",2
+"1200","ulez","en","Martin Costello",2
+"1201","ulez","en","Marx - Gesellschaft\nFreud - Verhaltensst\xf6rung",2
+"1202","ulez","en","Massen",2
+"1203","ulez","en","Max Igan - Smart Cities",2
+"1204","ulez","en","Megalopolis",2
+"1205","ulez","en","Mensch",2
+"1206","ulez","en","Metropolis City of Future",2
+"1207","ulez","en","Michael Bloomberg",2
+"1208","ulez","en","Michael Cassel",2
+"1209","ulez","en","Michael Kennedy",2
+"1210","ulez","en","Mike",2
+"1211","ulez","en","Milton Keynes\n- Teesside",2
+"1212","ulez","en","Mind - Musuem - History Books",2
+"1213","ulez","en","Mirani",2
+"1214","ulez","en","Mohammed bin Salman",2
+"1215","ulez","en","Natur Law - Natur Recht - Slavery & V\xf6lkermord",2
+"1216","ulez","en","Nature - Controlled Evolution",2
+"1217","ulez","en","Nick",2
+"1218","ulez","en","Nick Rogers",2
+"1219","ulez","en","Nimbus",2
+"1220","ulez","en","Nobusuke Kishi",2
+"1221","ulez","en","North London",2
+"1222","ulez","en","Online Safety",2
+"1223","ulez","en","Oxford Mail",2
+"1224","ulez","en","Oxygen",2
+"1225","ulez","en","Pete Buttigieg",2
+"1226","ulez","en","Peter",2
+"1227","ulez","en","Peter Evans",2
+"1228","ulez","en","Pinchas Berkus",2
+"1229","ulez","en","Pre Crime",2
+"1230","ulez","en","Programm Hollywood Mind Controll Techniks",2
+"1231","ulez","en","Project Corona",2
+"1232","ulez","en","Project Nimbus",2
+"1233","ulez","en","Psychologie",2
+"1234","ulez","en","RCMP",2
+"1235","ulez","en","Race Hygien - IQ Scanner",2
+"1236","ulez","en","Resilience",2
+"1237","ulez","en","Resistance",2
+"1238","ulez","en","Rishi Sunak",2
+"1239","ulez","en","Robin Monotti - Biourbanism Versus",2
+"1240","ulez","en","Robo Bitchbot Brainwash",2
+"1241","ulez","en","Rothschilds",2
+"1242","ulez","en","Rotterdam",2
+"1243","ulez","en","Sadiq Khan\u2019s",2
+"1244","ulez","en","Sadiq Khans",2
+"1245","ulez","en","Sadiqs",2
+"1246","ulez","en","Sch\xfcler",2
+"1247","ulez","en","Schmidt",2
+"1248","ulez","en","Sharon",2
+"1249","ulez","en","Shinzo Abe",2
+"1250","ulez","en","Sinophile",2
+"1251","ulez","en","Slavic Ukrainians",2
+"1252","ulez","en","Smart Regions",2
+"1253","ulez","en","Snow Crash",2
+"1254","ulez","en","Soros",2
+"1255","ulez","en","Spoons",2
+"1256","ulez","en","Stephen Andrew MP",2
+"1257","ulez","en","Stephenson",2
+"1258","ulez","en","Stolen History Documentary",2
+"1259","ulez","en","Suckdick Khuntz ULEZ Cameras",2
+"1260","ulez","en","Sue Halpern",2
+"1261","ulez","en","Susan Hall",2
+"1262","ulez","en","Tarkovsky",2
+"1263","ulez","en","TfL",2
+"1264","ulez","en","Thur",2
+"1265","ulez","en","Tony",2
+"1266","ulez","en","Traf",2
+"1267","ulez","en","Trafalgar Sq",2
+"1268","ulez","en","Trap",2
+"1269","ulez","en","Trends Tips",2
+"1270","ulez","en","Trump Doc Hub",2
+"1271","ulez","en","Twin Worlds\nSmall",2
+"1272","ulez","en","Ukrainian Biolabs",2
+"1273","ulez","en","Ukrainian Slavic",2
+"1274","ulez","en","WW3 Scenario",2
+"1275","ulez","en","Watering Holes",2
+"1276","ulez","en","Weihnachtsstollen",2
+"1277","ulez","en","WiFi",2
+"1278","ulez","en","Winli",2
+"1279","ulez","en","Without Bond - Read",2
+"1280","ulez","en","Wolff",2
+"1281","ulez","en","Wormwood",2
+"1282","ulez","en","Xmas",2
+"1283","ulez","en","Yellow Boards",2
+"1284","ulez","en","Yuhyun Park",2
+"1285","ulez","en","Zeitgeist",2
+"1286","ulez","en","\U0001f1ee\U0001f1f9",2
+"1287","ulez","en","\U0001f396",2
+"1288","ulez","en","\U0001f441                                                                                                                                                                                         ",2
+"1289","ulez","en","\U0001f4af \U0001f621",2
+"1290","ulez","en","\U0001f621",2
+"1291","ulez","en","\U0001f92a",2
+"1292","ulez","en","\u203c\ufe0fMax Igan",2
+"1293","ulez","en","anna bligh",2
+"1294","ulez","en","bien lu :",2
+"1295","ulez","en","ed For Running Pedo Ring - Read",2
+"1296","ulez","en","etc.)(at",2
+"1297","ulez","en","https://rumble.com/v1dz4it-gamer-predictive-programming-smartdust-nanotechnology.html",2
+"1298","ulez","en","https://rumble.com/v1mowk8-zerotime-weather-modification-smart-cities-and-exiting-the-globalist-agenda.html",2
+"1299","ulez","en","https://rumble.com/v1w1fcn-aman-jabbi-the-final-lockdown-street-lights-that-kill-in-smart-cities-cbdc-.html\n\nSHARE ~>\n",2
+"1300","ulez","en","https://t.me/Pierscorbyn\n\nJoin",2
+"1301","ulez","en","https://togetherdeclaration.org/event/free-our-streets-bath-event-thursday-2nd-feb/",2
+"1302","ulez","en","https://www.blacklistednews.com/article/77008/youre-being-conditioned-to-live-in-a-smart-city--resist.html",2
+"1303","ulez","en","kann \nAuch",2
+"1304","ulez","en","ostraciser un peu",2
+"1305","ulez","en","se Explained",2
+"1306","ulez","en","shud",2
+"1307","ulez","nl","#WWG1WGA",2
+"1308","ulez","nl","-Elektrische",2
+"1309","ulez","nl","Alexa",2
+"1310","ulez","nl","Alles",2
+"1311","ulez","nl","Are United",2
+"1312","ulez","nl","BOOSTER\xa0",2
+"1313","ulez","nl","Elze van Hamelen",2
+"1314","ulez","nl","Emissions",2
+"1315","ulez","nl","Escher Wyss Schwab",2
+"1316","ulez","nl","Eva",2
+"1317","ulez","nl","Every Movement",2
+"1318","ulez","nl","Femke Halsema",2
+"1319","ulez","nl","Geef",2
+"1320","ulez","nl","Hmmm",2
+"1321","ulez","nl","Huizencrash",2
+"1322","ulez","nl","Identify You",2
+"1323","ulez","nl","Jan van Gils",2
+"1324","ulez","nl","Jordan Peterson",2
+"1325","ulez","nl","Karel Beckman",2
+"1326","ulez","nl","Martha Krul\nLichtpuntjes\nAlles",2
+"1327","ulez","nl","Meanwhile",2
+"1328","ulez","nl","Michael Yon",2
+"1329","ulez","nl","Nee",2
+"1330","ulez","nl","Neon God",2
+"1331","ulez","nl","Pim",2
+"1332","ulez","nl","Pim van Rijswijk",2
+"1333","ulez","nl","Privacy",2
+"1334","ulez","nl","Romy",2
+"1335","ulez","nl","Sadiq Khan",2
+"1336","ulez","nl","Smart",2
+"1337","ulez","nl","Stralingsnormen ICNIRP",2
+"1338","ulez","nl","Ursula van der Leiendakje",2
+"1339","ulez","nl","Wees",2
+"1340","ulez","nl","Word",2
+"1341","ulez","nl","\U0001f1f9 Dramaloni",2
+"1342","ulez","nl","cities\u2019",2
+"1343","ulez","nl","co2 footprint",2
+"1344","ulez","nl","groupe holding",2
+"1345","ulez","nl","hebt",2
+"1346","ulez","nl","https://www.youtube.com/watch?v=LdyXLU9RGMQ\n\nDit",2
+"1347","ulez","nl","laboratoria",2
+"1348","ulez","nl","leef",2
+"1349","ulez","nl","ultralage-emissiezones van burgemeester Sadiq Khan van Londen",2
+"1350","ulez","nl","zonder\xa0",2
+"1351","climate_lockdown","en","@PeoplePowerAus",1
+"1352","climate_lockdown","en","Absolute Zero",1
+"1353","climate_lockdown","en","Agenda 2030",1
+"1354","climate_lockdown","en","Alain Berset",1
+"1355","climate_lockdown","en","Alex Jones",1
+"1356","climate_lockdown","en","Alexandria Ocasio-Cortez",1
+"1357","climate_lockdown","en","Andreas Bull-Hansen",1
+"1358","climate_lockdown","en","Andrew Bridgen",1
+"1359","climate_lockdown","en","Anthony Khallouf",1
+"1360","climate_lockdown","en","Bald kommt",1
+"1361","climate_lockdown","en","Bankrupt Shutdown",1
+"1362","climate_lockdown","en","Baudet",1
+"1363","climate_lockdown","en","Behrendt",1
+"1364","climate_lockdown","en","Big Pharma",1
+"1365","climate_lockdown","en","Bitcoin",1
+"1366","climate_lockdown","en","Capricorn",1
+"1367","climate_lockdown","en","Chambers \U0001f648 Opps",1
+"1368","climate_lockdown","en","Chuck Schumer",1
+"1369","climate_lockdown","en","Claus Strunz",1
+"1370","climate_lockdown","en","Comme",1
+"1371","climate_lockdown","en","Corona",1
+"1372","climate_lockdown","en","Dark Winter",1
+"1373","climate_lockdown","en","David Avocado",1
+"1374","climate_lockdown","en","David Clews",1
+"1375","climate_lockdown","en","David Keith",1
+"1376","climate_lockdown","en","David Morgan",1
+"1377","climate_lockdown","en","David Shoebridge",1
+"1378","climate_lockdown","en","Ding",1
+"1379","climate_lockdown","en","Doconomy",1
+"1380","climate_lockdown","en","Duncan Enright",1
+"1381","climate_lockdown","en","ELECTION RIGGED",1
+"1382","climate_lockdown","en","Edward Snowden](https://t.me/+EwkBwVQtTvVjY2Q6",1
+"1383","climate_lockdown","en","Emily Kerr",1
+"1384","climate_lockdown","en","Emmanuel Macron",1
+"1385","climate_lockdown","en","Eva Vlaardingerbroek",1
+"1386","climate_lockdown","en","Expose",1
+"1387","climate_lockdown","en","Global Warming Not Checked",1
+"1388","climate_lockdown","en","Green Vaccine Passports",1
+"1389","climate_lockdown","en","Greenies",1
+"1390","climate_lockdown","en","Greg Reese - Incoming Carbon Taxes",1
+"1391","climate_lockdown","en","Habeck den Klimalockdown",1
+"1392","climate_lockdown","en","Ja dag",1
+"1393","climate_lockdown","en","Jabbed",1
+"1394","climate_lockdown","en","Jack",1
+"1395","climate_lockdown","en","James Evan Pilato",1
+"1396","climate_lockdown","en","James Evan Pilato](https://www.corbettreport.com/nwnw20220623/",1
+"1397","climate_lockdown","en","James, Wes",1
+"1398","climate_lockdown","en","Jeffrey Jaxen",1
+"1399","climate_lockdown","en","Jody Kay",1
+"1400","climate_lockdown","en","Jordan Peterson",1
+"1401","climate_lockdown","en","Jubilee",1
+"1402","climate_lockdown","en","Julian Calendar",1
+"1403","climate_lockdown","en","KATIE",1
+"1404","climate_lockdown","en","KLIMA",1
+"1405","climate_lockdown","en","Kaye Adams",1
+"1406","climate_lockdown","en","Kevin Bacon",1
+"1407","climate_lockdown","en","Kim Iversen",1
+"1408","climate_lockdown","en","Klima",1
+"1409","climate_lockdown","en","Klima Lockdown",1
+"1410","climate_lockdown","en","Klimaat",1
+"1411","climate_lockdown","en","LOCKDOWNS BEGIN FOLLOWING SEVERE",1
+"1412","climate_lockdown","en","LOCKDOWNS DAVOS",1
+"1413","climate_lockdown","en","Lauren Witzke",1
+"1414","climate_lockdown","en","Leyen",1
+"1415","climate_lockdown","en","Lockdown training?",1
+"1416","climate_lockdown","en","Lockdowns \U0001f441",1
+"1417","climate_lockdown","en","Lockdowns\u2757",1
+"1418","climate_lockdown","en","Lorraine Show Caught Lying",1
+"1419","climate_lockdown","en","Lyon",1
+"1420","climate_lockdown","en","Magna Carta",1
+"1421","climate_lockdown","en","Maria Caufield",1
+"1422","climate_lockdown","en","Mark Steyn",1
+"1423","climate_lockdown","en","Martin Luther King Jr.",1
+"1424","climate_lockdown","en","Mega Tsunami",1
+"1425","climate_lockdown","en","Michael Jackson",1
+"1426","climate_lockdown","en","Mickey Mouse Q",1
+"1427","climate_lockdown","en","Mickey Mouse Q Clock",1
+"1428","climate_lockdown","en","Midazolam",1
+"1429","climate_lockdown","en","Mike Robinson",1
+"1430","climate_lockdown","en","Mike Yeadon",1
+"1431","climate_lockdown","en","Miriam Hope",1
+"1432","climate_lockdown","en","Morphine",1
+"1433","climate_lockdown","en","Mr Enright",1
+"1434","climate_lockdown","en","Ms Kerr",1
+"1435","climate_lockdown","en","Neil Oliver",1
+"1436","climate_lockdown","en","Nieuw Zeeland",1
+"1437","climate_lockdown","en","Noor Bin Ladin",1
+"1438","climate_lockdown","en","Ocasio Cortez",1
+"1439","climate_lockdown","en","Osama bin Laden",1
+"1440","climate_lockdown","en","Oxford Filter Cameras",1
+"1441","climate_lockdown","en","PLASTER",1
+"1442","climate_lockdown","en","Palestinian History",1
+"1443","climate_lockdown","en","Patrick Henningsen",1
+"1444","climate_lockdown","en","Paul Burgess",1
+"1445","climate_lockdown","en","Paul Joseph Watson",1
+"1446","climate_lockdown","en","Peggy Hall",1
+"1447","climate_lockdown","en","Peter",1
+"1448","climate_lockdown","en","Peter Imanuelsen",1
+"1449","climate_lockdown","en","Pharma",1
+"1450","climate_lockdown","en","Pollution Passports - WATCH",1
+"1451","climate_lockdown","en","Prince Charles",1
+"1452","climate_lockdown","en","Project Veritas",1
+"1453","climate_lockdown","en","Reiner Fuellmich Climate",1
+"1454","climate_lockdown","en","Reiner Fuellmich-",1
+"1455","climate_lockdown","en","Rethinking Humanity",1
+"1456","climate_lockdown","en","Richard Sharp",1
+"1457","climate_lockdown","en","Rittenhouse Trial",1
+"1458","climate_lockdown","en","Robert Habeck",1
+"1459","climate_lockdown","en","Robin Monotti",1
+"1460","climate_lockdown","en","Roger Arthur",1
+"1461","climate_lockdown","en","Ron",1
+"1462","climate_lockdown","en","Rona",1
+"1463","climate_lockdown","en","Rothschild",1
+"1464","climate_lockdown","en","Roy Spencer",1
+"1465","climate_lockdown","en","Sam & Jody Kay",1
+"1466","climate_lockdown","en","Scenario Lock Step",1
+"1467","climate_lockdown","en","Schwab",1
+"1468","climate_lockdown","en","Silvia Behrendt",1
+"1469","climate_lockdown","en","Simon",1
+"1470","climate_lockdown","en","Simon @Goddek",1
+"1471","climate_lockdown","en","Simone Plaut",1
+"1472","climate_lockdown","en","Sun",1
+"1473","climate_lockdown","en","Surrey",1
+"1474","climate_lockdown","en","Sy Hersh Got Right",1
+"1475","climate_lockdown","en","The Hunger Games",1
+"1476","climate_lockdown","en","Thierry Baudet",1
+"1477","climate_lockdown","en","Ursula von",1
+"1478","climate_lockdown","en","Vaccine",1
+"1479","climate_lockdown","en","Valentina Morando",1
+"1480","climate_lockdown","en","Vanessa Beeley",1
+"1481","climate_lockdown","en","Villes",1
+"1482","climate_lockdown","en","Voil\xe0 ce qui",1
+"1483","climate_lockdown","en","Von Corona",1
+"1484","climate_lockdown","en","\U0001d5e6\U0001d5f5\U0001d5ee\U0001d5ff\U0001d5f2",1
+"1485","climate_lockdown","en","\U0001d658\U0001d664\U0001d662\U0001d65a \U0001d669\U0001d664\U0001d65c\U0001d65a\U0001d669\U0001d65d\U0001d65a\U0001d667",1
+"1486","climate_lockdown","en","\U0001f1f1 Eva Vlaardingerbroek",1
+"1487","climate_lockdown","en","\U0001f1f7 Cloud",1
+"1488","climate_lockdown","en","\U0001f1f8",1
+"1489","climate_lockdown","en","\U0001f1f9",1
+"1490","climate_lockdown","en","\U0001f3fb",1
+"1491","climate_lockdown","en","\U0001f4a9 https://dailyexpose.uk/2022/05/02/iea-demands-climate-lockdowns \U0001f4a9\U0001f4a9",1
+"1492","climate_lockdown","en","\U0001f518Rittenh](https://t.me/WokeIntelDrops/9443",1
+"1493","climate_lockdown","en","\U0001f609",1
+"1494","climate_lockdown","en","\U0001f629",1
+"1495","climate_lockdown","en","\U0001f91d\U0001f970\u270c",1
+"1496","climate_lockdown","en","\U0001f94b \n",1
+"1497","climate_lockdown","en","\ufe0f HAZE",1
+"1498","climate_lockdown","en","agenda van het",1
+"1499","climate_lockdown","en","botte de Schwab",1
+"1500","climate_lockdown","en","de Wereldgezondheidsorganisatie",1
+"1501","climate_lockdown","en","don",1
+"1502","climate_lockdown","en","ett Report",1
+"1503","climate_lockdown","en","https://beforeitsnews.com/alternative/2021/05/ger-ready-for-climate-lockdowns-to-reduce-c02-3750857.html",1
+"1504","climate_lockdown","en","https://en.protothema.gr/india-could-be-the-first-country-to-impose-climate-lockdown/",1
+"1505","climate_lockdown","en","https://phys.org/news/2021-11-delhi-schools-pollution-lockdown.html",1
+"1506","climate_lockdown","en","https://rumble.com/v2hcwq6-how-covid-lockdowns-were-used-to-prime-people-for-the-incoming-climate-lock.html\nJoin",1
+"1507","climate_lockdown","en","https://rumble.com/v2hd0ze-oxford-council-has-a-message-in-which-they-plan-for-climate-lockdowns.html",1
+"1508","climate_lockdown","en","https://rumble.com/vrlr35-great-reset-symposium-the-climate-lockdown.voil-ce-qui-nous-attend-hd-720.html",1
+"1509","climate_lockdown","en","https://ugetube.com/watch/the-great-reset-039-s-15-minute-city_Z3sReCAaBE59TkD.html",1
+"1510","climate_lockdown","en","https://www.sott.net/article/474997-Coming-soon-Climate-lockdowns-and-the-15-minute-city-courtesy-of-the-WEF",1
+"1511","climate_lockdown","en","la vid\xe9o",1
+"1512","climate_lockdown","en","lo[ckdown.](https://www.naturalnews.com/2022-04-29",1
+"1513","climate_lockdown","en","nu klimaat",1
+"1514","climate_lockdown","en","van de ""Great Reset",1
+"1515","climate_lockdown","en","wanna wanna",1
+"1516","climate_lockdown","en","www.voiceofwales.com/live",1
+"1517","climate_lockdown","en","| T[ikTok](http://www.tiktok.com/@australiansvstheagenda",1
+"1518","climate_lockdown","nl","#",1
+"1519","climate_lockdown","nl","##",1
+"1520","climate_lockdown","nl","#Thierry",1
+"1521","climate_lockdown","nl","#WEF",1
+"1522","climate_lockdown","nl","#WWG1WGA",1
+"1523","climate_lockdown","nl","#agenda2030 #",1
+"1524","climate_lockdown","nl","#agenda2030\n\nAdvies",1
+"1525","climate_lockdown","nl","#staatsgreep!",1
+"1526","climate_lockdown","nl","-Alle",1
+"1527","climate_lockdown","nl","A-status",1
+"1528","climate_lockdown","nl","Ach",1
+"1529","climate_lockdown","nl","Allert TEST",1
+"1530","climate_lockdown","nl","Alsof",1
+"1531","climate_lockdown","nl","Angst",1
+"1532","climate_lockdown","nl","Beau \nJe",1
+"1533","climate_lockdown","nl","Bin Ladin",1
+"1534","climate_lockdown","nl","Bron",1
+"1535","climate_lockdown","nl","CO2 krediet",1
+"1536","climate_lockdown","nl","CO2 levels",1
+"1537","climate_lockdown","nl","Can",1
+"1538","climate_lockdown","nl","Charlotte Labee",1
+"1539","climate_lockdown","nl","Dani\xebl Oude Testament",1
+"1540","climate_lockdown","nl","Download\xa0",1
+"1541","climate_lockdown","nl","EU\u2026",1
+"1542","climate_lockdown","nl","Edmund",1
+"1543","climate_lockdown","nl","Esther",1
+"1544","climate_lockdown","nl","Europabrede",1
+"1545","climate_lockdown","nl","Frank Ruesink",1
+"1546","climate_lockdown","nl","Frans Timmermans",1
+"1547","climate_lockdown","nl","Freek Jansen",1
+"1548","climate_lockdown","nl","Frontnieuws\n\n",1
+"1549","climate_lockdown","nl","Gaan",1
+"1550","climate_lockdown","nl","Geo Engineering",1
+"1551","climate_lockdown","nl","George Soros",1
+"1552","climate_lockdown","nl","GeorgeS0R0S",1
+"1553","climate_lockdown","nl","Gewoon alles",1
+"1554","climate_lockdown","nl","Hahaha",1
+"1555","climate_lockdown","nl","Hellooo",1
+"1556","climate_lockdown","nl","Herman van Loenhout.(Armand",1
+"1557","climate_lockdown","nl","Houses of Parliament",1
+"1558","climate_lockdown","nl","Hugo\n74",1
+"1559","climate_lockdown","nl","IFR van 0.15",1
+"1560","climate_lockdown","nl","Ikea hebt",1
+"1561","climate_lockdown","nl","Jaap van Dissel",1
+"1562","climate_lockdown","nl","Je hebt",1
+"1563","climate_lockdown","nl","Jezus",1
+"1564","climate_lockdown","nl","Johannes",1
+"1565","climate_lockdown","nl","Karel Beckman",1
+"1566","climate_lockdown","nl","Karl Lauterbach",1
+"1567","climate_lockdown","nl","Klimaatagenda",1
+"1568","climate_lockdown","nl","Laten",1
+"1569","climate_lockdown","nl","Lees",1
+"1570","climate_lockdown","nl","Leon",1
+"1571","climate_lockdown","nl","Leuke",1
+"1572","climate_lockdown","nl","Liz Cheney",1
+"1573","climate_lockdown","nl","Lockdown",1
+"1574","climate_lockdown","nl","MC Rotterdam",1
+"1575","climate_lockdown","nl","Marcel Crok\nGGD\u2019s",1
+"1576","climate_lockdown","nl","Mariana Mazzucato van de Wereldgezondheidsorganisatie",1
+"1577","climate_lockdown","nl","Marion Koopmans",1
+"1578","climate_lockdown","nl","Mark",1
+"1579","climate_lockdown","nl","Maul halten",1
+"1580","climate_lockdown","nl","Mona Keijzer",1
+"1581","climate_lockdown","nl","Na covid19",1
+"1582","climate_lockdown","nl","Nee",1
+"1583","climate_lockdown","nl","Niemand",1
+"1584","climate_lockdown","nl","Nieuwe Testament",1
+"1585","climate_lockdown","nl","Opmaat",1
+"1586","climate_lockdown","nl","Oxford Council",1
+"1587","climate_lockdown","nl","Poetin Oekra\xefne",1
+"1588","climate_lockdown","nl","Redacted News",1
+"1589","climate_lockdown","nl","Rob Jetten",1
+"1590","climate_lockdown","nl","Rutte",1
+"1591","climate_lockdown","nl","Schendt",1
+"1592","climate_lockdown","nl","Sigrid",1
+"1593","climate_lockdown","nl","Sri Lanka",1
+"1594","climate_lockdown","nl","St. Antonius",1
+"1595","climate_lockdown","nl","Steven Arazzola",1
+"1596","climate_lockdown","nl","Stimuleert",1
+"1597","climate_lockdown","nl","Stuurt",1
+"1598","climate_lockdown","nl","Tartaria",1
+"1599","climate_lockdown","nl","Verbaasd",1
+"1600","climate_lockdown","nl","Volksgezondheid Speranza",1
+"1601","climate_lockdown","nl","Willem Glaudemans",1
+"1602","climate_lockdown","nl","Zelfde",1
+"1603","climate_lockdown","nl","Zorg",1
+"1604","climate_lockdown","nl","\U0001d413\U0001d421\U0001d422\U0001d41e\U0001d42b\U0001d42b\U0001d432 \U0001d401\U0001d41a\U0001d42e\U0001d41d\U0001d41et",1
+"1605","climate_lockdown","nl","\U0001f1f9 Draghistan",1
+"1606","climate_lockdown","nl","\U0001f1f9 Dramaloni",1
+"1607","climate_lockdown","nl","\U0001f605 \nMaar",1
+"1608","climate_lockdown","nl","\U0001f605\n\nDaar",1
+"1609","climate_lockdown","nl","\U0001f62b",1
+"1610","climate_lockdown","nl","\u2018Je",1
+"1611","climate_lockdown","nl","\u2019n mondluier",1
+"1612","climate_lockdown","nl","aangenomen\u2019",1
+"1613","climate_lockdown","nl","arrestantenbus\nDe",1
+"1614","climate_lockdown","nl","cashless betalingssysteem",1
+"1615","climate_lockdown","nl","circus \U0001f921",1
+"1616","climate_lockdown","nl","co2 budgets",1
+"1617","climate_lockdown","nl","co2 kredieten/UBI",1
+"1618","climate_lockdown","nl","corona\n",1
+"1619","climate_lockdown","nl","explains",1
+"1620","climate_lockdown","nl","geklaard\u2019",1
+"1621","climate_lockdown","nl","gewoon George",1
+"1622","climate_lockdown","nl","hebt",1
+"1623","climate_lockdown","nl","https://www.demorgen.be/nieuws/de-klimaatverandering-verandert-baby-s-in-de-baarmoeder-ze-worden-vatbaarder-voor-hartziekten~b36d581d/?referrer=https%3A%2F%2Fwww.google.com%2F \n\n",1
+"1624","climate_lockdown","nl","https://www.lnnmedia.nl/nieuws/buitenland/oxfordshire-county-council-groot-brittannie-stemt-in-met-klimaat-lockdown-proef-om-te-beginnen-in-2024/\n  \n",1
+"1625","climate_lockdown","nl","hygi\xebne artikelen",1
+"1626","climate_lockdown","nl","klimaatpuberGretaThunberg",1
+"1627","climate_lockdown","nl","nutteloos zijn",1
+"1628","climate_lockdown","nl","openbaring van",1
+"1629","climate_lockdown","nl","windmolens\n\u2013 Weilanden",1
+"1630","climate_lockdown","nl","zonnepanelen\n",1
+"1631","climate_lockdown","nl",NA,1
+"1632","fifteen_minutes","en","@OPFREEDOM \U0001f1fa",1
+"1633","fifteen_minutes","en","AL BLOCCO SU QUESTO ESPERIMENTO",1
+"1634","fifteen_minutes","en","AVER CAPITO",1
+"1635","fifteen_minutes","en","Agenda Globalista",1
+"1636","fifteen_minutes","en","Andr\xe9 Leu \n\U0001f1f2",1
+"1637","fifteen_minutes","en","Andreas Bull-Hansen",1
+"1638","fifteen_minutes","en","Andrei Martyanov",1
+"1639","fifteen_minutes","en","Andrew ""Orgz",1
+"1640","fifteen_minutes","en","Andrew Bridgen\u2019s",1
+"1641","fifteen_minutes","en","Andy Osborne",1
+"1642","fifteen_minutes","en","Angleterre",1
+"1643","fifteen_minutes","en","Anna Redfern",1
+"1644","fifteen_minutes","en","Anne Hidalgo",1
+"1645","fifteen_minutes","en","Anne Rygh Pedersen - Child Trafficker",1
+"1646","fifteen_minutes","en","App",1
+"1647","fifteen_minutes","en","Ashley",1
+"1648","fifteen_minutes","en","Auschwitz",1
+"1649","fifteen_minutes","en","Babet",1
+"1650","fifteen_minutes","en","Barbara Stoll",1
+"1651","fifteen_minutes","en","Barry Paskin",1
+"1652","fifteen_minutes","en","Barry Paskin-Why We",1
+"1653","fifteen_minutes","en","Barry Sereto",1
+"1654","fifteen_minutes","en","Bastien Girod",1
+"1655","fifteen_minutes","en","Beast",1
+"1656","fifteen_minutes","en","Believe Pro-DeSantis Propaganda",1
+"1657","fifteen_minutes","en","Biggleswick",1
+"1658","fifteen_minutes","en","Bill Ga\U0001f47a",1
+"1659","fifteen_minutes","en","Bob Seys",1
+"1660","fifteen_minutes","en","Bolton",1
+"1661","fifteen_minutes","en","Bolton Town Hall Steps",1
+"1662","fifteen_minutes","en","Bradford",1
+"1663","fifteen_minutes","en","Brian Gerrish",1
+"1664","fifteen_minutes","en","Britons",1
+"1665","fifteen_minutes","en","CBDC Banking",1
+"1666","fifteen_minutes","en","CON FINALIT\xc0 ZERO",1
+"1667","fifteen_minutes","en","CORRUPT MSM",1
+"1668","fifteen_minutes","en","COVID-19",1
+"1669","fifteen_minutes","en","Campaigner",1
+"1670","fifteen_minutes","en","Cash Outreach\nLiverpool - Church",1
+"1671","fifteen_minutes","en","Cathedral",1
+"1672","fifteen_minutes","en","Charles Street",1
+"1673","fifteen_minutes","en","Chris Sacccoccia",1
+"1674","fifteen_minutes","en","Chris Saccoccia",1
+"1675","fifteen_minutes","en","Chris Sky Saccoccia",1
+"1676","fifteen_minutes","en","Chris Thrall",1
+"1677","fifteen_minutes","en","Christof Plothe DO",1
+"1678","fifteen_minutes","en","Christopher Hohn",1
+"1679","fifteen_minutes","en","Clayton Morris](https://youtube.com",1
+"1680","fifteen_minutes","en","Clintons",1
+"1681","fifteen_minutes","en","Cllr Rob Stewart",1
+"1682","fifteen_minutes","en","Co Governance\n\nNeither",1
+"1683","fifteen_minutes","en","Coffs Harbour",1
+"1684","fifteen_minutes","en","Covid Fraud",1
+"1685","fifteen_minutes","en","Covid Vaccine",1
+"1686","fifteen_minutes","en","Damrak",1
+"1687","fifteen_minutes","en","David Clews",1
+"1688","fifteen_minutes","en","David Kurten",1
+"1689","fifteen_minutes","en","David Menzies",1
+"1690","fifteen_minutes","en","David Scott",1
+"1691","fifteen_minutes","en","David Wolfe",1
+"1692","fifteen_minutes","en","Debbie",1
+"1693","fifteen_minutes","en","Derrick Broze",1
+"1694","fifteen_minutes","en","Dr Nathan Wood",1
+"1695","fifteen_minutes","en","Duncan Enright",1
+"1696","fifteen_minutes","en","Durieux",1
+"1697","fifteen_minutes","en","Easter",1
+"1698","fifteen_minutes","en","Editions de l\u2019Observatoire",1
+"1699","fifteen_minutes","en","Eiru",1
+"1700","fifteen_minutes","en","Election Campaigning",1
+"1701","fifteen_minutes","en","Emma Sron",1
+"1702","fifteen_minutes","en","Eric Coppolino",1
+"1703","fifteen_minutes","en","Eva Vlaardingerbroek",1
+"1704","fifteen_minutes","en","Expose",1
+"1705","fifteen_minutes","en","Flynn",1
+"1706","fifteen_minutes","en","Fox SILENCES Pro-Trump Carlson",1
+"1707","fifteen_minutes","en","Freemason",1
+"1708","fifteen_minutes","en","Gavin Wax",1
+"1709","fifteen_minutes","en","Geo[rge Della",1
+"1710","fifteen_minutes","en","Gesara",1
+"1711","fifteen_minutes","en","Gil Penalosa",1
+"1712","fifteen_minutes","en","God Bless",1
+"1713","fifteen_minutes","en","Greg Reese Report",1
+"1714","fifteen_minutes","en","Grid",1
+"1715","fifteen_minutes","en","Health Ranger",1
+"1716","fifteen_minutes","en","Hotelier Jeremy Mogford",1
+"1717","fifteen_minutes","en","Ian Plimer",1
+"1718","fifteen_minutes","en","Ich packe",1
+"1719","fifteen_minutes","en","Ike",1
+"1720","fifteen_minutes","en","James Bond",1
+"1721","fifteen_minutes","en","James Harveys",1
+"1722","fifteen_minutes","en","James Ruppert",1
+"1723","fifteen_minutes","en","James Woudhuysen",1
+"1724","fifteen_minutes","en","Jasmine",1
+"1725","fifteen_minutes","en","Javier Villamor",1
+"1726","fifteen_minutes","en","Jay Pitter",1
+"1727","fifteen_minutes","en","Jennifer\n\nJennifer Torrance\nEconomic Development Coordinator",1
+"1728","fifteen_minutes","en","Jeremy Birnstingl",1
+"1729","fifteen_minutes","en","Jeremy Nell",1
+"1730","fifteen_minutes","en","Jerm Warfare",1
+"1731","fifteen_minutes","en","Jim Ferguson",1
+"1732","fifteen_minutes","en","Join",1
+"1733","fifteen_minutes","en","Jonathan Tilt - Former Leader",1
+"1734","fifteen_minutes","en","Josh Sigurdson",1
+"1735","fifteen_minutes","en","Joshua",1
+"1736","fifteen_minutes","en","Justin Bibb Wants",1
+"1737","fifteen_minutes","en","KIaus Schwab",1
+"1738","fifteen_minutes","en","KateShemirani",1
+"1739","fifteen_minutes","en","Katherine Watt\u2019s",1
+"1740","fifteen_minutes","en","Katy Hopkins",1
+"1741","fifteen_minutes","en","Kay Rubacek",1
+"1742","fifteen_minutes","en","Kerry",1
+"1743","fifteen_minutes","en","Kevin Bacon",1
+"1744","fifteen_minutes","en","King Charles",1
+"1745","fifteen_minutes","en","Kissinger",1
+"1746","fifteen_minutes","en","Kleidungsst\xfccke",1
+"1747","fifteen_minutes","en","LCYPdWvBNjQ",1
+"1748","fifteen_minutes","en","L\xe4nger",1
+"1749","fifteen_minutes","en","L\xfctf\xfc Sava\u015f",1
+"1750","fifteen_minutes","en","La Comisi\xf3n",1
+"1751","fifteen_minutes","en","Laura Aboli] \n",1
+"1752","fifteen_minutes","en","Le Rabassier",1
+"1753","fifteen_minutes","en","Leben",1
+"1754","fifteen_minutes","en","Lee Hurst",1
+"1755","fifteen_minutes","en","Leilani Dowding",1
+"1756","fifteen_minutes","en","Lewis Brackpool",1
+"1757","fifteen_minutes","en","Lieve Nederlandse",1
+"1758","fifteen_minutes","en","Lincoln",1
+"1759","fifteen_minutes","en","Lockdown",1
+"1760","fifteen_minutes","en","Lockdowns",1
+"1761","fifteen_minutes","en","London Rd \nBracknell",1
+"1762","fifteen_minutes","en","MANCHESTER",1
+"1763","fifteen_minutes","en","MANIFESTANTI NON ALLINEATI ALLE CITT\xc0",1
+"1764","fifteen_minutes","en","MSM",1
+"1765","fifteen_minutes","en","MSM SAY",1
+"1766","fifteen_minutes","en","Make No Mistake",1
+"1767","fifteen_minutes","en","Makkab",1
+"1768","fifteen_minutes","en","Mann",1
+"1769","fifteen_minutes","en","Marc Lore",1
+"1770","fifteen_minutes","en","Mark Anderson",1
+"1771","fifteen_minutes","en","Mark Drakeford",1
+"1772","fifteen_minutes","en","Mass Sudden Deaths",1
+"1773","fifteen_minutes","en","Matt Hancock",1
+"1774","fifteen_minutes","en","Matt Hoy",1
+"1775","fifteen_minutes","en","Mayo",1
+"1776","fifteen_minutes","en","Melbourne",1
+"1777","fifteen_minutes","en","Metrocentre",1
+"1778","fifteen_minutes","en","Michael Bloomberg",1
+"1779","fifteen_minutes","en","Michelle Stirling",1
+"1780","fifteen_minutes","en","Mike Adams\u2019 guest",1
+"1781","fifteen_minutes","en","Milchprodukte",1
+"1782","fifteen_minutes","en","Mississauga",1
+"1783","fifteen_minutes","en","Ms Kerr",1
+"1784","fifteen_minutes","en","Musk",1
+"1785","fifteen_minutes","en","NET ZERO-Kontrolle",1
+"1786","fifteen_minutes","en","Naftali Bennett",1
+"1787","fifteen_minutes","en","Naomi Wolf",1
+"1788","fifteen_minutes","en","Neil Oliver\u2019s",1
+"1789","fifteen_minutes","en","Neo",1
+"1790","fifteen_minutes","en","Neo Liberal",1
+"1791","fifteen_minutes","en","Nesara Gesara - Secrets](https://t.me/NesaraGesaraSecrets",1
+"1792","fifteen_minutes","en","Nottingham",1
+"1793","fifteen_minutes","en","Orgz",1
+"1794","fifteen_minutes","en","PARTE DEI GLOBALISTI",1
+"1795","fifteen_minutes","en","PETE CHAMBERS",1
+"1796","fifteen_minutes","en","PLASTER",1
+"1797","fifteen_minutes","en","PRESTO DISPONIBILE",1
+"1798","fifteen_minutes","en","Palestinian History",1
+"1799","fifteen_minutes","en","Patrick Henningsen",1
+"1800","fifteen_minutes","en","Peter Niznansky",1
+"1801","fifteen_minutes","en","Pitter",1
+"1802","fifteen_minutes","en","Pol Pot",1
+"1803","fifteen_minutes","en","Power",1
+"1804","fifteen_minutes","en","Propaganda",1
+"1805","fifteen_minutes","en","RAZIONAMENTO ALIMENTARE",1
+"1806","fifteen_minutes","en","Rape Gang Scandal",1
+"1807","fifteen_minutes","en","Refer",1
+"1808","fifteen_minutes","en","Richard Sharp",1
+"1809","fifteen_minutes","en","Rien",1
+"1810","fifteen_minutes","en","Rigs Paraguay Election",1
+"1811","fifteen_minutes","en","Rita Maestre",1
+"1812","fifteen_minutes","en","Riverside",1
+"1813","fifteen_minutes","en","Rob Stewart Labour",1
+"1814","fifteen_minutes","en","Rob Stokes",1
+"1815","fifteen_minutes","en","Robert Mugabe",1
+"1816","fifteen_minutes","en","Rockefellers",1
+"1817","fifteen_minutes","en","Roger Arthur",1
+"1818","fifteen_minutes","en","Romley Stewart",1
+"1819","fifteen_minutes","en","Ron DeSoros",1
+"1820","fifteen_minutes","en","Roxane Henry",1
+"1821","fifteen_minutes","en","Rumb[le",1
+"1822","fifteen_minutes","en","Rumble| Od](https://www.bitchute.com",1
+"1823","fifteen_minutes","en","Sadiq Khan",1
+"1824","fifteen_minutes","en","Sam",1
+"1825","fifteen_minutes","en","Sasha Latypova",1
+"1826","fifteen_minutes","en","Sean Stone",1
+"1827","fifteen_minutes","en","Share \U0001f7e2\n\n",1
+"1828","fifteen_minutes","en","Shazza",1
+"1829","fifteen_minutes","en","Sheila Gunn Reid",1
+"1830","fifteen_minutes","en","Simon @Goddek",1
+"1831","fifteen_minutes","en","Simon Goddek",1
+"1832","fifteen_minutes","en","Simon Marchner",1
+"1833","fifteen_minutes","en","Sky",1
+"1834","fifteen_minutes","en","Soros",1
+"1835","fifteen_minutes","en","Spectre",1
+"1836","fifteen_minutes","en","Steve",1
+"1837","fifteen_minutes","en","Steve Beatty",1
+"1838","fifteen_minutes","en","Stuart Waiton",1
+"1839","fifteen_minutes","en","Sudiksha Kochi",1
+"1840","fifteen_minutes","en","Sy Hersh Got Right",1
+"1841","fifteen_minutes","en","T Brant",1
+"1842","fifteen_minutes","en","TROVI",1
+"1843","fifteen_minutes","en","Tad",1
+"1844","fifteen_minutes","en","Tassie",1
+"1845","fifteen_minutes","en","Todd Callender\nVideo",1
+"1846","fifteen_minutes","en","Todd Callender\n\n",1
+"1847","fifteen_minutes","en","Todd Callender\n\nFull Video",1
+"1848","fifteen_minutes","en","Trafalgar Square",1
+"1849","fifteen_minutes","en","Treason",1
+"1850","fifteen_minutes","en","Trojan Horse",1
+"1851","fifteen_minutes","en","Tutto",1
+"1852","fifteen_minutes","en","Twitter",1
+"1853","fifteen_minutes","en","VSwPMxXYgIjB/",1
+"1854","fifteen_minutes","en","Vancouver",1
+"1855","fifteen_minutes","en","Vandana Shiva",1
+"1856","fifteen_minutes","en","Vanessa Beeley",1
+"1857","fifteen_minutes","en","Vauxhall Walk",1
+"1858","fifteen_minutes","en","Vax Passports",1
+"1859","fifteen_minutes","en","Vernon Coleman",1
+"1860","fifteen_minutes","en","Veronika Kyrylenko",1
+"1861","fifteen_minutes","en","Vey La La Ley",1
+"1862","fifteen_minutes","en","W. E. F.  ",1
+"1863","fifteen_minutes","en","WW3",1
+"1864","fifteen_minutes","en","Wifi",1
+"1865","fifteen_minutes","en","Wissen\n@Impfauswahl",1
+"1866","fifteen_minutes","en","Wollongong",1
+"1867","fifteen_minutes","en","Xi",1
+"1868","fifteen_minutes","en","Yair Lapid",1
+"1869","fifteen_minutes","en","\U0001d64b\U0001d667\U0001d65e\U0001d668\U0001d664\U0001d663 \U0001d63e\U0001d65a\U0001d661\U0001d661",1
+"1870","fifteen_minutes","en","\U0001f1e8\U0001f1f3",1
+"1871","fifteen_minutes","en","\U0001f1ee",1
+"1872","fifteen_minutes","en","\U0001f1f3",1
+"1873","fifteen_minutes","en","\U0001f1f7 Dr",1
+"1874","fifteen_minutes","en","\U0001f413 Watch:",1
+"1875","fifteen_minutes","en","\U0001f441                                                                                                                                                                                         ",1
+"1876","fifteen_minutes","en","\U0001f4a9",1
+"1877","fifteen_minutes","en","\U0001f4f8 Photos",1
+"1878","fifteen_minutes","en","\U0001f52b",1
+"1879","fifteen_minutes","en","\U0001f5dd BetterWayConference.org",1
+"1880","fifteen_minutes","en","\U0001f609",1
+"1881","fifteen_minutes","en","\ufe0f Watch - Megacities",1
+"1882","fifteen_minutes","en","\ufe0fDISTOPIA PERFETTA",1
+"1883","fifteen_minutes","en","\ufe0fdigital",1
+"1884","fifteen_minutes","en","\ufe0fflashes",1
+"1885","fifteen_minutes","en","aarde leven",1
+"1886","fifteen_minutes","en","agenda2045",1
+"1887","fifteen_minutes","en","cess\xe9 de",1
+"1888","fifteen_minutes","en","dan ga je",1
+"1889","fifteen_minutes","en","darauf",1
+"1890","fifteen_minutes","en","de Alemania",1
+"1891","fifteen_minutes","en","despu\xe9s de las",1
+"1892","fifteen_minutes","en","electri",1
+"1893","fifteen_minutes","en","https://dq271.isrefer.com/go/ENHANCE/AUL651/ Share Find",1
+"1894","fifteen_minutes","en","https://link.theepochtimes.com/mkt_app/15-minute-cities-are-complete-impoverishment-and-enslavement-of-all-the-people_5231593.html",1
+"1895","fifteen_minutes","en","https://rumble.com/v2846wx-the-citizens-of-colchester-interrupt-a-council-meeting-to-protest-about-the.html\nJoin",1
+"1896","fifteen_minutes","en","https://rumble.com/v2a31o0-this-is-what-chinas-15-minute-cities-looks-like.html",1
+"1897","fifteen_minutes","en","https://rumble.com/v2b7hb2-cleveland-ohio-to-become-the-first-15-minute-city-in-the-united-states.html",1
+"1898","fifteen_minutes","en","https://rumble.com/v2ceyx4-in-chinas-15-minute-cities-you-need-a-face-scan-as-permission-to-go-back-to.html\nFollow",1
+"1899","fifteen_minutes","en","https://rumble.com/v2cttsk-15-minute-cities-in-wuhan-all-supervised-by-the-5g-cameras.html",1
+"1900","fifteen_minutes","en","https://rumble.com/v2mp0nu-students-against-tyranny-no-to-15-minute-cities-demo-in-swansea..html",1
+"1901","fifteen_minutes","en","https://ugetube.com/watch/the-great-reset-039-s-15-minute-city_Z3sReCAaBE59TkD.html",1
+"1902","fifteen_minutes","en","https://www.ntd.com/5-arrested-after-large-scale-protest-against-15-minute-cities-in-oxford-england_902671.html",1
+"1903","fifteen_minutes","en","https://www.nytimes.com/2023/03/01/world/europe/15-minute-city-conspiracy.html",1
+"1904","fifteen_minutes","en","https://www.sott.net/article/474997-Coming-soon-Climate-lockdowns-and-the-15-minute-city-courtesy-of-the-WEF",1
+"1905","fifteen_minutes","en","https://www.spiked-online.com/2022/10/25/the-madness-of-the-15-minute-city/",1
+"1906","fifteen_minutes","en","https://www.theepochtimes.com/15-minute-cities-are-complete-impoverishment-and-enslavement-of-all-the-people_5231593.html",1
+"1907","fifteen_minutes","en","https://www.youtube.com/watch?v=XgXC5hONIH0",1
+"1908","fifteen_minutes","en","knight regalia",1
+"1909","fifteen_minutes","en","la llamada sequ\xeda",1
+"1910","fifteen_minutes","en","m\xe1s peligrosa de las agendas",1
+"1911","fifteen_minutes","en","nyi[ng Blood](https://www.bitchute.com/video/11mzmsigNH3g/",1
+"1912","fifteen_minutes","en","onder de zwaarste",1
+"1913","fifteen_minutes","en","r.\n",1
+"1914","fifteen_minutes","en","se han replanteado",1
+"1915","fifteen_minutes","en","the Max Igan",1
+"1916","fifteen_minutes","nl","/horeca-NSB  wisten je vaccinatiestatus wel",1
+"1917","fifteen_minutes","nl","15-minute City",1
+"1918","fifteen_minutes","nl","?\n\n",1
+"1919","fifteen_minutes","nl","AL",1
+"1920","fifteen_minutes","nl","Agenda",1
+"1921","fifteen_minutes","nl","Alexander Gusev",1
+"1922","fifteen_minutes","nl","Anderson aan,",1
+"1923","fifteen_minutes","nl","Anderson\n\n",1
+"1924","fifteen_minutes","nl","Bigger Brother",1
+"1925","fifteen_minutes","nl","Bokito",1
+"1926","fifteen_minutes","nl","C.",1
+"1927","fifteen_minutes","nl","C40 Cities",1
+"1928","fifteen_minutes","nl","CO2 uitstoot",1
+"1929","fifteen_minutes","nl","Corrupte",1
+"1930","fifteen_minutes","nl","Credit \n\n",1
+"1931","fifteen_minutes","nl","Dan ga je",1
+"1932","fifteen_minutes","nl","Davos",1
+"1933","fifteen_minutes","nl","Draq Queens",1
+"1934","fifteen_minutes","nl","Dusss..",1
+"1935","fifteen_minutes","nl","Eric Honecker",1
+"1936","fifteen_minutes","nl","Geloof",1
+"1937","fifteen_minutes","nl","Glastonbury",1
+"1938","fifteen_minutes","nl","Glastonbury City",1
+"1939","fifteen_minutes","nl","Humanity",1
+"1940","fifteen_minutes","nl","Hurricane Ian",1
+"1941","fifteen_minutes","nl","Jan van Gils!",1
+"1942","fifteen_minutes","nl","Jason",1
+"1943","fifteen_minutes","nl","Jullie",1
+"1944","fifteen_minutes","nl","Kijk",1
+"1945","fifteen_minutes","nl","Klausje Swab",1
+"1946","fifteen_minutes","nl","Kweet",1
+"1947","fifteen_minutes","nl","Larry Fink",1
+"1948","fifteen_minutes","nl","Minute Neighborhoods",1
+"1949","fifteen_minutes","nl","Niemand",1
+"1950","fifteen_minutes","nl","Nord Stream2",1
+"1951","fifteen_minutes","nl","Oxfordshire",1
+"1952","fifteen_minutes","nl","Palestina",1
+"1953","fifteen_minutes","nl","Parijs\U0001f448",1
+"1954","fifteen_minutes","nl","Putin",1
+"1955","fifteen_minutes","nl","Rothschild",1
+"1956","fifteen_minutes","nl","Rothschild Schwab",1
+"1957","fifteen_minutes","nl","Rotterdam",1
+"1958","fifteen_minutes","nl","Sbs6",1
+"1959","fifteen_minutes","nl","Sie",1
+"1960","fifteen_minutes","nl","Smart Cities",1
+"1961","fifteen_minutes","nl","Snel MEDEMENS",1
+"1962","fifteen_minutes","nl","Twister",1
+"1963","fifteen_minutes","nl","U",1
+"1964","fifteen_minutes","nl","Van Van der Wal vrijdag",1
+"1965","fifteen_minutes","nl","Vertel",1
+"1966","fifteen_minutes","nl","Waterstof",1
+"1967","fifteen_minutes","nl","Yohoo",1
+"1968","fifteen_minutes","nl","\U0001f1f9 Rome",1
+"1969","fifteen_minutes","nl","\U0001f4a5 Gedeeld",1
+"1970","fifteen_minutes","nl","\U0001f4af%",1
+"1971","fifteen_minutes","nl","\U0001f603",1
+"1972","fifteen_minutes","nl","ben benieuwd",1
+"1973","fifteen_minutes","nl","carbon footprint",1
+"1974","fifteen_minutes","nl","city\u2019",1
+"1975","fifteen_minutes","nl","city\u2019s",1
+"1976","fifteen_minutes","nl","endless Boosters",1
+"1977","fifteen_minutes","nl","extra\u2019",1
+"1978","fifteen_minutes","nl","gepushed\n\n",1
+"1979","fifteen_minutes","nl","in.de",1
+"1980","fifteen_minutes","nl","news\u2026",1
+"1981","fifteen_minutes","nl","schone wereld",1
+"1982","fifteen_minutes","nl","steden\u2026",1
+"1983","fifteen_minutes","nl","vervielen\n\n",1
+"1984","fifteen_minutes","nl","zwaaien slava",1
+"1985","insect","en","@PeoplePowerAus",1
+"1986","insect","en","ANR Founder",1
+"1987","insect","en","Abdul Rashid Dustum",1
+"1988","insect","en","Abdul-Rashid Dostum",1
+"1989","insect","en","Aberystwyth",1
+"1990","insect","en","Achillea",1
+"1991","insect","en","Adaline Welk",1
+"1992","insect","en","Agenda Escalates",1
+"1993","insect","en","Agenda ab",1
+"1994","insect","en","Agroscope",1
+"1995","insect","en","Alan Watts",1
+"1996","insect","en","Albert Einstein",1
+"1997","insect","en","Albumin",1
+"1998","insect","en","Alex Krainer",1
+"1999","insect","en","Alex L.\nCreated",1
+"2000","insect","en","Allan Stein",1
+"2001","insect","en","Amy\u2019s Kitchen",1
+"2002","insect","en","Angelica Jolie",1
+"2003","insect","en","Anthony #Fauci",1
+"2004","insect","en","Apocalypse Lawn",1
+"2005","insect","en","Ariyana Love",1
+"2006","insect","en","Armin Papperger",1
+"2007","insect","en","Arnica montana",1
+"2008","insect","en","Ashby de la Zouch",1
+"2009","insect","en","Aussie Schools",1
+"2010","insect","en","Aussie_News \U0001f609",1
+"2011","insect","en","Austin Fitts",1
+"2012","insect","en","B. Huchsprung",1
+"2013","insect","en","BORAGE - Borage",1
+"2014","insect","en","BORIS JOHNSON",1
+"2015","insect","en","B\xf6sewichte",1
+"2016","insect","en","Bald",1
+"2017","insect","en","Bankrott",1
+"2018","insect","en","Barbara Love",1
+"2019","insect","en","Barry",1
+"2020","insect","en","Barry Paskin-Be Ready Time",1
+"2021","insect","en","Basil",1
+"2022","insect","en","Basil Fusilli - Noodles - Buffalo",1
+"2023","insect","en","Be Happy",1
+"2024","insect","en","Beacon",1
+"2025","insect","en","Bean",1
+"2026","insect","en","Benko",1
+"2027","insect","en","Berberis Vulg",1
+"2028","insect","en","Bergstrom Bayer Karolinska",1
+"2029","insect","en","Betty Crocker",1
+"2030","insect","en","Bezos",1
+"2031","insect","en","Big Farma",1
+"2032","insect","en","Billionaire Elites",1
+"2033","insect","en","Billy Gates",1
+"2034","insect","en","Biological",1
+"2035","insect","en","Birmingham - Grove Lane Park",1
+"2036","insect","en","Birmingham - Selly Park Recreation Ground",1
+"2037","insect","en","Birmingham - Small Heath Park",1
+"2038","insect","en","Birmingham - Sutton Park",1
+"2039","insect","en","Birmingham - Victoria Park",1
+"2040","insect","en","Birmingham - Wythall Park",1
+"2041","insect","en","Bisquick",1
+"2042","insect","en","Bizarre",1
+"2043","insect","en","Black List",1
+"2044","insect","en","Bon",1
+"2045","insect","en","Booster",1
+"2046","insect","en","Brampton",1
+"2047","insect","en","Brett",1
+"2048","insect","en","Brown",1
+"2049","insect","en","Bug Eating https://www.infowars.com/posts/watch-msnbc-says-its-a-lizard-people-conspiracy-theory-that-wef-is-promoting-vaccines-and-bug-eating/",1
+"2050","insect","en","Bugs",1
+"2051","insect","en","Bugvita",1
+"2052","insect","en","Bush",1
+"2053","insect","en","Butterfly",1
+"2054","insect","en","Buxton",1
+"2055","insect","en","C.\n\n    Codfish",1
+"2056","insect","en","COVID",1
+"2057","insect","en","CV",1
+"2058","insect","en","Calcaria Carb",1
+"2059","insect","en","Calcium",1
+"2060","insect","en","Calendula",1
+"2061","insect","en","Canberra Convoy",1
+"2062","insect","en","Candlewick",1
+"2063","insect","en","Caper Bush",1
+"2064","insect","en","Capparis",1
+"2065","insect","en","Capsicum",1
+"2066","insect","en","Car Wash Air Wick Barefoot Wine Cricket Wireless",1
+"2067","insect","en","Carbo",1
+"2068","insect","en","Carbon Footprint",1
+"2069","insect","en","Carbon Pawprint",1
+"2070","insect","en","Carissa Wong",1
+"2071","insect","en","Castro",1
+"2072","insect","en","Chamomilla",1
+"2073","insect","en","Charles Murray",1
+"2074","insect","en","Charlie",1
+"2075","insect","en","Charlie Arnott",1
+"2076","insect","en","Chicken",1
+"2077","insect","en","Choeradodis rhombicollis",1
+"2078","insect","en","Christopher Columbus",1
+"2079","insect","en","Chupa Chups - Big Babol Tutti",1
+"2080","insect","en","Chupa Chups - Crazy",1
+"2081","insect","en","Cindy Russell",1
+"2082","insect","en","Circle Harvest",1
+"2083","insect","en","Cleethorpes",1
+"2084","insect","en","Cleopatra",1
+"2085","insect","en","Cloths Pegs",1
+"2086","insect","en","Coats",1
+"2087","insect","en","Cochineal",1
+"2088","insect","en","Common Caper",1
+"2089","insect","en","Common Nettle",1
+"2090","insect","en","Convoys Au\n",1
+"2091","insect","en","Core",1
+"2092","insect","en","Corey Lynn",1
+"2093","insect","en","Covid 19",1
+"2094","insect","en","Covid Vaccine",1
+"2095","insect","en","Covid Vaccine Data",1
+"2096","insect","en","CuC",1
+"2097","insect","en","Cucumber",1
+"2098","insect","en","DENNIS MURPHY",1
+"2099","insect","en","Dan Olsen",1
+"2100","insect","en","Dana Perls",1
+"2101","insect","en","Dark Matter - Jason Martell - Lost Cycle",1
+"2102","insect","en","Daughter",1
+"2103","insect","en","Dave Goodbread",1
+"2104","insect","en","David",1
+"2105","insect","en","David Icke\n\n",1
+"2106","insect","en","David en Renate Sorensen",1
+"2107","insect","en","Delhi Sands Flower-Loving Fly",1
+"2108","insect","en","Deodorizer",1
+"2109","insect","en","Der",1
+"2110","insect","en","Der W\xe4hrungskampf",1
+"2111","insect","en","Derbyshire - Belper River Gardens",1
+"2112","insect","en","Derbyshire - Chaddesden Park",1
+"2113","insect","en","Derbyshire - Dragon Pub",1
+"2114","insect","en","Derbyshire - Eureka Park",1
+"2115","insect","en","Derbyshire - Grassmoor Country Park",1
+"2116","insect","en","Derbyshire - Pavillion Gardens",1
+"2117","insect","en","Deroplatyidae",1
+"2118","insect","en","Devra Davis",1
+"2119","insect","en","Diane Vukovic",1
+"2120","insect","en","Die Leute",1
+"2121","insect","en","Die Menschen",1
+"2122","insect","en","Digestive Aid",1
+"2123","insect","en","Distractions",1
+"2124","insect","en","Donation Link",1
+"2125","insect","en","Dorothea",1
+"2126","insect","en","Downey",1
+"2127","insect","en","Drea",1
+"2128","insect","en","Dugway Proving Ground",1
+"2129","insect","en","E. Coli",1
+"2130","insect","en","EXC",1
+"2131","insect","en","Edward Snowden - BLACKMAIL Documents",1
+"2132","insect","en","Elizabeth",1
+"2133","insect","en","Ellen DeGeneres",1
+"2134","insect","en","Ellis Don",1
+"2135","insect","en","Elon Musk",1
+"2136","insect","en","Enth\xfcllung",1
+"2137","insect","en","Entomo Farms",1
+"2138","insect","en","Ergebnis",1
+"2139","insect","en","Eric",1
+"2140","insect","en","Eric Adams",1
+"2141","insect","en","Erz\xe4hlung verloren",1
+"2142","insect","en","Eva Vlaar",1
+"2143","insect","en","Ewww",1
+"2144","insect","en","FENNEL- Repels",1
+"2145","insect","en","Facebook Refuse",1
+"2146","insect","en","Facts Matter\n\n",1
+"2147","insect","en","Faudci",1
+"2148","insect","en","Feline Herpes",1
+"2149","insect","en","Field McConnell",1
+"2150","insect","en","Figs",1
+"2151","insect","en","Flags",1
+"2152","insect","en","Formica",1
+"2153","insect","en","Francesca Havens",1
+"2154","insect","en","Frank Olson",1
+"2155","insect","en","Frederico Garc\xeda Lorca",1
+"2156","insect","en","G. Taylor Wilson",1
+"2157","insect","en","G.B. Reed",1
+"2158","insect","en","Gab Shop",1
+"2159","insect","en","Galeria Kaufhof",1
+"2160","insect","en","Garlic",1
+"2161","insect","en","Geiger",1
+"2162","insect","en","George Floyd",1
+"2163","insect","en","George H.W. Bush",1
+"2164","insect","en","George Soros",1
+"2165","insect","en","Glo*K The",1
+"2166","insect","en","Glybera",1
+"2167","insect","en","Gmail",1
+"2168","insect","en","Goldfinch",1
+"2169","insect","en","Good Ole  Roger Wicker",1
+"2170","insect","en","Good Time",1
+"2171","insect","en","Great Malvern",1
+"2172","insect","en","Greenlights First",1
+"2173","insect","en","Gregg Phillips",1
+"2174","insect","en","Greta",1
+"2175","insect","en","Grey Frandsen",1
+"2176","insect","en","Grimsby",1
+"2177","insect","en","Gurdjieff",1
+"2178","insect","en","H. Geiger GmbH",1
+"2179","insect","en","HAROLD H. SHEPARD  \n",1
+"2180","insect","en","Hai",1
+"2181","insect","en","Harborne",1
+"2182","insect","en","Harold Abramson",1
+"2183","insect","en","Heidi \u2728\U0001f942\n\nTruth Social",1
+"2184","insect","en","Heimchen",1
+"2185","insect","en","Hepar sulphur",1
+"2186","insect","en","Herbert Geiger",1
+"2187","insect","en","Herefordshire - Aylestone Park",1
+"2188","insect","en","Herefordshire - Leadon Valley Picnic Site",1
+"2189","insect","en","Hidden Agendas",1
+"2190","insect","en","Hormel",1
+"2191","insect","en","Horst Seehofer",1
+"2192","insect","en","Howdy",1
+"2193","insect","en","Human Events",1
+"2194","insect","en","Human Trafficking Survivors",1
+"2195","insect","en","Humphrey von Rebel News",1
+"2196","insect","en","Ibrahim Reyes",1
+"2197","insect","en","Il nemico",1
+"2198","insect","en","Immune Responses",1
+"2199","insect","en","Influenza",1
+"2200","insect","en","Informed Consent",1
+"2201","insect","en","Insect Repellent",1
+"2202","insect","en","Ireland",1
+"2203","insect","en","Ismail Rahu",1
+"2204","insect","en","Italians Refuse",1
+"2205","insect","en","JFK Sr",1
+"2206","insect","en","Jack Maxey",1
+"2207","insect","en","Jain",1
+"2208","insect","en","James Bond-",1
+"2209","insect","en","James Franco",1
+"2210","insect","en","Jennifer Lawrence",1
+"2211","insect","en","Jiminy",1
+"2212","insect","en","John Brennan",1
+"2213","insect","en","John Schwab",1
+"2214","insect","en","JohnKerry",1
+"2215","insect","en","Join TELEGRAM Channel",1
+"2216","insect","en","Joins",1
+"2217","insect","en","Jonathan D. Grunberg",1
+"2218","insect","en","Jpin",1
+"2219","insect","en","Julianne Gee",1
+"2220","insect","en","Juvin MEP",1
+"2221","insect","en","KIaus Schwab",1
+"2222","insect","en","K\xe4fer",1
+"2223","insect","en","K\xfcfa",1
+"2224","insect","en","Kafka",1
+"2225","insect","en","Kali Carb",1
+"2226","insect","en","Kalmia",1
+"2227","insect","en","Kanada",1
+"2228","insect","en","Kendi Headline Pfizer-Funded",1
+"2229","insect","en","Kenilworth Rd",1
+"2230","insect","en","Kerry Cassidy",1
+"2231","insect","en","Keys",1
+"2232","insect","en","Kijk",1
+"2233","insect","en","Kill Bed Bugs\nDE",1
+"2234","insect","en","Kirchen",1
+"2235","insect","en","Know",1
+"2236","insect","en","Komitees",1
+"2237","insect","en","Konga",1
+"2238","insect","en","Konzerne",1
+"2239","insect","en","Kool-Aid",1
+"2240","insect","en","Krankenh\xe4user",1
+"2241","insect","en","Kricket",1
+"2242","insect","en","Larinioides sclopetarius)Shutterstock/",1
+"2243","insect","en","Larva Fat",1
+"2244","insect","en","Laura Logan",1
+"2245","insect","en","Lee Harvey Oswald",1
+"2246","insect","en","Leicestershire - Bouskell Park",1
+"2247","insect","en","Leute K\xe4fer essen",1
+"2248","insect","en","Lichenostomus",1
+"2249","insect","en","Lichfield",1
+"2250","insect","en","Life3 Biotech",1
+"2251","insect","en","Lin",1
+"2252","insect","en","Lincolnshire - Ayscoughfee Hall Garden Park",1
+"2253","insect","en","Lincolnshire - Boston",1
+"2254","insect","en","Lincolnshire - Cleethorpes Boating Lake",1
+"2255","insect","en","Lincolnshire - Lea Park",1
+"2256","insect","en","Lincolnshire - Weelsby Woods",1
+"2257","insect","en","Lisa Sanchez",1
+"2258","insect","en","Lol",1
+"2259","insect","en","Long Eaton",1
+"2260","insect","en","Lucy",1
+"2261","insect","en","Lung",1
+"2262","insect","en","MEP",1
+"2263","insect","en","MEP Mislav Kolaku\u0161i\u0107",1
+"2264","insect","en","MK ultra",1
+"2265","insect","en","MSM",1
+"2266","insect","en","Maby",1
+"2267","insect","en","Marc Cohen",1
+"2268","insect","en","Mardi Gras",1
+"2269","insect","en","Maritime Admiralty",1
+"2270","insect","en","Marivic Villa",1
+"2271","insect","en","Mark Anthony",1
+"2272","insect","en","Markus S\xf6der",1
+"2273","insect","en","Martha",1
+"2274","insect","en","Martin Black",1
+"2275","insect","en","Martin Sharples",1
+"2276","insect","en","Mastro Geppetto",1
+"2277","insect","en","Mattie McGrath",1
+"2278","insect","en","McGrath",1
+"2279","insect","en","Melton Mowbray",1
+"2280","insect","en","Menschen vom Essen",1
+"2281","insect","en","Merry Christmas",1
+"2282","insect","en","Michael Franzese",1
+"2283","insect","en","Michael Le Page",1
+"2284","insect","en","Michiel Muller",1
+"2285","insect","en","Micronutris",1
+"2286","insect","en","Miguel Hern\xe1ndez",1
+"2287","insect","en","Mike Cox",1
+"2288","insect","en","Mike Lindell",1
+"2289","insect","en","Mike Yeadon +",1
+"2290","insect","en","Millimeter",1
+"2291","insect","en","Mississippi",1
+"2292","insect","en","Mist",1
+"2293","insect","en","Moderna",1
+"2294","insect","en","Monroe",1
+"2295","insect","en","Moon",1
+"2296","insect","en","Morgan",1
+"2297","insect","en","Moronic",1
+"2298","insect","en","Moser Roth - Chilli",1
+"2299","insect","en","Moser Roth - honey",1
+"2300","insect","en","Mosquito",1
+"2301","insect","en","Ms",1
+"2302","insect","en","Mulch",1
+"2303","insect","en","Multidimensional Being",1
+"2304","insect","en","Musk",1
+"2305","insect","en","Mycorrhizal",1
+"2306","insect","en","NEIL",1
+"2307","insect","en","NEVER",1
+"2308","insect","en","Nachrichtenmedien",1
+"2309","insect","en","Nachrichtenmedien wissen",1
+"2310","insect","en","Nancy Pelosi",1
+"2311","insect","en","Nano AI",1
+"2312","insect","en","Nasturtiums",1
+"2313","insect","en","Natalie Winters Reacts",1
+"2314","insect","en","Newspaper Corriere",1
+"2315","insect","en","Nich Dixon",1
+"2316","insect","en","Nichts kann",1
+"2317","insect","en","Nicola Tesla",1
+"2318","insect","en","Nicole J. Wade",1
+"2319","insect","en","Northamptonshire -",1
+"2320","insect","en","Northamptonshire - Daneholme Park",1
+"2321","insect","en","Northamptonshire - Warth Park Country Park",1
+"2322","insect","en","Nux Vomica",1
+"2323","insect","en","OBVIOUS",1
+"2324","insect","en","Obama Propaganda Flunky",1
+"2325","insect","en","Oetker",1
+"2326","insect","en","Oligarchs",1
+"2327","insect","en","Organically",1
+"2328","insect","en","PDF/?uri",1
+"2329","insect","en","Painted Daisy",1
+"2330","insect","en","Papperger",1
+"2331","insect","en","Pastor Guthrie",1
+"2332","insect","en","Path",1
+"2333","insect","en","Patrick Holford",1
+"2334","insect","en","Patriot Successes",1
+"2335","insect","en","Paul Joseph Watson",1
+"2336","insect","en","Pedowood",1
+"2337","insect","en","Pink Eye",1
+"2338","insect","en","Ponsonby",1
+"2339","insect","en","Pope",1
+"2340","insect","en","Prince Charles",1
+"2341","insect","en","Proceedings",1
+"2342","insect","en","Propaganda",1
+"2343","insect","en","Ps Remember",1
+"2344","insect","en","Pulsatilla",1
+"2345","insect","en","QUINTA COLUMNA",1
+"2346","insect","en","Qld Channel",1
+"2347","insect","en","Quinta Columna",1
+"2348","insect","en","RITARDATI DOVREBBERO PAGARE",1
+"2349","insect","en","ROVINATO DAI",1
+"2350","insect","en","Ra",1
+"2351","insect","en","Rainwater",1
+"2352","insect","en","Recommends Jabs",1
+"2353","insect","en","Regine Heilbronn",1
+"2354","insect","en","Ren\xe9 Benko",1
+"2355","insect","en","Respiratory Issues",1
+"2356","insect","en","Rewe",1
+"2357","insect","en","Rhinohorn",1
+"2358","insect","en","Ricardo Delgado",1
+"2359","insect","en","Ricardo Delgado de la",1
+"2360","insect","en","Richard Vobes",1
+"2361","insect","en","Ricky Lin",1
+"2362","insect","en","Robert Bly",1
+"2363","insect","en","Robert Downey",1
+"2364","insect","en","Robert Downey Jnr",1
+"2365","insect","en","Robert Downey Jr\nPromoting Insect Base Eating  \n\n",1
+"2366","insect","en","Robert Duncan Ph.D.",1
+"2367","insect","en","Robert Kotin",1
+"2368","insect","en","Robert Lashbrook",1
+"2369","insect","en","Robin Monotti",1
+"2370","insect","en","Roman",1
+"2371","insect","en","Rommel",1
+"2372","insect","en","Ruddington",1
+"2373","insect","en","Rudy Guiliani",1
+"2374","insect","en","Rumbles Cafe",1
+"2375","insect","en","S\xfcddeutscher Zeitung",1
+"2376","insect","en","Sally Hansen",1
+"2377","insect","en","Sarah Myhill",1
+"2378","insect","en","Satanism/ Baphomet",1
+"2379","insect","en","Schwabbie",1
+"2380","insect","en","Schweb",1
+"2381","insect","en","Scott Tips",1
+"2382","insect","en","Sears Secret",1
+"2383","insect","en","Sedkov et al.",1
+"2384","insect","en","Sen John McCain",1
+"2385","insect","en","Sera",1
+"2386","insect","en","Shane Warne\u2019s",1
+"2387","insect","en","Sharpest Tuna",1
+"2388","insect","en","Shawn Baker",1
+"2389","insect","en","Shir\u014d Ishii",1
+"2390","insect","en","Sidney Gottlieb",1
+"2391","insect","en","Sie m\xfcssen",1
+"2392","insect","en","Snack",1
+"2393","insect","en","Sobe",1
+"2394","insect","en","Soros Schwartz",1
+"2395","insect","en","Spie\xdf",1
+"2396","insect","en","Squash",1
+"2397","insect","en","Stella Kyriakides",1
+"2398","insect","en","Stephanie Seneff",1
+"2399","insect","en","Steve Rother",1
+"2400","insect","en","Stevens Park",1
+"2401","insect","en","Strawberry - Lollipop - E120",1
+"2402","insect","en","Struan Rogers",1
+"2403","insect","en","Sudden",1
+"2404","insect","en","Sudden Myocarditis",1
+"2405","insect","en","Sutton Coldfield",1
+"2406","insect","en","Swine Flu",1
+"2407","insect","en","Syd Fizzard",1
+"2408","insect","en","Sydney Fizzard",1
+"2409","insect","en","T[he Hill)](https://thehill.com",1
+"2410","insect","en","Teachtai D\xe1la",1
+"2411","insect","en","Teil",1
+"2412","insect","en","Telegram Groups",1
+"2413","insect","en","Tenebrio Molitor",1
+"2414","insect","en","Tim Tams",1
+"2415","insect","en","Tod",1
+"2416","insect","en","Todd Bensman",1
+"2417","insect","en","Tony Hawk",1
+"2418","insect","en","Torah",1
+"2419","insect","en","Tracfone Tresemme",1
+"2420","insect","en","Tribes",1
+"2421","insect","en","Twitter",1
+"2422","insect","en","Tx",1
+"2423","insect","en","Uncle Ben\u2019s",1
+"2424","insect","en","Unser Wasser",1
+"2425","insect","en","Urbin Pipeline",1
+"2426","insect","en","Vaccine Death",1
+"2427","insect","en","Vampire Bat",1
+"2428","insect","en","Vater",1
+"2429","insect","en","Verzehr von Insekten",1
+"2430","insect","en","Victoria Male",1
+"2431","insect","en","Vielzahl von Lebensmitteln",1
+"2432","insect","en","View Link Feed\n\nVisor Buddy",1
+"2433","insect","en","Vinegar",1
+"2434","insect","en","Virginia Stoner",1
+"2435","insect","en","Visa Vista Print",1
+"2436","insect","en","Vystrcil",1
+"2437","insect","en","WHAAAAAT",1
+"2438","insect","en","Wahidullah Hashimi",1
+"2439","insect","en","Wahlen akzeptieren",1
+"2440","insect","en","Wahrheit",1
+"2441","insect","en","Warwick",1
+"2442","insect","en","Watchers",1
+"2443","insect","en","Welt",1
+"2444","insect","en","White Rabbit",1
+"2445","insect","en","Wifi",1
+"2446","insect","en","Willenhall",1
+"2447","insect","en","Without Meaning",1
+"2448","insect","en","Wolverhampton - Bantock Park",1
+"2449","insect","en","Wolverhampton - Northwood Park",1
+"2450","insect","en","Wolverhampton - West Park",1
+"2451","insect","en","Worcestershire - Abbey Park",1
+"2452","insect","en","Worcestershire - Ghulevelt Park",1
+"2453","insect","en","Worcestershire - Priory Park",1
+"2454","insect","en","Worcestershire - Sanders Park",1
+"2455","insect","en","Worksop",1
+"2456","insect","en","Written",1
+"2457","insect","en","Xmas",1
+"2458","insect","en","Yi Zhang",1
+"2459","insect","en","YoCrunch Yoplait YuTube York",1
+"2460","insect","en","Yogurt",1
+"2461","insect","en","Yum Bug",1
+"2462","insect","en","Yuvala Noaha",1
+"2463","insect","en","Zales Zappos",1
+"2464","insect","en","Ze Bug",1
+"2465","insect","en","Zeee",1
+"2466","insect","en","Zerst\xf6rung von Familien und",1
+"2467","insect","en","Zet de volgende spuit",1
+"2468","insect","en","Zika",1
+"2469","insect","en","Zillow Ziploc",1
+"2470","insect","en","Zo\xeb Harcombe",1
+"2471","insect","en","\U0001f1ee\U0001f1f9Italian",1
+"2472","insect","en","\U0001f1ee\U0001f1f9\n",1
+"2473","insect","en","\U0001f1fa",1
+"2474","insect","en","\U0001f1ff",1
+"2475","insect","en","\U0001f353",1
+"2476","insect","en","\U0001f3c1\U0001f1ee",1
+"2477","insect","en","\U0001f3fb\n\n",1
+"2478","insect","en","\U0001f41e\U0001f41e",1
+"2479","insect","en","\U0001f480  ",1
+"2480","insect","en","\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\U0001f4a9\n",1
+"2481","insect","en","\U0001f4f8 https://www.instagram.com/p/CNs5gddgMKk/\n\n\U0001f50d",1
+"2482","insect","en","\U0001f5dd BetterWayConference.org",1
+"2483","insect","en","\U0001f609\n\U0001f331",1
+"2484","insect","en","\U0001f615",1
+"2485","insect","en","\U0001f62f",1
+"2486","insect","en","\U0001f914",1
+"2487","insect","en","\U0001f92a                                                                   ",1
+"2488","insect","en","\U0001f92a\n",1
+"2489","insect","en","\U0001f9ec Perhaps",1
+"2490","insect","en","\u0412 \u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0435",1
+"2491","insect","en","\u041f\u043e\u0432\u0435\u0441\u0442\u043a\u0430 \u0428\u0432\u0430\u0431\u0440\u0430",1
+"2492","insect","en","\u043e\u0447\u0435\u043d\u044c \u0445\u043e\u0442\u044f\u0442",1
+"2493","insect","en","\u0447\u0435\u0440\u0432\u0435\u0439 \u0432 \u0440\u0430\u043c\u043a\u0430\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",1
+"2494","insect","en","\u26ab\ufe0f Eat",1
+"2495","insect","en","\u2728",1
+"2496","insect","en","\ufe0f",1
+"2497","insect","en","\ufe0f Click",1
+"2498","insect","en","\ufe0f \U0001f319",1
+"2499","insect","en","\ufe0fKamala Harris",1
+"2500","insect","en","a Maple Ridge",1
+"2501","insect","en","ai bambini verr\xe0",1
+"2502","insect","en","al dente - al",1
+"2503","insect","en","annually](https://www.osu.edu",1
+"2504","insect","en","anti-EU",1
+"2505","insect","en","beteiligt waren",1
+"2506","insect","en","bush",1
+"2507","insect","en","darauf",1
+"2508","insect","en","delle menti",1
+"2509","insect","en","den Auftrag",1
+"2510","insect","en","devez trembler de froid",1
+"2511","insect","en","diarrhea",1
+"2512","insect","en","donne inventate",1
+"2513","insect","en","fava bean",1
+"2514","insect","en","hanno il",1
+"2515","insect","en","https",1
+"2516","insect","en","https://dq271.isrefer.com/go/AultHome/AUL651/",1
+"2517","insect","en","https://edition.cnn.com/2019/10/04/health/insect-rodent-filth-in-food-wellness/index.html",1
+"2518","insect","en","https://rumble.com/v1o405s-fitton-new-foia-requests-reveal-the-gates-foundation-assisted-the-ccp-in-it.html",1
+"2519","insect","en","https://rumble.com/v1o5tzx-netherlands-starts-feeding-children-bugs.html",1
+"2520","insect","en","https://rumble.com/v260hqs-bbc-sells-and-promotes-insect-eating-on-tv-like-its-not-gross-but-fun.html",1
+"2521","insect","en","https://t.co/kIaP4XXCEi https://twitter.com/EcommunistForum/status/1390026397226180610?s=20",1
+"2522","insect","en","https://thenationalpulse.com/2022/09/18/leftwing-disinformation-group-spreads-disinformation-on-tiktok/",1
+"2523","insect","en","https://url.americanpatriotsforum.com/TxNlhb\n\n-\n\n",1
+"2524","insect","en","https://web.archive.org/web/20120211034737/http://dataasylum.com/mindcontrol-chemtrails-summary.html",1
+"2525","insect","en","https://www.conservativewoman.co.uk/the-elite-are-building-megalopolis-where-the-plebs-will-eat-insects/",1
+"2526","insect","en","https://www.drovers.com/news/beef-production/grasshoppers-finish-north-dakota-crops-pastures-already-plagued-drought",1
+"2527","insect","en","https://www.independent.ie/business/world/eu-clears-producers-to-add-crickets-to-foods-including-pasta-and-cereals-41337280.html",1
+"2528","insect","en","https://www.independent.ie/news/environment/ireland-blows-its-budget-for-emissions-on-dairy-cows-and-burning-coal-41856522.html",1
+"2529","insect","en","https://www.merkur.de/wirtschaft/katar-verbietet-beimisch-von-insekten-in-lebensmittel-92067182.html",1
+"2530","insect","en","https://www.tagesschau.de/investigativ/ndr-wdr/parteispender-tafeln-restaurant-101.html",1
+"2531","insect","en","https://www.theepochtimes.com/dutch-dairy-farmer-faces-having-to-cull-95-percent-of-his-cows_4596335.html",1
+"2532","insect","en","https://www.trunews.com/blog-detail/biblical-insect-swarms-spur-oregon-push-to-fight-pests",1
+"2533","insect","en","https://xpatloop.com/channels/2023/02/new-rules-for-insect-based-foods-in-hungary.html",1
+"2534","insect","en","il rapporto chiarisce che",1
+"2535","insect","en","inclusi nei",1
+"2536","insect","en","iris",1
+"2537","insect","en","james bevan",1
+"2538","insect","en","justin trudeau",1
+"2539","insect","en","kein Insektenpulver",1
+"2540","insect","en","kwaad van de wereld",1
+"2541","insect","en","la plan\xe8te",1
+"2542","insect","en","larva \U0001f92e\n",1
+"2543","insect","en","libera",1
+"2544","insect","en","looney",1
+"2545","insect","en","maize",1
+"2546","insect","en","mosquito",1
+"2547","insect","en","mouse",1
+"2548","insect","en","ne smeta",1
+"2549","insect","en","nu te zien op",1
+"2550","insect","en","nun versuchen",1
+"2551","insect","en","patsy",1
+"2552","insect","en","rapporto afferma che",1
+"2553","insect","en","serfs",1
+"2554","insect","en","simple nano",1
+"2555","insect","en","slender loris",1
+"2556","insect","en","strawberry - rice",1
+"2557","insect","en","t.me/vivoterra_en",1
+"2558","insect","en","ve\u010dito jeli",1
+"2559","insect","en","von Drea Humphrey",1
+"2560","insect","en","zij de mensen",1
+"2561","insect","en","| G[ab](https://gab.com/JustDudeChannel",1
+"2562","insect","nl","#letfoodbethymedicine",1
+"2563","insect","nl","%",1
+"2564","insect","nl","-MMR II",1
+"2565","insect","nl","?Hopelijk",1
+"2566","insect","nl","?\n\n",1
+"2567","insect","nl","Abdullah",1
+"2568","insect","nl","Ach",1
+"2569","insect","nl","Adrian Monck",1
+"2570","insect","nl","Alaska",1
+"2571","insect","nl","Algemene pasta- en weipoederproducten\n",1
+"2572","insect","nl","Alphitobius",1
+"2573","insect","nl","Alphons Muurlink",1
+"2574","insect","nl","Alsof",1
+"2575","insect","nl","American Media Group",1
+"2576","insect","nl","Amerikanen",1
+"2577","insect","nl","Ans",1
+"2578","insect","nl","Antonio Taguba",1
+"2579","insect","nl","Apparently the",1
+"2580","insect","nl","Aquafina",1
+"2581","insect","nl","Aquafina water\n",1
+"2582","insect","nl","B. Het",1
+"2583","insect","nl","BEN BENIEUWD",1
+"2584","insect","nl","Bakkers",1
+"2585","insect","nl","Benader",1
+"2586","insect","nl","Billy geits",1
+"2587","insect","nl","Brighteon",1
+"2588","insect","nl","Bristol",1
+"2589","insect","nl","Bruls",1
+"2590","insect","nl","Burger",1
+"2591","insect","nl","C. Rouget",1
+"2592","insect","nl","C. h.it.ine",1
+"2593","insect","nl","CO2 paspoorten",1
+"2594","insect","nl","Cabal",1
+"2595","insect","nl","Carlo Vigano",1
+"2596","insect","nl","Catherine Cullen",1
+"2597","insect","nl","Chitosan",1
+"2598","insect","nl","Chitosan van 140",1
+"2599","insect","nl","Chocopasta\n",1
+"2600","insect","nl","Christianne van der Wal",1
+"2601","insect","nl","Co2",1
+"2602","insect","nl","Common",1
+"2603","insect","nl","Covid Pfizer Vanguard",1
+"2604","insect","nl","Covid Vanguard",1
+"2605","insect","nl","Creutzfeldt-Jakob",1
+"2606","insect","nl","DTG",1
+"2607","insect","nl","Daniel Deweduwen",1
+"2608","insect","nl","De Tristatecity",1
+"2609","insect","nl","Debiel",1
+"2610","insect","nl","Dentyne\n",1
+"2611","insect","nl","Dingen",1
+"2612","insect","nl","Directed Energy",1
+"2613","insect","nl","Droge premixen voor bakkerijproducten\n",1
+"2614","insect","nl","Eli Crane",1
+"2615","insect","nl","Eva",1
+"2616","insect","nl","Evenzo",1
+"2617","insect","nl","Facebook\n",1
+"2618","insect","nl","Fam Warburg",1
+"2619","insect","nl","Farm Solutions",1
+"2620","insect","nl","Fiesta Miranda-dranken\n",1
+"2621","insect","nl","Flyert",1
+"2622","insect","nl","Follow",1
+"2623","insect","nl","Food Innovation",1
+"2624","insect","nl","Ford Edsel",1
+"2625","insect","nl","Frappuccino-dranken\n",1
+"2626","insect","nl","Freshen Up",1
+"2627","insect","nl","Frontnieuws\nhttps://www.frontnieuws.com/eu-fabrikanten-hoeven-niet-aan-te-geven-dat-voedsel-insecten-bevat/",1
+"2628","insect","nl","Fysiek Goud",1
+"2629","insect","nl","GA MET",1
+"2630","insect","nl","GOUD",1
+"2631","insect","nl","Gebruik contant",1
+"2632","insect","nl","Geloof",1
+"2633","insect","nl","Gladde",1
+"2634","insect","nl","Glaxo SmithKline",1
+"2635","insect","nl","God and I believe that",1
+"2636","insect","nl","God wins",1
+"2637","insect","nl","Google Meta",1
+"2638","insect","nl","Goud Certificaten",1
+"2639","insect","nl","Greentech Fund",1
+"2640","insect","nl","Groenslinks",1
+"2641","insect","nl","Henk Staghouwer",1
+"2642","insect","nl","Houwelingen",1
+"2643","insect","nl","Hugo de Jonge",1
+"2644","insect","nl","Jets",1
+"2645","insect","nl","Jeuk",1
+"2646","insect","nl","John Podesta",1
+"2647","insect","nl","Josef Mengelen",1
+"2648","insect","nl","Juan O",1
+"2649","insect","nl","Just",1
+"2650","insect","nl","Justin Trudeau",1
+"2651","insect","nl","Juvin",1
+"2652","insect","nl","Karel",1
+"2653","insect","nl","Klaus",1
+"2654","insect","nl","Koe",1
+"2655","insect","nl","Koekjes\n",1
+"2656","insect","nl","Koekjes\n\n",1
+"2657","insect","nl","Kombunation Co.",1
+"2658","insect","nl","Laurenz Rockenfellor",1
+"2659","insect","nl","Leef",1
+"2660","insect","nl","Leningen",1
+"2661","insect","nl","Leo Taylor van Yum Bug",1
+"2662","insect","nl","Levert",1
+"2663","insect","nl","Lieven",1
+"2664","insect","nl","Listeria monocytogen](https://nl.wikipedia.org/wiki/Listeria_monocytogenes",1
+"2665","insect","nl","Lumiere\n-Bio",1
+"2666","insect","nl","MC Donalds",1
+"2667","insect","nl","Make Vanguard",1
+"2668","insect","nl","Mania\n",1
+"2669","insect","nl","Marie Antoinette",1
+"2670","insect","nl","Maynards Wijngom\n",1
+"2671","insect","nl","Mc Donald",1
+"2672","insect","nl","McDonalds",1
+"2673","insect","nl","Meergranenbrood\n\n",1
+"2674","insect","nl","Meergranenbrood\n\xa0\xa0\xa0\xa0\xa0\xa0\n \n\xa0\xa0\xa0\xa0\xa0\xa0\n\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0",1
+"2675","insect","nl","Meergranenbroodjes\n",1
+"2676","insect","nl","Mei 24",1
+"2677","insect","nl","Mens",1
+"2678","insect","nl","Miguel Calderon",1
+"2679","insect","nl","Mini",1
+"2680","insect","nl","Mountain Dew",1
+"2681","insect","nl","NC Dongen",1
+"2682","insect","nl","NL.\n\n",1
+"2683","insect","nl","Nazi Conference",1
+"2684","insect","nl","Nazi Koning",1
+"2685","insect","nl","Nestl\xe9",1
+"2686","insect","nl","Noorse",1
+"2687","insect","nl","Ocean Spray",1
+"2688","insect","nl","Openbare Indoctrinatiecentra",1
+"2689","insect","nl","Orwelliaans",1
+"2690","insect","nl","Papa Klaus",1
+"2691","insect","nl","Parkinsons Altheimers",1
+"2692","insect","nl","Paul Eaton",1
+"2693","insect","nl","Paul Warburg",1
+"2694","insect","nl","Pepijn van Houwelingen",1
+"2695","insect","nl","Persbureau Reuters",1
+"2696","insect","nl","Poetin",1
+"2697","insect","nl","Pond",1
+"2698","insect","nl","Post-Covid",1
+"2699","insect","nl","President Biden",1
+"2700","insect","nl","Prins Bernard",1
+"2701","insect","nl","Private Jets",1
+"2702","insect","nl","Putin",1
+"2703","insect","nl","Qatar",1
+"2704","insect","nl","Rabo",1
+"2705","insect","nl","Reiner Fuellmich",1
+"2706","insect","nl","Ricky Lin",1
+"2707","insect","nl","Rothschild Schwab",1
+"2708","insect","nl","Rus",1
+"2709","insect","nl","Ruw",1
+"2710","insect","nl","Sauzen\n\n",1
+"2711","insect","nl","Savin",1
+"2712","insect","nl","Schali Vanguard",1
+"2713","insect","nl","Schali gas",1
+"2714","insect","nl","Shell gas, Vanguard",1
+"2715","insect","nl","Sierra Mist",1
+"2716","insect","nl","Simon Goddek",1
+"2717","insect","nl","Singapore",1
+"2718","insect","nl","Sneu",1
+"2719","insect","nl","Soumya Swaminathan",1
+"2720","insect","nl","Sri Lanka",1
+"2721","insect","nl","Steven Anderson",1
+"2722","insect","nl","Stride\n",1
+"2723","insect","nl","Sune",1
+"2724","insect","nl","Surrender",1
+"2725","insect","nl","Sylvana Simons",1
+"2726","insect","nl","Technocracy",1
+"2727","insect","nl","Telkens",1
+"2728","insect","nl","Therefore",1
+"2729","insect","nl","Thomas",1
+"2730","insect","nl","Trap",1
+"2731","insect","nl","Trek",1
+"2732","insect","nl","Tristatecity",1
+"2733","insect","nl","Trump\n",1
+"2734","insect","nl","Ursula",1
+"2735","insect","nl","Van der Wal",1
+"2736","insect","nl","Van der Wal vorig jaar",1
+"2737","insect","nl","Vega rommel",1
+"2738","insect","nl","Vervolg",1
+"2739","insect","nl","Voedselbank Maastricht",1
+"2740","insect","nl","Warme",1
+"2741","insect","nl","Wees",1
+"2742","insect","nl","Welnu",1
+"2743","insect","nl","Willem",1
+"2744","insect","nl","Willem Alexander",1
+"2745","insect","nl","Willem Alexander VANGUARD",1
+"2746","insect","nl","You",1
+"2747","insect","nl","Zelenski",1
+"2748","insect","nl","Zonder CO2",1
+"2749","insect","nl","Zonnepanelen Vanguard",1
+"2750","insect","nl","[garnale](https://nl.wikipedia.org/wiki/Garnalen",1
+"2751","insect","nl","[grampositiev](https://nl.wikipedia.org/wiki/Gramkleuring",1
+"2752","insect","nl","[kaliloo](https://nl.wikipedia.org/wiki/Kaliumhydroxide",1
+"2753","insect","nl","[schimmel](https://nl.wikipedia.org/wiki/Schimmels",1
+"2754","insect","nl","\U0001d40a. \U0001d400",1
+"2755","insect","nl","\U0001d40a. \U0001d400. \U0001d405.",1
+"2756","insect","nl","\U0001f33c\U0001f49b",1
+"2757","insect","nl","\U0001f3fb Ga",1
+"2758","insect","nl","\U0001f3fb Verminder",1
+"2759","insect","nl","\U0001f4aa \nAlleen Vanguard",1
+"2760","insect","nl","\U0001f4b9 @vrijmoedigCrypto",1
+"2761","insect","nl","\U0001f92e\U0001f92e",1
+"2762","insect","nl","\U0001f92e\n\n Insecten",1
+"2763","insect","nl","\U0001f982\U0001f99f",1
+"2764","insect","nl","\U0001f99f",1
+"2765","insect","nl","\u2018Overbevolkt",1
+"2766","insect","nl","\u203c\ufe0fNU",1
+"2767","insect","nl","beetle",1
+"2768","insect","nl","ben",1
+"2769","insect","nl","ben je voor mij geen vegetari\xebr",1
+"2770","insect","nl","binnenin",1
+"2771","insect","nl","dat.\n\n",1
+"2772","insect","nl","drank\n ",1
+"2773","insect","nl","enorme stress",1
+"2774","insect","nl","food hubs",1
+"2775","insect","nl","galzuren[2]",1
+"2776","insect","nl","gewoon proberen",1
+"2777","insect","nl","gewoon\u2026",1
+"2778","insect","nl","gezondheidsrisico\u2019s",1
+"2779","insect","nl","gonna happen",1
+"2780","insect","nl","groet\nDani\xebl",1
+"2781","insect","nl","have plenty",1
+"2782","insect","nl","hevige menstruatiebloedingen",1
+"2783","insect","nl","https://protix.eu/press_and_media/wef-eating-insects/\n\nProtix",1
+"2784","insect","nl","https://www.volkskrant.nl/nieuws-achtergrond/oud-gevangenisdirecteur-coronamisstanden-in-gevangenissen-gedetineerden-worden-monddood-gemaakt~bf0c7938/",1
+"2785","insect","nl","innovations",1
+"2786","insect","nl","it. \n\nWatch!",1
+"2787","insect","nl","join us",1
+"2788","insect","nl","jullie mensen",1
+"2789","insect","nl","koekjes\n\xa0\xa0\xa0\xa0\xa0\xa0\n \n\xa0\xa0\xa0\xa0\xa0\xa0\n\n\xa0\xa0\xa0\xa0\xa0\xa0\xa0",1
+"2790","insect","nl","koning Shell",1
+"2791","insect","nl","koning Willy de onnozele",1
+"2792","insect","nl","krekel-en",1
+"2793","insect","nl","pasta\n\n",1
+"2794","insect","nl","rammen\u2026",1
+"2795","insect","nl","revolted by bugs",1
+"2796","insect","nl","schone lucht",1
+"2797","insect","nl","urine",1
+"2798","insect","nl","verbetert de bodem",1
+"2799","insect","nl","vergif\n\n",1
+"2800","insect","nl","von der Leyen",1
+"2801","ulez","en","-bennett-rcna69184)[](https://www.biometricupdate.com/202302",1
+"2802","ulez","en","05/20/20",1
+"2803","ulez","en","@PeoplePowerAus",1
+"2804","ulez","en","AI Human",1
+"2805","ulez","en","ALTRETTANTO CRIMINALI",1
+"2806","ulez","en","AVETE",1
+"2807","ulez","en","Abbey Wood",1
+"2808","ulez","en","Abdul",1
+"2809","ulez","en","Absolute Zero",1
+"2810","ulez","en","Adam Corolla/D. Prag](https://t.me/followsthewhiterabbit/2584",1
+"2811","ulez","en","Adam Soos",1
+"2812","ulez","en","Adam Weishaupt",1
+"2813","ulez","en","Adrian Monck",1
+"2814","ulez","en","Agenda",1
+"2815","ulez","en","Agenda \n- UN",1
+"2816","ulez","en","Agenda\n\nBrian Gamble=",1
+"2817","ulez","en","Al Gore",1
+"2818","ulez","en","Alex Dizengof",1
+"2819","ulez","en","Alexander",1
+"2820","ulez","en","Alia Hayel Aboutiyah al-Huwaiti",1
+"2821","ulez","en","Alison",1
+"2822","ulez","en","Alison McDowell",1
+"2823","ulez","en","Altenkirchen Fu\xdfg\xe4ngerzone",1
+"2824","ulez","en","Althusser",1
+"2825","ulez","en","Aman Jabbi\nFollow",1
+"2826","ulez","en","Aman Jabbi\nhttps://rumble.com/v1wkqho-the-final-lockdown-street-lights-that-kill-in-smart-cities-cbdc-digital-id-.html",1
+"2827","ulez","en","Amman Jabbi",1
+"2828","ulez","en","Andrew Bud",1
+"2829","ulez","en","Andrew Cuomo",1
+"2830","ulez","en","Andrew Kerr",1
+"2831","ulez","en","Andrey Bezrukov",1
+"2832","ulez","en","Andrija Klari\u0107",1
+"2833","ulez","en","Angela",1
+"2834","ulez","en","Angela Fiddes",1
+"2835","ulez","en","Anna Pale",1
+"2836","ulez","en","Anna Pale-Of-Shit",1
+"2837","ulez","en","Anna Redfern",1
+"2838","ulez","en","Ant\xf3nio Guterres",1
+"2839","ulez","en","Anthony Webber",1
+"2840","ulez","en","Antonio Guterres",1
+"2841","ulez","en","Anu Mantsinen\n",1
+"2842","ulez","en","Arrokoth",1
+"2843","ulez","en","Ashala Yardley",1
+"2844","ulez","en","Aurora",1
+"2845","ulez","en","Aus",1
+"2846","ulez","en","Aussies",1
+"2847","ulez","en","Australian Silver",1
+"2848","ulez","en","B\xe9ju Dudali",1
+"2849","ulez","en","B\xf8rge Brende",1
+"2850","ulez","en","Back Babylon - They Want T](https://t.me/Revelations_and_Rabbit_Holes/674",1
+"2851","ulez","en","Ballindamm",1
+"2852","ulez","en","Banks",1
+"2853","ulez","en","Barak",1
+"2854","ulez","en","Bas Oudenaarden\nArch",1
+"2855","ulez","en","Basar Al-Assad",1
+"2856","ulez","en","Bavinton",1
+"2857","ulez","en","Bayreuth Flayer",1
+"2858","ulez","en","Bcz",1
+"2859","ulez","en","Believe Pro-DeSantis Propaganda",1
+"2860","ulez","en","Belorussky",1
+"2861","ulez","en","Bennett",1
+"2862","ulez","en","Berlin Kreuzberg",1
+"2863","ulez","en","Berzinski",1
+"2864","ulez","en","BiII Gates",1
+"2865","ulez","en","BilI Gates",1
+"2866","ulez","en","Bild",1
+"2867","ulez","en","Bilderberg",1
+"2868","ulez","en","Bill",1
+"2869","ulez","en","Bill Gates Interviews",1
+"2870","ulez","en","Bill Gates Mini-Documentary",1
+"2871","ulez","en","Bio Labs",1
+"2872","ulez","en","Bio Matter",1
+"2873","ulez","en","Bio Sph\xe4re - Nahrung",1
+"2874","ulez","en","Bjarke Ingels",1
+"2875","ulez","en","Blair Cottrell",1
+"2876","ulez","en","Blogga",1
+"2877","ulez","en","Break Ulez - Break",1
+"2878","ulez","en","Brexit",1
+"2879","ulez","en","Britons",1
+"2880","ulez","en","Broadcaster Patrick Henningsen",1
+"2881","ulez","en","Brockley Outreach",1
+"2882","ulez","en","Bush NWO",1
+"2883","ulez","en","Butcher",1
+"2884","ulez","en","CAMERAS\u203c\ufe0f",1
+"2885","ulez","en","CHINO SE",1
+"2886","ulez","en","CLICK](https://awakenedgb.wordpress.com/2022/10/20",1
+"2887","ulez","en","CON LA",1
+"2888","ulez","en","CORY MORNINGSTAR REPORTS",1
+"2889","ulez","en","Cab",1
+"2890","ulez","en","Callum Smiles",1
+"2891","ulez","en","Charles",1
+"2892","ulez","en","Charles Street",1
+"2893","ulez","en","Chelsea Clinton",1
+"2894","ulez","en","Chernyshenko",1
+"2895","ulez","en","Chip Roy",1
+"2896","ulez","en","Chipotle",1
+"2897","ulez","en","Christiaan Zandstra",1
+"2898","ulez","en","Christian Video",1
+"2899","ulez","en","Christine Anderson",1
+"2900","ulez","en","Claudia Santos",1
+"2901","ulez","en","Climate Lockdowns",1
+"2902","ulez","en","Cloud Valley",1
+"2903","ulez","en","Co. Antrim",1
+"2904","ulez","en","CoG",1
+"2905","ulez","en","Commie",1
+"2906","ulez","en","Common Law",1
+"2907","ulez","en","Complete Dependence",1
+"2908","ulez","en","Conspiracy",1
+"2909","ulez","en","Core",1
+"2910","ulez","en","Corey",1
+"2911","ulez","en","Cory Morningstar",1
+"2912","ulez","en","Covid Jabs",1
+"2913","ulez","en","Craig Kelly",1
+"2914","ulez","en","Create Smart city\u2019s",1
+"2915","ulez","en","Cromwell Statue",1
+"2916","ulez","en","Croydon Constitutionalists",1
+"2917","ulez","en","Crypto App",1
+"2918","ulez","en","DEL",1
+"2919","ulez","en","DREDD",1
+"2920","ulez","en","Dachau",1
+"2921","ulez","en","Dan Andrews",1
+"2922","ulez","en","Dan Astin-Gregory",1
+"2923","ulez","en","Daniel L. Doctoroff",1
+"2924","ulez","en","Dark Geneses",1
+"2925","ulez","en","Darren Bergwerf MY",1
+"2926","ulez","en","David Avocado",1
+"2927","ulez","en","David Clews",1
+"2928","ulez","en","David Cole &",1
+"2929","ulez","en","David Fleming",1
+"2930","ulez","en","David Icke Valentine",1
+"2931","ulez","en","David Oneegs",1
+"2932","ulez","en","David Rockefeller\u2018s",1
+"2933","ulez","en","Davis",1
+"2934","ulez","en","Dawn Spragg",1
+"2935","ulez","en","Debbie Hicks / Keep It Cash",1
+"2936","ulez","en","Declas Bomb",1
+"2937","ulez","en","Dee Why",1
+"2938","ulez","en","Dee Why RSL",1
+"2939","ulez","en","Delve",1
+"2940","ulez","en","Denby Sheather",1
+"2941","ulez","en","Deniliquin NSW",1
+"2942","ulez","en","Der Managing Partner des",1
+"2943","ulez","en","Dick Yardley",1
+"2944","ulez","en","Diego Garcia",1
+"2945","ulez","en","Digital I](https://t.me/TheGreatResetTimes/11188",1
+"2946","ulez","en","Digital Prison - Presentation",1
+"2947","ulez","en","Digs",1
+"2948","ulez","en","Disgusting Sadiq Khan",1
+"2949","ulez","en","Donald J. Trump",1
+"2950","ulez","en","Donald Trump",1
+"2951","ulez","en","Download",1
+"2952","ulez","en","Dredd",1
+"2953","ulez","en","Dubai Al-Maktoum Airport",1
+"2954","ulez","en","Dus",1
+"2955","ulez","en","Dutch Embassy",1
+"2956","ulez","en","Edinburgh",1
+"2957","ulez","en","Editions de l\u2019Observatoire",1
+"2958","ulez","en","Edmonton",1
+"2959","ulez","en","Edward Snowden](https://t.me/+K7oXCn3wasw0ZDZk",1
+"2960","ulez","en","Ehud Barak",1
+"2961","ulez","en","Eickedorfer Str.",1
+"2962","ulez","en","Email Scandal",1
+"2963","ulez","en","Eric Holthaus",1
+"2964","ulez","en","Eric Schmidt",1
+"2965","ulez","en","Eric Schmidt\u2019s",1
+"2966","ulez","en","Euston",1
+"2967","ulez","en","Evgeny Kovnir",1
+"2968","ulez","en","Ezra Levant",1
+"2969","ulez","en","FACIAL",1
+"2970","ulez","en","F\xdcR DEUTSCHLAND",1
+"2971","ulez","en","Fabianer Degeneration",1
+"2972","ulez","en","Fabianer \n\nAlles",1
+"2973","ulez","en","Fat Mike Enoch",1
+"2974","ulez","en","Fidel Castro CFR",1
+"2975","ulez","en","Flare Network",1
+"2976","ulez","en","Fluvanna",1
+"2977","ulez","en","Food Initiative",1
+"2978","ulez","en","Forum",1
+"2979","ulez","en","Fotios Katsaros",1
+"2980","ulez","en","Fox SILENCES Pro-Trump Carlson",1
+"2981","ulez","en","Francis Bacon",1
+"2982","ulez","en","Frank Joshi",1
+"2983","ulez","en","Frankston Melbourne",1
+"2984","ulez","en","Frat Boy",1
+"2985","ulez","en","Freemason",1
+"2986","ulez","en","Full Doc",1
+"2987","ulez","en","G Edward Griffin",1
+"2988","ulez","en","GDPR",1
+"2989","ulez","en","GRAZIE MILLE",1
+"2990","ulez","en","Gabriel Bankman-Fried",1
+"2991","ulez","en","Gabriele Mundula\nArch",1
+"2992","ulez","en","Gary Clarke",1
+"2993","ulez","en","Gavin Wax",1
+"2994","ulez","en","Genetic Engnring",1
+"2995","ulez","en","George Bush Lite",1
+"2996","ulez","en","George Floyd",1
+"2997","ulez","en","George H. W. Bush NWO",1
+"2998","ulez","en","George Soros Smart Cities",1
+"2999","ulez","en","George W Bush",1
+"3000","ulez","en","Ghassan Jansiz\nProf.",1
+"3001","ulez","en","Glen Beck",1
+"3002","ulez","en","Glenn Beck",1
+"3003","ulez","en","Gore",1
+"3004","ulez","en","Governance Critera",1
+"3005","ulez","en","Grant Eagles",1
+"3006","ulez","en","Graphene Oxide,](https://t.me/followsthewhiterabbit/2572",1
+"3007","ulez","en","Greta Thunberg",1
+"3008","ulez","en","Grim",1
+"3009","ulez","en","Grow Babies",1
+"3010","ulez","en","Grow Babies\n\nhttps://www.theepochtimes.com/secret-smart-city-program-to-launch-in-netherlands-human-factory-farm-proposed-to-grow-babies_4919589.html",1
+"3011","ulez","en","Gunzenhausen",1
+"3012","ulez","en","Hans Jonas",1
+"3013","ulez","en","Healthy bar",1
+"3014","ulez","en","Heiko",1
+"3015","ulez","en","Heiko Khoo",1
+"3016","ulez","en","Hejazi",1
+"3017","ulez","en","Henry Ford",1
+"3018","ulez","en","Hill North Carolina",1
+"3019","ulez","en","Hillary",1
+"3020","ulez","en","Hillary Clinton",1
+"3021","ulez","en","Horizon",1
+"3022","ulez","en","Hotelier Jeremy Mogford",1
+"3023","ulez","en","Howard Cox",1
+"3024","ulez","en","Howard Lutnick",1
+"3025","ulez","en","Human Habitat",1
+"3026","ulez","en","Human Organ Tracking",1
+"3027","ulez","en","Humanity Doc",1
+"3028","ulez","en","Hunter",1
+"3029","ulez","en","Huxley",1
+"3030","ulez","en","Hydrogels",1
+"3031","ulez","en","ITera Wand",1
+"3032","ulez","en","Internment Camps",1
+"3033","ulez","en","Jack Ma",1
+"3034","ulez","en","James Delingpole",1
+"3035","ulez","en","James Rink)](https://t.me/followsthewhiterabbit/10581",1
+"3036","ulez","en","Jan Sufyan",1
+"3037","ulez","en","Jane Goodall",1
+"3038","ulez","en","Jasmine",1
+"3039","ulez","en","Jed McCaleb",1
+"3040","ulez","en","Jedi",1
+"3041","ulez","en","Jeff Bezos",1
+"3042","ulez","en","Johan Eliasch",1
+"3043","ulez","en","John Campbell",1
+"3044","ulez","en","John Lash",1
+"3045","ulez","en","John Shipton",1
+"3046","ulez","en","Johnathan Tilt",1
+"3047","ulez","en","Johnny Vedmore",1
+"3048","ulez","en","Join",1
+"3049","ulez","en","Join Sam Melia",1
+"3050","ulez","en","Join William",1
+"3051","ulez","en","Jordan Peterson",1
+"3052","ulez","en","Joseph Robertson",1
+"3053","ulez","en","Joshua Murphy",1
+"3054","ulez","en","Julia Buckley",1
+"3055","ulez","en","Julius Nyerere",1
+"3056","ulez","en","Jungfernstieg",1
+"3057","ulez","en","Jutta Steinruck",1
+"3058","ulez","en","KNOW",1
+"3059","ulez","en","Kalergi",1
+"3060","ulez","en","Kate",1
+"3061","ulez","en","Kate Shemirani - A",1
+"3062","ulez","en","Keith Woods",1
+"3063","ulez","en","Ken Macon",1
+"3064","ulez","en","Kevin Blythe",1
+"3065","ulez","en","Kevin O\u2019Neil",1
+"3066","ulez","en","Kharkiv",1
+"3067","ulez","en","Kiel",1
+"3068","ulez","en","Kijk",1
+"3069","ulez","en","King Charles",1
+"3070","ulez","en","Kingsley Hamilton",1
+"3071","ulez","en","Kingsley Hamilton -",1
+"3072","ulez","en","LASCHET SHOULD",1
+"3073","ulez","en","La Quinta Columna",1
+"3074","ulez","en","Larry Fink\u2019s",1
+"3075","ulez","en","Leben",1
+"3076","ulez","en","Lebens Feindlich",1
+"3077","ulez","en","Leo",1
+"3078","ulez","en","Levert Wienerberger AG",1
+"3079","ulez","en","Liechtenstein",1
+"3080","ulez","en","Lilian Held Kawham",1
+"3081","ulez","en","Linda Fried",1
+"3082","ulez","en","Liveable Neighborhoods",1
+"3083","ulez","en","Local Residents",1
+"3084","ulez","en","Lois Perry",1
+"3085","ulez","en","London Motorists",1
+"3086","ulez","en","Looney Tunes",1
+"3087","ulez","en","Lorraine",1
+"3088","ulez","en","Lucifer",1
+"3089","ulez","en","Lucky Kill Bill",1
+"3090","ulez","en","Lynn",1
+"3091","ulez","en","Lynn Forester/de Rothschild",1
+"3092","ulez","en","MT",1
+"3093","ulez","en","M\xfcnchen  Odeonplatz",1
+"3094","ulez","en","Macron",1
+"3095","ulez","en","Magna Carta",1
+"3096","ulez","en","Malcolm Turnball",1
+"3097","ulez","en","Marburg",1
+"3098","ulez","en","Marc Benioff",1
+"3099","ulez","en","March2023",1
+"3100","ulez","en","Marco Casagrande",1
+"3101","ulez","en","Maria Caufield",1
+"3102","ulez","en","Maria interviews Alex",1
+"3103","ulez","en","MariaZee",1
+"3104","ulez","en","Mariannenplatz 2a",1
+"3105","ulez","en","Marie Zee",1
+"3106","ulez","en","Marioupol",1
+"3107","ulez","en","Mark Collett",1
+"3108","ulez","en","Marlo Safi",1
+"3109","ulez","en","Marwa Al-Sabouni",1
+"3110","ulez","en","Marylebone",1
+"3111","ulez","en","Mass Non-compliance",1
+"3112","ulez","en","Mass Sudden Deaths",1
+"3113","ulez","en","Mastercard",1
+"3114","ulez","en","Matt",1
+"3115","ulez","en","Matteo Riccelli",1
+"3116","ulez","en","Max Igan\nSmart Cities",1
+"3117","ulez","en","Meg Whitman",1
+"3118","ulez","en","Mengistu Haile Mariam",1
+"3119","ulez","en","Michael Jackson\U0001f49c",1
+"3120","ulez","en","Michael O\u2019Neill",1
+"3121","ulez","en","Michel Camdessus",1
+"3122","ulez","en","Michel Foucault",1
+"3123","ulez","en","Michelle Malkin Report",1
+"3124","ulez","en","Midazolam",1
+"3125","ulez","en","Mike Bloomberg",1
+"3126","ulez","en","Mini-Doc #1",1
+"3127","ulez","en","Mini-Doc #2",1
+"3128","ulez","en","Mini-Doc #3",1
+"3129","ulez","en","Mississauga",1
+"3130","ulez","en","Mitch McConnell",1
+"3131","ulez","en","Monbulk Melbourne",1
+"3132","ulez","en","Monica Smit",1
+"3133","ulez","en","Morgan Chase",1
+"3134","ulez","en","Morphine",1
+"3135","ulez","en","Mouse Utopia",1
+"3136","ulez","en","Mridul Kaushik",1
+"3137","ulez","en","Mukesh Ambani",1
+"3138","ulez","en","Murdoch",1
+"3139","ulez","en","N.A.S.A. Moonlanding - Wikileaks Release o](https://t.me/followsthewhiterabbit/10600",1
+"3140","ulez","en","NW1\n\n",1
+"3141","ulez","en","N[ikola",1
+"3142","ulez","en","Naftali Bennett",1
+"3143","ulez","en","Nando Bertolini",1
+"3144","ulez","en","Nano",1
+"3145","ulez","en","Napoleon Waterloo",1
+"3146","ulez","en","Natasha Pulitzer",1
+"3147","ulez","en","Naveen Rao",1
+"3148","ulez","en","Neighbourhoods",1
+"3149","ulez","en","Neo Feudalism",1
+"3150","ulez","en","Netanyahu",1
+"3151","ulez","en","Nick Fuentes",1
+"3152","ulez","en","Norman Fenton",1
+"3153","ulez","en","Nur Sipahio\u011flu",1
+"3154","ulez","en","OUTREACH STALL",1
+"3155","ulez","en","Orpington Tory MP",1
+"3156","ulez","en","Outreach Worldwide - Jab",1
+"3157","ulez","en","POLITICAL",1
+"3158","ulez","en","PRATICAMENTE TUTTO",1
+"3159","ulez","en","Palantir",1
+"3160","ulez","en","Paolo Masciocchi",1
+"3161","ulez","en","Partner",1
+"3162","ulez","en","Passeport Sant\xe9",1
+"3163","ulez","en","Patrick Henningsen",1
+"3164","ulez","en","Paul Joseph Watson\nAn",1
+"3165","ulez","en","Paul Ryan",1
+"3166","ulez","en","Paul Seils",1
+"3167","ulez","en","Paypal",1
+"3168","ulez","en","Penn",1
+"3169","ulez","en","Perrottet",1
+"3170","ulez","en","Peter B. Meyer",1
+"3171","ulez","en","Peter Fortune AM",1
+"3172","ulez","en","Peter Thiel",1
+"3173","ulez","en","Pharma",1
+"3174","ulez","en","Phillip Altman",1
+"3175","ulez","en","Prince Mohammed",1
+"3176","ulez","en","Publikation People-Smart Sustainable Cities",1
+"3177","ulez","en","Puente del Fuego",1
+"3178","ulez","en","Pylon",1
+"3179","ulez","en","RF",1
+"3180","ulez","en","RNA",1
+"3181","ulez","en","ROBERTS",1
+"3182","ulez","en","RUP",1
+"3183","ulez","en","Rainwater",1
+"3184","ulez","en","Rajiv Shah",1
+"3185","ulez","en","Ransomware",1
+"3186","ulez","en","Rape Mind",1
+"3187","ulez","en","Ready Player One",1
+"3188","ulez","en","Reassessing",1
+"3189","ulez","en","Rebecca Hammons",1
+"3190","ulez","en","Reid Hoffman",1
+"3191","ulez","en","Reinikainen",1
+"3192","ulez","en","Removing History",1
+"3193","ulez","en","Resilient Groups",1
+"3194","ulez","en","Retail Banks",1
+"3195","ulez","en","Richard Branson",1
+"3196","ulez","en","Richard Tice",1
+"3197","ulez","en","Ricky Vaughn",1
+"3198","ulez","en","Rigs Paraguay Election",1
+"3199","ulez","en","Rihard Tice",1
+"3200","ulez","en","Road",1
+"3201","ulez","en","Road User Charging",1
+"3202","ulez","en","Rob Deutsch",1
+"3203","ulez","en","Robert Maxwell",1
+"3204","ulez","en","Robin",1
+"3205","ulez","en","Robotics",1
+"3206","ulez","en","Rond 26.00",1
+"3207","ulez","en","Rond 28.00",1
+"3208","ulez","en","Ronnie",1
+"3209","ulez","en","Rosa Koire - U.N.",1
+"3210","ulez","en","Rosa Koire - U.N](https://t.me",1
+"3211","ulez","en","Ross",1
+"3212","ulez","en","Rothchild",1
+"3213","ulez","en","Rothschild Family Hierarch](https://www.youtube.com",1
+"3214","ulez","en","Rule",1
+"3215","ulez","en","SATURDAY",1
+"3216","ulez","en","Sakhalin",1
+"3217","ulez","en","Sam Goody",1
+"3218","ulez","en","Sandi Adams",1
+"3219","ulez","en","Sara Bissen",1
+"3220","ulez","en","Sara Farley",1
+"3221","ulez","en","Sarah McKechnie",1
+"3222","ulez","en","Savid Javid",1
+"3223","ulez","en","Scott Morrison",1
+"3224","ulez","en","Selbstverwaltung Bethanien-S\xfcdfl\xfcgel",1
+"3225","ulez","en","Sergio Los",1
+"3226","ulez","en","Shakespeare",1
+"3227","ulez","en","Shepparton",1
+"3228","ulez","en","Sheryl Sandberg",1
+"3229","ulez","en","Shinzo Abe\u2019s Connection",1
+"3230","ulez","en","Shoshana Zuboff",1
+"3231","ulez","en","Sigfox",1
+"3232","ulez","en","Skeoge",1
+"3233","ulez","en","Smart Packaging",1
+"3234","ulez","en","Smart Prison",1
+"3235","ulez","en","Smart Textiles",1
+"3236","ulez","en","Sophia Katsaros",1
+"3237","ulez","en","Sozialisten Bolschewisten",1
+"3238","ulez","en","Spike Protiens",1
+"3239","ulez","en","St Peter\u2019s",1
+"3240","ulez","en","St\xe4dten",1
+"3241","ulez","en","Stakeholder Capitalism",1
+"3242","ulez","en","Stand",1
+"3243","ulez","en","Stefano Boeri Architetti",1
+"3244","ulez","en","Stephen Andrew",1
+"3245","ulez","en","Stephen Lymbery",1
+"3246","ulez","en","Stephen Moir",1
+"3247","ulez","en","Steve",1
+"3248","ulez","en","Steve Galvin",1
+"3249","ulez","en","Steve Pannifer",1
+"3250","ulez","en","Stew Peters",1
+"3251","ulez","en","Substack",1
+"3252","ulez","en","Surveillance Capitalism",1
+"3253","ulez","en","Syd Fizzard",1
+"3254","ulez","en","System",1
+"3255","ulez","en","TANTISSIMI \u203c\ufe0f\u203c\ufe0f\u203c\ufe0fTAVOLI",1
+"3256","ulez","en","Tara McGeehan",1
+"3257","ulez","en","Ted Waitt",1
+"3258","ulez","en","Telegram",1
+"3259","ulez","en","Telosa",1
+"3260","ulez","en","Thales",1
+"3261","ulez","en","Thales Digital",1
+"3262","ulez","en","The Birth of the Prison",1
+"3263","ulez","en","Thiel",1
+"3264","ulez","en","Thoth",1
+"3265","ulez","en","Tom",1
+"3266","ulez","en","Tom Cowie Campus",1
+"3267","ulez","en","Tom Jarvis",1
+"3268","ulez","en","Tom Steyer",1
+"3269","ulez","en","Tom Tate",1
+"3270","ulez","en","Tomer Weller",1
+"3271","ulez","en","Tony Ant Media",1
+"3272","ulez","en","Tony Blair",1
+"3273","ulez","en","Trae Stephens",1
+"3274","ulez","en","Trafalgar",1
+"3275","ulez","en","Transact AIML",1
+"3276","ulez","en","Trilaterale Kommission",1
+"3277","ulez","en","Trudeau",1
+"3278","ulez","en","Trump Joins",1
+"3279","ulez","en","Tucker Carlson",1
+"3280","ulez","en","UN](https://t.me/EinigkeitRechtFreiheit/13502",1
+"3281","ulez","en","U\u011fur Sa\u011flam\nStefano",1
+"3282","ulez","en","Ulez Con-Voy",1
+"3283","ulez","en","Ultima Thule",1
+"3284","ulez","en","Uncensored Awakening - White",1
+"3285","ulez","en","Universal Basic Income",1
+"3286","ulez","en","Vanguard  Will  Swoop",1
+"3287","ulez","en","Varadkar",1
+"3288","ulez","en","Vauxhall Walk",1
+"3289","ulez","en","Veronika Nikishina",1
+"3290","ulez","en","Vibhavari Jani",1
+"3291","ulez","en","Victor Ai",1
+"3292","ulez","en","Victoria",1
+"3293","ulez","en","Vincent Kennedy \U0001f1fa",1
+"3294","ulez","en","Vladimir Putin",1
+"3295","ulez","en","Voltaire",1
+"3296","ulez","en","WESTERSE BOEL",1
+"3297","ulez","en","Wade Northausen",1
+"3298","ulez","en","Wakey Wakey",1
+"3299","ulez","en","Warns \u2018",1
+"3300","ulez","en","Wesley Russell",1
+"3301","ulez","en","WiFi](https://t.me",1
+"3302","ulez","en","Wie",1
+"3303","ulez","en","Wieland Alge",1
+"3304","ulez","en","Willem Engel",1
+"3305","ulez","en","William Keyte",1
+"3306","ulez","en","William Lauder",1
+"3307","ulez","en","Winli Bishmi",1
+"3308","ulez","en","Winterfeldplatz",1
+"3309","ulez","en","Wollongong",1
+"3310","ulez","en","Worth",1
+"3311","ulez","en","Wurzelroot",1
+"3312","ulez","en","Xi",1
+"3313","ulez","en","Xi Jinping",1
+"3314","ulez","en","YOUR FAMILY",1
+"3315","ulez","en","Yakuza",1
+"3316","ulez","en","Yarvin",1
+"3317","ulez","en","Yuhyun](https://mobile.twitter.com/YuhyunPark_/status/1454274641527070732",1
+"3318","ulez","en","Yuval Harari",1
+"3319","ulez","en","Zana Kibar",1
+"3320","ulez","en","Zeee Media",1
+"3321","ulez","en","Zionist Moving Forwards",1
+"3322","ulez","en","\U0001d64b\U0001d667\U0001d65e\U0001d668\U0001d664\U0001d663 \U0001d63e\U0001d65a\U0001d661\U0001d661",1
+"3323","ulez","en","\U0001f1e8",1
+"3324","ulez","en","\U0001f1ee\U0001f1ea",1
+"3325","ulez","en","\U0001f1f7 La",1
+"3326","ulez","en","\U0001f374",1
+"3327","ulez","en","\U0001f37f",1
+"3328","ulez","en","\U0001f399",1
+"3329","ulez","en","\U0001f4a9",1
+"3330","ulez","en","\U0001f4ac",1
+"3331","ulez","en","\U0001f4f8",1
+"3332","ulez","en","\U0001f4f9 DOCUMENTARY \U0001f3ad",1
+"3333","ulez","en","\U0001f58a",1
+"3334","ulez","en","\U0001f602",1
+"3335","ulez","en","\U0001f629\n\n\U0001f6a8",1
+"3336","ulez","en","\U0001f64f",1
+"3337","ulez","en","\U0001f914",1
+"3338","ulez","en","\U0001f92c",1
+"3339","ulez","en","\u25b6",1
+"3340","ulez","en","\u2665",1
+"3341","ulez","en","\u26cf",1
+"3342","ulez","en","\u274c",1
+"3343","ulez","en","\ufe0f",1
+"3344","ulez","en","\ufe0f Watch - Megacities",1
+"3345","ulez","en","\xe7a n\u2019arrive",1
+"3346","ulez","en","anti Zoning leaflet",1
+"3347","ulez","en","anti-DQSH",1
+"3348","ulez","en","bepaald \u201cras\u201d",1
+"3349","ulez","en","bin Salman\u2019s",1
+"3350","ulez","en","bush",1
+"3351","ulez","en","complett bald",1
+"3352","ulez","en","dan smart city",1
+"3353","ulez","en","de Nazitijd",1
+"3354","ulez","en","de Sulzer",1
+"3355","ulez","en","dein Ego \n",1
+"3356","ulez","en","digital IDs",1
+"3357","ulez","en","dystopian smart city",1
+"3358","ulez","en","https://brandnewtube.com/v/fdbKxN",1
+"3359","ulez","en","https://dq271.isrefer.com/go/AultHome/AUL651/",1
+"3360","ulez","en","https://entropystream.live/app/markcollett",1
+"3361","ulez","en","https://gab.com/evajungbowen/posts/109423609722211115\n\nEva Jung Bowen\n@evajungbowen",1
+"3362","ulez","en","https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Aims-To-Become-The-Worlds-Fastest-Growing-Economy-In-2023.html",1
+"3363","ulez","en","https://rumble.com/v1nevf0--singapore..-first-industrial-6g-smart-cities-led-lab.html",1
+"3364","ulez","en","https://rumble.com/v1w1fcn-aman-jabbi-the-final-lockdown-street-lights-that-kill-in-smart-cities-cbdc-.html",1
+"3365","ulez","en","https://rumble.com/v2hedbu-leeds-is-on-the-list-to-become-a-smart-city.html",1
+"3366","ulez","en","https://t.me/MissionMeets/5410",1
+"3367","ulez","en","https://t.me/Pierscorbyn",1
+"3368","ulez","en","https://t.me/QuantumStellarInitiative/19739",1
+"3369","ulez","en","https://t.me/ScarletFranciniItaly",1
+"3370","ulez","en","https://thebl.com/china/china-insights/chinese-smart-cities-tool-of-mass-surveillance-or-a-better-quality-of-life.html",1
+"3371","ulez","en","https://www.activistpost.com/2020/10/verizon-admits-5g-is-more-about-autonomous-vehicles-and-smart-cities-than-speed-experts-warn-all-are-unsafe.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ActivistPost+%28Activist+Post%29",1
+"3372","ulez","en","https://www.baicommunications.com/mediarelease/ten-tech-startups-join-new-sunderland-iot-5g-accelerator/",1
+"3373","ulez","en","https://www.bitchute.com/video/Kqgc8d6IKceR/",1
+"3374","ulez","en","https://www.clara.com.au/smart-cities/core-elements/mobility/",1
+"3375","ulez","en","https://www.dailymail.co.uk/news/article-12011507/ULEZ-Blade-Runners-want-one-Sadiq-Khans-low-emission-cameras.html\n\n@EvaVlaardingerbroek",1
+"3376","ulez","en","https://www.dailymail.co.uk/news/article-9956025/Londons-offices-lie-Covid-cases-rise-amid-post-pandemic-plan-solve-housing-crisis.html",1
+"3377","ulez","en","https://www.ntd.com/5-arrested-after-large-scale-protest-against-15-minute-cities-in-oxford-england_902671.html",1
+"3378","ulez","en","https://www.oxfordmail.co.uk/news/23329831.patriotic-alternative-supporters-urged-attend-oxford-ltn-protest/",1
+"3379","ulez","en","https://www.politico.com/news/2021/04/01/surviving-global-travel-during-covid-478821",1
+"3380","ulez","en","https://www.sott.net/article/479812-UK-Peasants-Revolt-ULEZ-Blade-Runners-want-to-take-down-EVERY-one-of-Sadiq-Khans-low-emission-cameras",1
+"3381","ulez","en","https://www.sott.net/article/480233-King-Charles-and-WEF-set-meeting-for-September-to-accelerate-goals-of-U-N-Agenda-2030",1
+"3382","ulez","en","https://www.thegatewaypundit.com/2023/03/multiple-minnesota-agencies-monitor-nuclear-plant-after-over-400000-gallons-of-radioactive-water-has-leaked-since-last-year/",1
+"3383","ulez","en","https://www.theguardian.com/global-development/2020/may/04/its-being-built-on-our-blood-the-true-cost-of-saudi-arabia-5bn-mega-city-neom",1
+"3384","ulez","en","https://www.theguardian.com/uk-news/2022/mar/04/ulez-to-cover-all-of-greater-london-by-end-of-next-year-sadiq-khan\n\nSubscribe",1
+"3385","ulez","en","https://www.wealthdaily.com/articles/tesla-s-5g-future-utterly-impossible-without-this-tiny-tech-firm/97462",1
+"3386","ulez","en","https://www.weforum.org/agenda/2021/08/what-is-a-smart-city/",1
+"3387","ulez","en","hydrogel",1
+"3388","ulez","en","iris",1
+"3389","ulez","en","jack",1
+"3390","ulez","en","komplett widerlegt u",1
+"3391","ulez","en","kuba",1
+"3392","ulez","en","megalopolis",1
+"3393","ulez","en","mensen liegen",1
+"3394","ulez","en","nano Graphene",1
+"3395","ulez","en","normie",1
+"3396","ulez","en","seinen Anteil",1
+"3397","ulez","en","serfs",1
+"3398","ulez","en","steigert MAD",1
+"3399","ulez","en","the Abraham Accord",1
+"3400","ulez","en","the Stew Peters Show",1
+"3401","ulez","en","u maar",1
+"3402","ulez","en","von Bill Gates",1
+"3403","ulez","en","wurde von",1
+"3404","ulez","en","youtube.com/watch?v=y7LU17tXk2k - \n\n",1
+"3405","ulez","nl","#Apeldoorn",1
+"3406","ulez","nl","#City",1
+"3407","ulez","nl","3/4G",1
+"3408","ulez","nl","=EEReFN4&",1
+"3409","ulez","nl","=fioA-BO3PUY",1
+"3410","ulez","nl","Amazons deurbel",1
+"3411","ulez","nl","Amsterdam Smart",1
+"3412","ulez","nl","Ancilla",1
+"3413","ulez","nl","Arizona",1
+"3414","ulez","nl","B. We",1
+"3415","ulez","nl","BNG Bank",1
+"3416","ulez","nl","BOA\u2019s",1
+"3417","ulez","nl","BURGERS AAN",1
+"3418","ulez","nl","Beetje",1
+"3419","ulez","nl","Bill Gates",1
+"3420","ulez","nl","Blijft Oekra",1
+"3421","ulez","nl","Boris",1
+"3422","ulez","nl","C40 Cities",1
+"3423","ulez","nl","CO2 budget",1
+"3424","ulez","nl","De Tristatecity",1
+"3425","ulez","nl","Demelition Man",1
+"3426","ulez","nl","Domme",1
+"3427","ulez","nl","Duitsland\n",1
+"3428","ulez","nl","Effe",1
+"3429","ulez","nl","Elites",1
+"3430","ulez","nl","Energy",1
+"3431","ulez","nl","Erik",1
+"3432","ulez","nl","Erik Akerboom",1
+"3433","ulez","nl","Eveline van Dongen",1
+"3434","ulez","nl","God",1
+"3435","ulez","nl","Google",1
+"3436","ulez","nl","Helma Broekman\xa9",1
+"3437","ulez","nl","Henk Staghouwer",1
+"3438","ulez","nl","Hugo Talks",1
+"3439","ulez","nl","Incl",1
+"3440","ulez","nl","Ineens",1
+"3441","ulez","nl","Iris",1
+"3442","ulez","nl","Itali\xeb\n",1
+"3443","ulez","nl","Jacobus",1
+"3444","ulez","nl","Jan \n#Waalwijk\n",1
+"3445","ulez","nl","Je hebt",1
+"3446","ulez","nl","Johnson",1
+"3447","ulez","nl","Johnson Speaking",1
+"3448","ulez","nl","Laten",1
+"3449","ulez","nl","Leuk",1
+"3450","ulez","nl","Lewinsky",1
+"3451","ulez","nl","Malle stikstof gedoe",1
+"3452","ulez","nl","Marc van Delft",1
+"3453","ulez","nl","Mark",1
+"3454","ulez","nl","Martha Krul\nLichtpuntjes\nHet",1
+"3455","ulez","nl","Mooier",1
+"3456","ulez","nl","NL.\nMaar",1
+"3457","ulez","nl","Nancy Kroes",1
+"3458","ulez","nl","Nazi smart city?",1
+"3459","ulez","nl","Nederland\n\n",1
+"3460","ulez","nl","Netwerken",1
+"3461","ulez","nl","Niemand",1
+"3462","ulez","nl","Nieuw-Zeeland\n\n",1
+"3463","ulez","nl","Over Smart",1
+"3464","ulez","nl","Over de Oekra\xefne",1
+"3465","ulez","nl","Oxford Council",1
+"3466","ulez","nl","Peter B. Meyer",1
+"3467","ulez","nl","Peter Savelberg",1
+"3468","ulez","nl","President Trump",1
+"3469","ulez","nl","Razzia\u2019s",1
+"3470","ulez","nl","Reset",1
+"3471","ulez","nl","Robert Jensen",1
+"3472","ulez","nl","Ronald",1
+"3473","ulez","nl","Ronald Bakker\n\n\n",1
+"3474","ulez","nl","Rothschild",1
+"3475","ulez","nl","Rothschild Gen",1
+"3476","ulez","nl","Rusland?",1
+"3477","ulez","nl","Smart City-surveillanceprogramma",1
+"3478","ulez","nl","Smart city=",1
+"3479","ulez","nl","Sri Lanka",1
+"3480","ulez","nl","Technocracy",1
+"3481","ulez","nl","Tokio",1
+"3482","ulez","nl","Trappen",1
+"3483","ulez","nl","Ursula van der Leyendakje",1
+"3484","ulez","nl","Victoria",1
+"3485","ulez","nl","Vraagje",1
+"3486","ulez","nl","WO III",1
+"3487","ulez","nl","Weet",1
+"3488","ulez","nl","Werelds",1
+"3489","ulez","nl","Wochenblick",1
+"3490","ulez","nl","Wyss Schwab",1
+"3491","ulez","nl","Zeist\n",1
+"3492","ulez","nl","Zorg",1
+"3493","ulez","nl","[y-",1
+"3494","ulez","nl","\U0001f1f9 Draghistan",1
+"3495","ulez","nl","\U0001f44d",1
+"3496","ulez","nl","\U0001f47f\n\n",1
+"3497","ulez","nl","\u2019s\u2019",1
+"3498","ulez","nl","auto\u2019s",1
+"3499","ulez","nl","b.v",1
+"3500","ulez","nl","ben ik echt",1
+"3501","ulez","nl","ben je gelukkig\n",1
+"3502","ulez","nl","ben nu",1
+"3503","ulez","nl","bestand",1
+"3504","ulez","nl","cdbc",1
+"3505","ulez","nl","chem trails",1
+"3506","ulez","nl","city..",1
+"3507","ulez","nl","cyberattacks",1
+"3508","ulez","nl","e bent",1
+"3509","ulez","nl","ernstige ademnood",1
+"3510","ulez","nl","euro\u2019s",1
+"3511","ulez","nl","gas-",1
+"3512","ulez","nl","hongersnood\nHoe",1
+"3513","ulez","nl","jamner",1
+"3514","ulez","nl","lesprogramma\u2019s",1
+"3515","ulez","nl","maken\u2026",1
+"3516","ulez","nl","microfoons",1
+"3517","ulez","nl","mm\xb2",1
+"3518","ulez","nl","palen,.en",1
+"3519","ulez","nl","pauze\n",1
+"3520","ulez","nl","pro smart city",1
+"3521","ulez","nl","regio\u2019s",1
+"3522","ulez","nl","serotonine verhoogd",1
+"3523","ulez","nl","stand-in",1
+"3524","ulez","nl","the Hunger Games",1
+"3525","ulez","nl","the Line",1

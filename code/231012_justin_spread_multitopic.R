@@ -25,7 +25,7 @@ posts <- read.csv('data/231015_raw_data_with_topics.csv') #check the location of
 
 
 #remove languages not in lang_vector
-lang_vector <- c('de', 'en', 'es', 'fr', 'it', 'nl') #CHECK: languages to be kept
+lang_vector <- c('de', 'en', 'fr', 'it', 'nl') #CHECK: languages to be kept
 
 #keep only posts in lang_vector
 posts <- posts %>%
@@ -66,6 +66,7 @@ ggsave('results/spread/posts_day_topic.png')
 write.csv(posts_day, 'results/spread/posts_day_topic.csv')
 
 
+
 ### posts by language ###
 posts_lang <- posts %>%
   group_by(topic, detected_language) %>%
@@ -98,7 +99,7 @@ ggsave('results/spread/posts_lang_day_topic.png')
 
 ### most prolific posters by topic ###
 #count posts by channel and keep top 10 channels
-all_channels <- read.csv('data/All_channels_2023_07_18.csv')
+all_channels <- read.csv('data/all_telegram_channels_2023_10_11.csv')
 top_channels <- posts %>%
   filter(chat == 'false') %>%
   group_by(id, topic) %>%
@@ -194,7 +195,15 @@ media_type_topic_day <- url_df %>%
 #TODO: save
 
 ggplot(media_type_topic_day, aes(x = month, y = count, shape = media_type))+
-  geom_point(size = 2.5)+
+  geom_point(size = 1.5)+
   facet_grid(topic ~ ., scales = 'free_y')
 ggsave('results/spread/media_type_topic_month.png', plot = last_plot())
 
+
+posts_media <- posts %>%
+  dplyr::mutate(alt = ifelse(grepl(paste(alt_news_domains$domain, collapse = '|'), link_url), 1, 0),
+                legacy = ifelse(grepl(paste(legacy_domains$domain, collapse = '|'), link_url), 1, 0)) %>%
+  dplyr::select(-link_url) %>%
+  as.data.frame()
+
+#write.csv(posts_media, 'data/231130_posts_media.csv')

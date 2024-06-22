@@ -25,14 +25,13 @@ require(data.table)
 require(hash)
 require(scales)
 require(stm)
-require(stringr)
 require(peRspective)
 require(lubridate)
 
 ### load data ###
 posts <- read.csv('data/231015_raw_data_with_topics.csv') #CHECK: specify dataset location
 
-lang_vector <- c('de', 'en', 'es', 'fr', 'it', 'nl') #CHECK: languages to be kept
+lang_vector <- c('de', 'en', 'fr', 'it', 'nl') #CHECK: languages to be kept
 
 #keep only posts in lang_vector & create topic and date cols
 posts <- posts %>%
@@ -45,10 +44,10 @@ posts$date <- as.Date(posts$post_date, '%Y-%m-%d')
 posts_lang_dic <- hash() #dictionary, where key is a language from lang_vector and value is a dataframe containing all posts in that language
 for(lang in lang_vector){
   posts_lang_dic[[lang]] <- posts %>%
-    dplyr::filter(detected_language == lang)# %>% #only keep posts in language lang
-    # dplyr::group_by(content) %>% #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
-    # dplyr::filter(date == min(date)) %>% #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
-    # dplyr::distinct(content, .keep_all = T) #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
+    dplyr::filter(detected_language == lang) %>% #only keep posts in language lang
+    dplyr::group_by(content) %>% #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
+    dplyr::filter(date == min(date)) %>% #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
+    dplyr::distinct(content, .keep_all = T) #CHECK: this removes duplicate posts (i.e., reposts). Comment out if you don't want this to happen
 }
 
 
@@ -112,7 +111,7 @@ for(lang in lang_vector){
     noun_freq <- left_join(noun_freq, noun_freq_topic, by = 'lemma')
   }
   
-  #sace noun frequency files
+  #save noun frequency files
   write.csv(noun_freq, paste0('results/content/nouns/noun_freq_', lang,'.csv'))
   
   noun_freq_long <- noun_freq %>%
@@ -188,9 +187,6 @@ keywords_df <- keywords_df %>%
   dplyr::add_row(lang = 'it', #language corpus to analyze (should be one of the languages from lang_vector)
                  topic = 'world conspiracy', #name the topic
                  keywords = paste(c('globalist', 'nwo', 'world order','ordine mondial', 'soros', 'schwab', 'wef', 'reset', 'gates'), collapse='|')) %>% #specify keywords relevant to the topic
-  dplyr::add_row(lang = 'es', #language corpus to analyze (should be one of the languages from lang_vector)
-                 topic = 'world conspiracy', #name the topic
-                 keywords = paste(c('globalist', 'nwo', 'world order','orden mundial', 'soros', 'schwab', 'wef', 'gran reinicio', 'gates'), collapse='|')) %>% #specify keywords relevant to the topic
   dplyr::add_row(lang = 'de', #language corpus to analyze (should be one of the languages from lang_vector)
                  topic = 'freedom', #name the topic
                  keywords = paste(c('freiheit', 'kontroll', 'gefängnis', 'tyrannei', 'autoritär', 'gulag', 'credit'), collapse='|')) %>%#specify keywords relevant to the topic
@@ -274,6 +270,138 @@ top_ORG_ner <- posts_NER %>%
   dplyr::arrange(desc(n))
 write.csv(top_ORG_ner, 'results/content/top_ORG_ner.csv')
 
+for(lang in lang_vector){
+  #find most frequently used proper nouns in posts for each language
+  propn_freq <- posts_annotated_dic[[lang]]%>%
+    dplyr::filter(upos == 'PROPN') %>% #keep only proper nouns
+    dplyr::mutate(token_clean = stringr::str_replace_all(token, "[^[:alnum:]]", "")) %>% #remove non alpha-numerical characters
+    dplyr::filter(token_clean != '') %>% #remove non alpha-numerical characters
+    dplyr::group_by(lemma) %>% #CHECK: grouping by lemma here, you could also go with 'token'
+    dplyr::count() %>% #count proper noun frequency
+    dplyr::ungroup() %>%
+    dplyr::mutate(share = n/sum(n, na.rm = T)) %>% # for each proper noun, calculate share of all the proper nouns in the corpus (i.e., posts in a given language)
+    dplyr::arrange(desc(n)) #sort in descending order
+  
+  for(cur_topic in topics){
+    propn_freq_topic <- posts_annotated_dic[[lang]] %>%
+      dplyr::mutate(doc_id = as.numeric(doc_id)) %>%
+      dplyr::left_join(select(posts, post_id, topic), by = c('doc_id' = 'post_id')) %>%
+      dplyr::filter(topic == cur_topic, upos == 'PROPN') %>%
+      dplyr::mutate(token_clean = stringr::str_replace_all(token, "[^[:alnum:]]", "")) %>% #remove non alpha-numerical characters
+      dplyr::filter(token_clean != '') %>% #remove non alpha-numerical characters
+      dplyr::group_by(lemma) %>% #CHECK: grouping by lemma here, you could also go with 'token'
+      dplyr::summarise(!!cur_topic:= n()) #count proper noun frequency
+    
+    propn_freq <- left_join(propn_freq, propn_freq_topic, by = 'lemma')
+  }
+  
+  #sace proper noun frequency files
+  write.csv(propn_freq, paste0('results/content/propn/propn_freq_', lang,'.csv'))
+  
+  propn_freq_long <- propn_freq %>%
+    dplyr::arrange(desc(n)) %>%
+    head(15) %>%
+    tidyr::pivot_longer(cols = all_of(c('n', topics)), names_to = 'topic', values_to = 'count') %>%
+    mutate(count = ifelse(is.na(count), 0, count))
+  
+  #plot 15 most frequently used proper nouns
+  p <- ggplot(propn_freq_long, aes(x = reorder(lemma, -count), y = count, fill = topic))+
+    geom_bar(stat='identity', position = 'dodge', )+
+    theme(axis.text.x = element_text(angle = 45, hjust=1))+
+    xlab('term')+
+    ggtitle(paste0('Most Frequently used ', lang, ' PROPNs (lemmas)'))
+  
+  print(p)
+  #save plot
+  ggsave(filename = paste0('results/content/propn/propn_freq_', lang,'.png'), plot = p)
+}
+#CHECK: you can easily copy and adapt the noun frequency code for other parts of speech, such as dates, adjectives etc.
+
+### topic modelling ###
+# set up dfms by language
+dfm_dic <- hash() #dictionary where keys are languages in lang_vector and values are language specific DFMs
+for(lang in lang_vector){
+  dfm_dic[[lang]] <- posts_lang_dic[[lang]] %>%
+    quanteda::corpus(text_field = 'content', docid_field = 'post_id') %>%
+    quanteda::tokens(remove_punct = T, #remove punctuation
+                     remove_symbols = T, #remove symbols
+                     remove_numbers = T, #remove numbers
+                     remove_url = T, #remove urls
+                     remove_separators = T, #remove separators
+                     split_hyphens = T, #split hyphens
+                     include_docvars = T) %>% #keep doc vars
+    quanteda::tokens_remove(pattern = stopwords(lang)) %>% #remove stopwords
+    quanteda::dfm() %>% #set up dfm
+    quanteda::dfm_trim(min_docfreq = 0.05, #CHECK: trim dfm, change specs if necessary
+                       max_docfreq = 0.9, docfreq_type = "prop")
+}
+
+set.seed(12345)
+# lda analysis
+k_num = 4 #CHECK: number of topics; experiment with various numbers
+dir.create('results/content/lda', showWarnings = F) #set up directory to save results
+for(lang in lang_vector){
+  #run lda algo
+  lda_model <- seededlda::textmodel_lda(dfm_dic[[lang]], k = k_num)
+  
+  #identify 20 top terms for each topic identified
+  lda_terms <- terms(lda_model, 20)
+  #save terms
+  write.csv(lda_terms, paste0('results/content/lda/terms_', lang, '.csv'))
+  
+  #assign each post a dominant topic
+  topics_df <- topics(lda_model) %>%
+    as.data.frame() %>%
+    dplyr::rename(lda = '.')
+  
+  topics_df$post_id <- as.numeric(rownames(topics_df))
+  #join posts with assigned topic
+  posts_lang_dic[[lang]] <- dplyr::left_join(posts_lang_dic[[lang]], topics_df, by = "post_id")
+  
+  # count topic occurrences by week
+  posts_topic_date <- posts_lang_dic[[lang]] %>%
+    dplyr::mutate(week = cut(date, "week")) %>%
+    group_by(week, lda) %>%
+    count()
+  # plot topic occurences over time
+  p <- ggplot(posts_topic_date, aes(x = as.Date(week), y = n, color = lda))+
+    geom_point()+
+    ggtitle(paste0('Weekly posts by LDA Topic: ', lang))
+  #save plot
+  ggsave(filename = paste0('results/content/lda/topics_week', lang, '.png'))
+  
+}
+#CHECK: additional topic modelling approaches can easily be implemented on the basis of the same DFMs
+
+# stm analysis
+dir.create('results/content/stm', showWarnings = F) #set up directory to save results
+for(lang in lang_vector){
+  stm_dfm <- quanteda::convert(dfm_dic[[lang]], to = 'stm', docid_field = 'docid_', omit_empty = F)
+  temp <- stm_dfm
+  stm.model <- stm(documents = stm_dfm$documents,
+                   vocab = stm_dfm$vocab,
+                   prevalence =~as.factor(stm_dfm$meta$topic),
+                   K = k_num,
+                   max.em.its = 350, init.type = "Spectral",
+                   seed = 8458359)
+  stm_terms <- as.data.frame(t(labelTopics(stm.model, n = 20)$prob))
+  write.csv(stm_terms, paste0('results/content/stm/stm_terms_', lang, '.csv'))
+  
+  theta <- make.dt(stm.model, meta = as.numeric(names(stm_dfm$documents)))
+  theta$stm <- colnames(select(theta, starts_with('Topic')))[apply(select(theta, starts_with('Topic')),1,which.max)]
+  
+  posts_lang_dic[[lang]] <- left_join(posts_lang_dic[[lang]], select(theta, meta, stm), by = c('post_id' = 'meta'))
+  
+  posts_topic_date <- posts_lang_dic[[lang]] %>%
+    dplyr::mutate(week = cut(date, "week")) %>%
+    group_by(week, stm) %>%
+    count()
+  p <- ggplot(posts_topic_date, aes(x = as.Date(week), y = n, color = stm))+
+    geom_point()+
+    ggtitle(paste0('Weekly posts by STM Topic: ', lang))
+  #save plot
+  ggsave(filename = paste0('results/content/stm/topics_week_', lang, '.png'))
+}
 
 
 ## TOXICITY ###
@@ -296,8 +424,8 @@ write.csv(top_ORG_ner, 'results/content/top_ORG_ner.csv')
 # }
 # 
 # posts_toxicity <- posts
-# write.csv(posts_toxicity, 'results/content/posts_toxicity.csv')
-posts_toxicity <- read.csv('results/content/posts_toxicity.csv')
+# write.csv(posts_toxicity, 'data/posts_toxicity.csv')
+posts_toxicity <- read.csv('data/posts_toxicity.csv')
 
 #toxicity over time
 month_tox_topic <- posts_toxicity %>%
@@ -333,6 +461,8 @@ ggsave('results/content/toxicity/month_threat_topic.png', plot = last_plot())
 posts_toxicity$min_date <- min(posts_toxicity$date)
 posts_toxicity$date_diff <- difftime(posts_toxicity$date, posts_toxicity$min_date, units = 'days')
 posts_toxicity$date_diff <- as.numeric(posts_toxicity$date_diff)
+
+
 
 topics <- unique(posts_toxicity$topic)
 for(lang in lang_vector){
@@ -373,3 +503,10 @@ tox_channel <- posts_toxicity %>%
   filter(count > 3)%>%
   filter(topic != 'fifteen_minutes climate_lockdown ')
 write.csv(tox_channel, 'results/content/toxicity/top_channels.csv')
+
+# posts_all <- data.frame()
+# for(lang in lang_vector){
+#   posts_all <- posts_all %>%
+#     bind_rows(posts_lang_dic[[lang]])
+# }
+# write.csv(posts_all, 'data/231130_posts_all.csv')

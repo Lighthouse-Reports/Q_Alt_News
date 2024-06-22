@@ -1,0 +1,310 @@
+"","bic","city","zip","bank_name","n"
+"1","REVOLT21XXX","Vilnius","08130","Revolut Bank UAB",35
+"2","NTSBDEB1XXX","Berlin","10179","N26 Bank",32
+"3","BELADEBEXXX","Berlin","10889","Landesbank Berlin - Berliner Sparkasse",15
+"4","POFICHBEXXX","Bern","3030","PostFinance AG",15
+"5","GIBAATWWXXX","Wien","1100","Erste Bank der oesterreichischen Sparkassen AG",13
+"6","INGDDEFFXXX","Frankfurt am Main","60628","ING-DiBa",12
+"7","PBNKDEFFXXX","Berlin","10559","Postbank Ndl der DB Privat- und Firmenkundenbank",12
+"8","GENODEM1GLS","Bochum","44789","GLS Gemeinschaftsbank",11
+"9","BYLADEM1001","Berlin","10117","Deutsche Kreditbank Berlin",10
+"10","EVIULT2VXXX","Vilnius","04352","Paysera LLt UAB",10
+"11","BAWAATWWXXX","Wien","1100","BAWAG P.S.K. Bank für Arbeit und Wirtschaft und Österreichische Postsparkasse Aktiengesellschaft",7
+"12","FDDODEMMXXX","München","80335","Fidor Bank",6
+"13","GENODEF1SLR","Schmölln","04626","VR-Bank Altenburger Land / Deutsche Skatbank",6
+"14","OSDDDE81XXX","Dresden","01305","Ostsächsische Sparkasse Dresden",6
+"15","RAIFCH22XXX","St. Gallen","9001","Raiffeisen Schweiz",6
+"16","BKAUATWWXXX","Wien","1020","UniCredit Bank Austria AG",5
+"17","CMCIDEDDXXX","Düsseldorf","40213","TARGOBANK",5
+"18","HASPDEHHXXX","Hamburg","20454","Hamburger Sparkasse",5
+"19","SOBKDEB2XXX","Berlin","10178","solarisBank Gf (S)",5
+"20","WELADE8LXXX","Leipzig","04008","Stadt- und Kreissparkasse Leipzig",5
+"21","COLSDE33XXX","Köln","50667","Sparkasse KölnBonn",4
+"22","DAAEDEDDXXX","Düsseldorf","40001","apoBank",4
+"23","NASSDE55XXX","Wiesbaden","65034","Nassauische Sparkasse",4
+"24","PBNKDEFFXXX","Köln","51222","Postbank Ndl der DB Privat- und Firmenkundenbank",4
+"25","SOBKDEBBXXX","Berlin","10178","solarisBank",4
+"26","AACSDE33XXX","Aachen","52059","Sparkasse Aachen",3
+"27","BFSWDE33XXX","Köln","50443","Bank für Sozialwirtschaft",3
+"28","COBADEHD001","Quickborn","25449","comdirect bank",3
+"29","COKSDE33XXX","Köln","50461","Kreissparkasse Köln",3
+"30","GENODED1BNA","Bad Neuenahr-Ahrweiler","53474","Volksbank RheinAhrEifel",3
+"31","GENODED1BRS","Bonn","53015","Volksbank Köln Bonn",3
+"32","GENODEF1P17","Nürnberg","90328","PSD Bank",3
+"33","HELADEF1822","Frankfurt am Main","60255","Frankfurter Sparkasse",3
+"34","HOLVDEB1XXX","Berlin","12059","Holvi Payment Services Zweigniederlassung Deutschland",3
+"35","MALADE51AHR","Bad Neuenahr-Ahrweiler","53458","Kreissparkasse Ahrweiler",3
+"36","OBKLAT2LXXX","Linz","4020","Oberbank AG",3
+"37","PBNKDEFFXXX","Stuttgart","70148","Postbank Ndl der DB Privat- und Firmenkundenbank",3
+"38","RBABCH22450","Huttwil","4950","Bank Oberaargau AG",3
+"39","SCFBDE33XXX","Mönchengladbach","41061","Santander Consumer Bank",3
+"40","SOLADEST600","Stuttgart","70144","Landesbank Baden-Württemberg/Baden-Württembergische Bank",3
+"41","SSKMDEMMXXX","München","80791","Stadtsparkasse München",3
+"42","VBOEATWWXXX","Wien","1030","VOLKSBANK WIEN AG",3
+"43","ZKBKCHZZ80A","Zürich","8010","Zürcher Kantonalbank",3
+"44","ASPKAT2LXXX","Linz","4020","Allgemeine Sparkasse Oberösterreich Bankaktiengesellschaft",2
+"45","AUGBDE71NET","Hamburg","22765","Augsburger Aktienbank (netbank)",2
+"46","BEVODEBBXXX","Berlin","10892","Berliner Volksbank",2
+"47","BYLADEM1FRG","Freyung","94075","Sparkasse Freyung-Grafenau",2
+"48","CHEKDE81XXX","Chemnitz","09009","Sparkasse Chemnitz",2
+"49","COBADEHDXXX","Quickborn","25449","comdirect bank",2
+"50","CRESCHZZ81G","Frauenfeld","8501","Credit Suisse (Schweiz) AG",2
+"51","CRESCHZZ81G","Zürich","8001","Credit Suisse (Schweiz) AG",2
+"52","DEFFDEFFXXX","Frankfurt am Main","60327","C24 Bank",2
+"53","DEUTDEDBBER","Berlin","10883","DB Privat- und Firmenkundenbank (Deutsche Bank PGK) F 700",2
+"54","DEUTDEDBCHE","Chemnitz","09003","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",2
+"55","FRSPDE66XXX","Freiburg im Breisgau","79098","Sparkasse Freiburg-Nördlicher Breisgau",2
+"56","GENODE61BZA","Bad Bergzabern","76887","VR Bank Südliche Weinstraße-Wasgau",2
+"57","GENODE61UBE","Überlingen","88662","Volksbank Überlingen",2
+"58","GENODED1PAX","Köln","50467","Pax-Bank",2
+"59","GENODEF1DRS","Dresden","01097","Volksbank Dresden-Bautzen",2
+"60","GENODEF1FWA","Cottbus","03044","VR Bank Lausitz",2
+"61","GENODEF1S02","Stuttgart","70191","Sparda-Bank Baden-Württemberg",2
+"62","GENODEM1GBU","Gelsenkirchen","45877","Volksbank Ruhr Mitte",2
+"63","GENODEM1LPS","Lippstadt","59537","Volksbank Beckum-Lippstadt",2
+"64","HYVEDEMMXXX","München","80311","UniCredit Bank - HypoVereinsbank",2
+"65","KARSDE66XXX","Karlsruhe","76041","Sparkasse Karlsruhe",2
+"66","KBAGCH22XXX","Aarau","5001","Aargauische Kantonalbank",2
+"67","KBSZCH22XXX","Schwyz","6430","Schwyzer Kantonalbank",2
+"68","KBTGCH22XXX","Weinfelden","8570","Thurgauer Kantonalbank",2
+"69","MALADE51MNZ","Mainz","55028","Sparkasse Mainz",2
+"70","NOLADE21GFW","Gifhorn","38518","Sparkasse Gifhorn-Wolfsburg",2
+"71","NOLADE21GRW","Greifswald, Hansestadt","17462","Sparkasse Vorpommern",2
+"72","NOLADE21NOM","Northeim","37144","Kreis-Sparkasse Northeim",2
+"73","NOLADE21RZB","Ratzeburg","23909","Kreissparkasse Herzogtum Lauenburg",2
+"74","OBLAAT2LXXX","Linz","4010","Oberösterreichische Landesbank Aktiengesellschaft",2
+"75","OLBODEH2XXX","Oldenburg","26016","Oldenburgische Landesbank AG",2
+"76","PAGMDEM1XXX","Freising","85354","PayCenter",2
+"77","PBNKDEFFXXX","Nürnberg","90322","Postbank Ndl der DB Privat- und Firmenkundenbank",2
+"78","QNTODEB2XXX","Berlin","10785","OLINDA Zweigniederlassung Deutschland",2
+"79","REVOLT21XXX","Vilnius","08104","Revolut Bank UAB",2
+"80","RLBBAT2E027","Guessing","7540","Raiffeisenbezirksbank Güssing eGen",2
+"81","RLNWATWWXXX","Wien","1020","RAIFFEISENLANDESBANK NIEDERÖSTERREICH-WIEN AG",2
+"82","RVSAAT2SXXX","Salzburg","5020","Raiffeisenverband Salzburg eGen",2
+"83","RZKTAT2K479","Seeboden","9871","Raiffeisenbank Millstättersee eG",2
+"84","RZOOAT2L560","Sierning","4522","Raiffeisenbank Region Sierning-Enns eGen",2
+"85","RZOOAT2LXXX","Linz","4020","Raiffeisenlandesbank Oberösterreich Aktiengesellschaft",2
+"86","SOLADES1MEI","Riesa","01587","Sparkasse Meißen",2
+"87","STSPAT2GXXX","Graz","8010","Steiermärkische Bank und Sparkassen Aktiengesellschaft",2
+"88","VBMHDE5FXXX","Gießen","35340","Volksbank Mittelhessen",2
+"89","VOBADESSXXX","Stuttgart","70039","Volksbank Stuttgart",2
+"90","WELADED1GZE","Eberswalde","16204","Sparkasse Barnim",2
+"91","WELADED1PMB","Potsdam","14459","Mittelbrandenburgische Sparkasse in Potsdam",2
+"92","ABSOCH22XXX","Olten","4601","Alternative Bank Schweiz AG",1
+"93","BARCDEHAXXX","Hamburg","22761","Barclays Bank Ireland Hamburg Branch",1
+"94","BBKRDE6BXXX","Böblingen","71005","Kreissparkasse Böblingen",1
+"95","BHBADES1XXX","Stuttgart","70173","Bankhaus Bauer, Stuttgart",1
+"96","BILLLULL","Luxemburg","2953","Banque Internationale à Luxembourg S.A.",1
+"97","BRLADE21ANO","Aurich","26584","Sparkasse Aurich-Norden",1
+"98","BRLADE21LER","Leer (Ostfriesland)","26766","Sparkasse LeerWittmund",1
+"99","BRUSDE66XXX","Bruchsal","76643","Sparkasse Kraichgau Bruchsal-Bretten-Sinsheim",1
+"100","BSCTCH22XXX","Bellinzona","6500","Banca dello Stato del Cantone Ticino",1
+"101","BUNQDE82XXX","Köln","50667","bunq Niederlassung Deutschland",1
+"102","BYLADEM1ABG","Amberg","92206","Sparkasse Amberg-Sulzbach",1
+"103","BYLADEM1AIC","Aichach","86542","Sparkasse Aichach-Schrobenhausen",1
+"104","BYLADEM1ALG","Kempten (Allgäu)","87435","Sparkasse Allgäu",1
+"105","BYLADEM1CHM","Cham","93405","Sparkasse im Landkreis Cham",1
+"106","BYLADEM1EGF","Eggenfelden","84301","Sparkasse Rottal-Inn",1
+"107","BYLADEM1ESB","Neustadt a.d.Waldnaab","92660","Vereinigte Sparkassen Eschenbach i d Opf",1
+"108","BYLADEM1RBG","Regensburg","93042","Sparkasse Regensburg",1
+"109","BYLADEM1REG","Regen","94202","Sparkasse Regen-Viechtach",1
+"110","BYLADEM1ROS","Rosenheim","83004","Sparkasse Rosenheim-Bad Aibling",1
+"111","BYLADEM1SKB","Bamberg","96055","Sparkasse Bamberg",1
+"112","BYLADEM1SRG","Straubing","94304","Sparkasse Niederbayern-Mitte",1
+"113","BYLADEM1SWU","Würzburg","97067","Sparkasse Mainfranken Würzburg",1
+"114","BYLADEM1WEN","Weiden i.d.OPf.","92615","Sparkasse Oberpfalz Nord",1
+"115","CDDVCH21XXX","Vevey","1800","Caisse d'Epargne Riviera, société coopérative",1
+"116","COBADEFFXXX","Berlin","10891","Commerzbank Filiale Berlin 2",1
+"117","COBADEFFXXX","Chemnitz","09004","Commerzbank",1
+"118","COBADEFFXXX","Cottbus","03003","Commerzbank",1
+"119","COBADEFFXXX","Dresden","01001","Commerzbank",1
+"120","COBADEFFXXX","Göttingen","37005","Commerzbank",1
+"121","COBADEFFXXX","Halle (Saale)","06108","Commerzbank",1
+"122","COBADEFFXXX","Heidelberg","69007","Commerzbank",1
+"123","COBADEFFXXX","Köln","50447","Commerzbank",1
+"124","COBADEFFXXX","München","80704","Commerzbank GF-M48",1
+"125","COBADEFFXXX","Potsdam","14402","Commerzbank",1
+"126","COBADEFFXXX","Stuttgart","70049","Commerzbank",1
+"127","COBADEHD044","Quickborn","25449","comdirect bank",1
+"128","CSDBDE71XXX","Nürnberg","90402","BNP Paribas Niederlassung Deutschland",1
+"129","DABBDEMMXXX","München","80687","BNP Paribas Niederlassung Deutschland",1
+"130","DBDBRSBGXXX","Beograd","11000","BANCA INTESA AKCIONARSKO DRUŠTVO BEOGRAD",1
+"131","DBDBRSBGXXX","Beograd","11070","BANCA INTESA AKCIONARSKO DRUŠTVO BEOGRAD",1
+"132","DEGUDEFFXXX","Frankfurt am Main","60605","Degussa Bank",1
+"133","DEUTDE8CXXX","Chemnitz","09003","Deutsche Bank",1
+"134","DEUTDEDB420","Gelsenkirchen","45801","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"135","DEUTDEDB760","Nürnberg","90101","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"136","DEUTDEDB795","Aschaffenburg","63741","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"137","DEUTDEDBKOE","Köln","50587","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"138","DEUTDEDBLEG","Leipzig","04083","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"139","DEUTDEDBMAN","Mannheim","68161","DB Privat- und Firmenkundenbank (Deutsche Bank PGK)",1
+"140","DGPBDE3MXXX","Paderborn","33098","VerbundVolksbank OWL",1
+"141","DORTDE33XXX","Dortmund","44047","Sparkasse Dortmund",1
+"142","DRESDEFF120","Berlin","10623","Commerzbank vormals Dresdner Bank Filiale Berlin II",1
+"143","DRESDEFF350","Duisburg","47003","Commerzbank vormals Dresdner Bank",1
+"144","DRESDEFF570","Koblenz","56005","Commerzbank vormals Dresdner Bank",1
+"145","DRESDEFF670","Mannheim","68008","Commerzbank vormals Dresdner Bank",1
+"146","DUSSDEDDXXX","Düsseldorf","40001","Stadtsparkasse Düsseldorf",1
+"147","EASYATW1XXX","Wien","1100","easybank AG",1
+"148","EVIULT2VXXX","Vilnius","04352","Pilaites Pr",1
+"149","GENODE51ALS","Alsfeld","36295","VR Bank HessenLand",1
+"150","GENODE51KS1","Kassel","34117","Volksbank Kassel Göttingen",1
+"151","GENODE51WW1","Montabaur","56410","Westerwald Bank",1
+"152","GENODE61HD1","Heidelberg","69018","Heidelberger Volksbank",1
+"153","GENODE61IFF","Iffezheim","76471","VR-Bank in Mittelbaden",1
+"154","GENODE61KA1","Karlsruhe","76045","Volksbank Karlsruhe",1
+"155","GENODE61MOS","Mosbach","74819","Volksbank Mosbach",1
+"156","GENODE61OG1","Offenburg","77615","Volksbank in der Ortenau",1
+"157","GENODE61WIE","Wiesloch","69157","Volksbank Kraichgau",1
+"158","GENODED1BIT","Bitburg","54634","Volksbank Eifel",1
+"159","GENODED1ERE","Elsdorf","50183","Volksbank Erft",1
+"160","GENODED1EVB","Euskirchen","53879","Volksbank Euskirchen",1
+"161","GENODED1HRB","Heinsberg","52525","Volksbank Heinsberg",1
+"162","GENODED1KSL","Kastellaun","56284","Raiffeisenbank Kastellaun",1
+"163","GENODED1MBA","Morbach","54494","VR-Bank Hunsrück-Mosel",1
+"164","GENODED1RKO","Wipperfürth","51679","Volksbank Berg",1
+"165","GENODED1RST","Siegburg","53721","VR-Bank Rhein-Sieg",1
+"166","GENODED1WTL","Wittlich","54516","Vereinigte Volksbank Raiffeisenbank",1
+"167","GENODEF1ANK","Greifswald, Hansestadt","17489","Volksbank Raiffeisenbank",1
+"168","GENODEF1ASG","Grafing b. München","85567","Raiffeisen-Volksbank Ebersberg",1
+"169","GENODEF1ATE","Schweinfurt","97421","VR-Bank Schweinfurt",1
+"170","GENODEF1BST","Burgstädt","09217","Vereinigte Raiffeisenbank Burgstädt",1
+"171","GENODEF1CH1","Chemnitz","09003","Volksbank Chemnitz",1
+"172","GENODEF1EBV","Eching","84174","Raiffeisenbank Buch-Eching",1
+"173","GENODEF1EK1","Kassel","34011","Evangelische Bank",1
+"174","GENODEF1ESW","Eschwege","37269","VR-Bank Werra-Meißner",1
+"175","GENODEF1ISE","Erding","85435","VR-Bank Erding",1
+"176","GENODEF1ISV","Ismaning","85737","VR-Bank Ismaning Hallbergmoos Neufahrn",1
+"177","GENODEF1LVB","Leipzig","04109","Leipziger Volksbank",1
+"178","GENODEF1M03","München","81457","Raiffeisenbank München-Süd",1
+"179","GENODEF1M08","Unterschleißheim","85704","Raiffeisenbank München-Nord",1
+"180","GENODEF1MAK","Marktredwitz","95605","VR-Bank Fichtelgebirge-Frankenwald",1
+"181","GENODEF1MEI","Meißen","01652","Volksbank Raiffeisenbank Meißen Großenhain",1
+"182","GENODEF1MLV","Bad Neustadt a.d.Saale","97616","Volksbank Raiffeisenbank Rhön-Grabfeld",1
+"183","GENODEF1NBU","Winsen (Luhe)","21412","Volksbank Lüneburger Heide",1
+"184","GENODEF1NSH","Neustadt in Holstein","23730","VR Bank Ostholstein Nord-Plön",1
+"185","GENODEF1NU1","Neu-Ulm","89212","VR-Bank Neu-Ulm",1
+"186","GENODEF1PA1","Passau","94015","VR-Bank Passau",1
+"187","GENODEF1PR2","Pirna","01796","Volksbank Pirna",1
+"188","GENODEF1RSE","Rastede","26170","Raiffeisenbank Rastede",1
+"189","GENODEF1RWZ","Reischach","84571","Raiffeisenbank Neumarkt-St. Veit - Reischach",1
+"190","GENODEF1S01","Mainz","55129","Sparda-Bank Südwest",1
+"191","GENODEF1S04","München","80018","Sparda-Bank München",1
+"192","GENODEF1S09","Hannover","30153","Sparda-Bank Hannover",1
+"193","GENODEF1S11","Hamburg","22704","Sparda-Bank Hamburg",1
+"194","GENODEF1S12","Frankfurt am Main","60052","Sparda-Bank Hessen",1
+"195","GENODEF1SWR","Roth","91154","Raiffeisenbank Roth-Schwabach",1
+"196","GENODEF1VRR","Rosenheim","83022","Volksbank Raiffeisenbank Rosenheim-Chiemsee",1
+"197","GENODEF1WEV","Weiden i.d.OPf.","92637","Volksbank Raiffeisenbank Nordoberpfalz",1
+"198","GENODEF1WOP","Worpswede","27726","Volksbank",1
+"199","GENODEF1ZOR","Zorneding","85600","Raiffeisenbank Zorneding",1
+"200","GENODEM1DOR","Dortmund","44128","Dortmunder Volksbank",1
+"201","GENODEM1SEM","Selm","59379","Volksbank Selm-Bork",1
+"202","GENODES1LEO","Leonberg","71226","Volksbank Leonberg-Strohgäu",1
+"203","GENODES1LEU","Leutkirch im Allgäu","88299","Volksbank Allgäu-Oberschwaben",1
+"204","GENODES1UTV","Fellbach","70703","Volksbank am Württemberg",1
+"205","GENODES1VBH","Herrenberg","71077","Volksbank Herrenberg-Nagold-Rottenburg",1
+"206","GENODES1VHZ","Balingen","72336","Volksbank Hohenzollern-Balingen",1
+"207","GENODES1WLB","Winterlingen","72470","Winterlinger Bank",1
+"208","GLKBCH22XXX","Glarus","8750","Glarner Kantonalbank",1
+"209","GOPSDE6GXXX","Göppingen","73007","Kreissparkasse Göppingen",1
+"210","HELADEF1BEN","Bensheim","64601","Sparkasse Bensheim",1
+"211","HELADEF1FRI","Friedberg (Hessen)","61167","Sparkasse Oberhessen",1
+"212","HELADEF1HAN","Hanau","63411","SPARKASSE HANAU",1
+"213","HELADEF1HER","Bad Hersfeld","36229","Sparkasse Bad Hersfeld-Rotenburg",1
+"214","HELADEF1KYF","Sondershausen","99701","Kyffhäusersparkasse",1
+"215","HELADEF1MAR","Marburg","35009","Sparkasse Marburg-Biedenkopf",1
+"216","HELADEF1SON","Sonneberg","96504","Sparkasse Sonneberg",1
+"217","HELADEF1WAK","Eisenach","99804","Wartburg-Sparkasse",1
+"218","HELADEF1WEM","Erfurt","99084","Sparkasse Mittelthüringen",1
+"219","HELADEF1WET","Wetzlar","35576","Sparkasse Wetzlar",1
+"220","HELADEFFXXX","Frankfurt am Main","60297","Landesbank Hessen-Thür Girozentrale",1
+"221","HYPLCH22XXX","Lenzburg","5600","Hypothekarbank Lenzburg AG",1
+"222","HYPTAT22XXX","Innsbruck","6020","HYPO TIROL BANK AG",1
+"223","HYVEDEMM426","Ingolstadt","85017","UniCredit Bank - HypoVereinsbank",1
+"224","HYVEDEMM447","Regensburg","93002","UniCredit Bank - HypoVereinsbank",1
+"225","KBBECH22XXX","Bern","3011","Berner Kantonalbank AG",1
+"226","KOBBRSBGXXX","Beograd","11000","NLB KOMERCIJALNA BANKA AD BEOGRAD",1
+"227","KREDDEDDXXX","Düsseldorf","40215","KBC Bank Ndl Deutschland",1
+"228","KSPKAT2KXXX","Klagenfurt","9020","Kärntner Sparkasse Aktiengesellschaft",1
+"229","LUKBCH2260A","Luzern","6000","Luzerner Kantonalbank AG",1
+"230","LUKBCH2260A","Luzern","6002","Luzerner Kantonalbank AG",1
+"231","MALADE51BKS","Bernkastel-Kues","54469","Sparkasse Mittelmosel-Eifel Mosel Hunsrück",1
+"232","MALADE51KLK","Kaiserslautern","67653","Kreissparkasse Kaiserslautern",1
+"233","MALADE51KOB","Koblenz","56013","Sparkasse Koblenz",1
+"234","MALADE51NWD","Neuwied","56510","Sparkasse Neuwied",1
+"235","MIGRCHZZXXX","Zürich","8023","Migros Bank AG",1
+"236","NOLADE21DES","Dessau-Roßlau","06814","Stadtsparkasse Dessau",1
+"237","NOLADE21EIN","Einbeck","37558","Sparkasse Einbeck",1
+"238","NOLADE21HAM","Hamburg","21045","Sparkasse Harburg-Buxtehude",1
+"239","NOLADE21HMU","Hann. Münden","34333","Kreis- und Stadtsparkasse Münden",1
+"240","NOLADE21HOL","Eutin","23692","Sparkasse Holstein",1
+"241","NOLADE21MDG","Magdeburg","39015","Stadtsparkasse Magdeburg",1
+"242","NOLADE21NBS","Neubrandenburg","17041","Sparkasse Neubrandenburg-Demmin",1
+"243","NOLADE21NIB","Nienburg (Weser)","31567","Sparkasse Nienburg",1
+"244","NOLADE21NOS","Schleswig","24837","Nord-Ostsee Sparkasse",1
+"245","NOLADE21ROS","Rostock","18004","Ostseesparkasse Rostock",1
+"246","NOLADE21SDL","Stendal","39551","Kreissparkasse Stendal",1
+"247","NOLADE21SES","Staßfurt","39401","Salzlandsparkasse",1
+"248","NORSDE51XXX","Berlin","10625","norisbank",1
+"249","NORSDE71XXX","Berlin","10625","norisbank",1
+"250","PBNKDEFFXXX","Dortmund","44131","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"251","PBNKDEFFXXX","Essen","45125","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"252","PBNKDEFFXXX","Hamburg","22283","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"253","PBNKDEFFXXX","Karlsruhe","76127","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"254","PBNKDEFFXXX","Leipzig","04085","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"255","PBNKDEFFXXX","München","80318","Postbank Ndl der DB Privat- und Firmenkundenbank",1
+"256","PBZGHR2X","Zagreb","10000","PRIVREDNA BANKA ZAGREB d.d. Zagreb",1
+"257","PZHSDE66XXX","Pforzheim","75172","Sparkasse Pforzheim Calw",1
+"258","RAIFCH22C87","St. Gallen","9001","Raiffeisenbank Obertoggenburg",1
+"259","RLNWATWWGTD","Moedling","2340","Raiffeisen Regionalbank Mödling eGen",1
+"260","RLNWATWWPRB","Pressbaum","3021","Raiffeisenbank Wienerwald eGen",1
+"261","RVSAAT2S063","Tamsweg","5580","Raiffeisenbank Lungau eGen",1
+"262","RZBSRSBGXXX","Novi Beograd","11070","RAIFFEISEN BANKA A.D. BEOGRAD",1
+"263","RZOOAT2L114","Steyr","4400","Raiffeisenbank Steyr eGen",1
+"264","RZOOAT2L277","Bad Leonfelden","4190","Raiffeisenbank Region Bad Leonfelden eGen",1
+"265","RZTIAT22232","Going am Wilden Kaiser","6353","RaiffeisenBank Going eGen",1
+"266","RZTIAT22314","Seefeld","6100","Raiffeisenbank Seefeld-Leutasch-Reith-Scharnitz registrierte Genossenschaft mit beschränkter Haftung",1
+"267","SAKSDE55XXX","Saarbrücken","66104","Sparkasse Saarbrücken",1
+"268","SALADE51HOM","Homburg","66404","Kreissparkasse Saarpfalz",1
+"269","SALADE51NKS","Neunkirchen","66538","Sparkasse Neunkirchen",1
+"270","SKLODE66XXX","Lörrach","79537","Sparkasse Lörrach-Rheinfelden",1
+"271","SLZODE22XXX","Oldenburg","26016","Landessparkasse zu Oldenburg",1
+"272","SOLADES1BAD","Baden-Baden","76530","Sparkasse Baden-Baden Gaggenau",1
+"273","SOLADES1BND","Bonndorf im Schwarzwald","79844","Sparkasse Bonndorf-Stühlingen",1
+"274","SOLADES1MOS","Mosbach","74819","Sparkasse Neckartal-Odenwald",1
+"275","SOLADES1RVB","Ravensburg","88209","Kreissparkasse Ravensburg",1
+"276","SOLADES1SUW","Landau in der Pfalz","76825","Sparkasse Südliche Weinstraße in Landau",1
+"277","SOLADES1VSS","Villingen-Schwenningen","78001","Sparkasse Schwarzwald-Baar",1
+"278","SPFKAT2BXXX","Feldkirch","68008","Sparkasse der Stadt Feldkirch",1
+"279","SPFNAT21XXX","Feldkirchen","9560","Sparkasse Feldkirchen/Kärnten",1
+"280","SPKRDE33XXX","Krefeld","47719","Sparkasse Krefeld",1
+"281","SPPBAT21XXX","Eferding","4070","Sparkasse Eferding-Peuerbach-Waizenkirchen",1
+"282","SSBLAT21XXX","Bludenz","6700","Sparkasse Bludenz Bank AG",1
+"283","SSKNDE77XXX","Nürnberg","90327","Sparkasse Nürnberg",1
+"284","SWBSDESSXXX","Stuttgart","70037","Südwestbank",1
+"285","SXPYDEHHXXX","Hamburg","20095","SAXO PAYMENTS",1
+"286","TEUALT22XXX","Vilnius","31900","UAB TeslaPay",1
+"287","TRODDEF1XXX","Frankfurt am Main","60326","Triodos Bank Deutschland",1
+"288","TRYULT21XXX","Vilnius","01116","Transactive Systems UAB",1
+"289","UAPALT22XXX","Vilnius","01013","PAYRNET UAB",1
+"290","UBSWCHZH82P","Kreuzlingen","8280","UBS Switzerland AG",1
+"291","UFPOLT21XXX","Vilnius","04326","UAB Finansinės paslaugos „Contis“",1
+"292","VBPFDE66XXX","Pforzheim","75172","Volksbank Pforzheim",1
+"293","VKBLAT2LXXX","Linz","4020","Volkskreditbank AG",1
+"294","VOHADE2HXXX","Hannover","30159","Hannoversche Volksbank",1
+"295","WELADE3HXXX","Hagen","58042","Sparkasse HagenHerdecke",1
+"296","WELADE3LXXX","Detmold","32756","Sparkasse Paderborn-Detmold",1
+"297","WELADED1BOC","Bochum","44724","Sparkasse Bochum",1
+"298","WELADED1FGX","Freiberg","09583","Sparkasse Mittelsachsen",1
+"299","WELADED1HRN","Herne","44621","Herner Sparkasse",1
+"300","WELADED1HXB","Brakel","33027","Sparkasse Höxter",1
+"301","WELADED1LAF","Langenfeld (Rheinland)","40740","Stadt-Sparkasse Langenfeld",1
+"302","WELADED1MST","Münster","48151","Sparkasse Münsterland Ost",1
+"303","WELADED1PRP","Pritzwalk","16921","Sparkasse Prignitz",1
+"304","WELADED1REK","Recklinghausen","45608","Sparkasse Vest Recklinghausen",1
+"305","WELADED1STF","Ibbenbüren","49465","Kreissparkasse Steinfurt",1
+"306","WELADED1UMP","Prenzlau","17291","Sparkasse Uckermark",1
+"307","WELADEDNXXX","Neuss","41456","Sparkasse Neuss",1
+"308","ZABAHR2X","Zagreb","10000","ZAGREBAČKA BANKA d.d. Zagreb",1
+"309","ZKBKCHZZ80A"," Zürich","8010","Zürcher Kantonalbank",1
