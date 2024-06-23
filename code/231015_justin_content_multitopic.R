@@ -408,7 +408,7 @@ for(lang in lang_vector){
 # posts$TOXICITY <- NA
 # posts$INSULT <- NA
 # posts$THREAT <- NA
-# for (i in 12691:nrow(posts)){
+# for (i in 1:nrow(posts)){
 #   row <- posts[i,]
 #   if(!row$detected_language %in% lang_vector){
 #     next
