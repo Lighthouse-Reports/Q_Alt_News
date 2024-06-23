@@ -548,14 +548,11 @@ kickstarter_top <- kickstarter %>%
 #number and share of monetization types by date
 complete_type <- complete %>%
   mutate(month = floor_date(date, 'month'))%>%
-  group_by(type, month) %>%
+  group_by(type, month, detected_language) %>%
   count() %>%
   group_by(month) %>%
   mutate(percentage = n/sum(n, na.rm = T)*100)
-ggplot(complete_type, aes(x = month, y = n, color = type))+
-  geom_point()+
-  ggtitle('Number of Monetization posts by type')
-ggsave('results/monetization/complete_post_number_type.png', plot = last_plot())
+write.csv(complete_type, 'results/monetization_month_type_lang.csv')
 
 complete_type_climate <- complete %>%
   filter(is_climate_post == 1) %>%

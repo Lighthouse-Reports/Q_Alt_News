@@ -82,6 +82,7 @@ ggplot(posts_lang, aes(x = reorder(detected_language, -n), y = n, fill = topic))
 #save plot
 ggsave('results/spread/posts_lang_topic.png')
 
+
 ### posts over language and time ###
 #count posts by language and day
 posts_day_lang <- posts %>%
@@ -96,6 +97,8 @@ ggplot(posts_day_lang, aes(x = date, y = n, color = topic)) +
 
 #save posts by language and day
 ggsave('results/spread/posts_lang_day_topic.png')
+
+write.csv(posts_day_lang, 'results/spread/posts_lang_day_topic.csv')
 
 ### most prolific posters by topic ###
 #count posts by channel and keep top 10 channels
