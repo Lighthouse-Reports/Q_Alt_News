@@ -13,7 +13,7 @@ data/udpipes/*
 code/230727_justin_spread_multitopic_template.R
 code/231027_justin_graph_topics_time.R
 code/231205_justin_prep_data_for_viz.R
-Code/OLD*
+code/old/*
 data/231015_justin_posts_raw.csv
 results/monetization/complete.csv
 
